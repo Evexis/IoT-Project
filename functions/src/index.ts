@@ -54,3 +54,22 @@ server.get('/app-update', (req: express.Request, res: express.Response) => {
 
 export const app = functions.https.onRequest(server);
 
+
+
+interface Data extends MeasuredValue {
+    id: string;
+    date: Date;
+    result: {
+        pm1: MeasuredValue;
+        pm25: MeasuredValue;
+        pm10: MeasuredValue;
+        formaldehyde: MeasuredValue;
+        temperature: MeasuredValue;
+        humidity: MeasuredValue;
+    }
+}
+
+interface MeasuredValue {
+    value: number;
+    unit: number;
+};
