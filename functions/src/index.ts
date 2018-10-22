@@ -22,8 +22,18 @@ server.get('/app', (req: express.Request, res: express.Response) => {
     res.send("hello app")
 });
 
-server.get('/db', (req: express.Request, res: express.Response) => {
-    db.ref('/samples').set(samples);
+
+server.get("/generate-mock", (req: express.Request, res: express.Response) => {
+    db.ref("/samples").set(samples);
+  });
+  
+server.post("/samples", (req: express.Request, res: express.Response) => {
+    try {
+        const result = db.ref("/samples").push(req.body);
+        res.json(result.key);
+    } catch (err) {
+        res.send(err);
+    }
 });
 
 server.get('/db-read', (req: express.Request, res: express.Response) => {
