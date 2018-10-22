@@ -34,6 +34,13 @@ server.get('/db-read', (req: express.Request, res: express.Response) => {
 });
 
 
+server.get('/samples', async (req: express.Request, res: express.Response) => {
+    // res.send(req.query.date.split(','))
+    const result = await db.ref('/samples').once('value');
+    res.send(result.val());
+})
+
+
 server.get('/app-update', (req: express.Request, res: express.Response) => {
     var newPostKey = db.ref().child('user').push().key;
     db.ref().update({
