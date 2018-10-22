@@ -1,4 +1,4 @@
-interface Data {
+export interface Sample {
     id: string;
     date: Date;
     location: { //D.D° format
@@ -11,7 +11,7 @@ interface Data {
             direction: LongitudeDirection;
         }
     }
-    result: {
+    results: {
         pm1: MeasuredValue;
         pm25: MeasuredValue;
         pm10: MeasuredValue;

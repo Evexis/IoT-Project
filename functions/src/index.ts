@@ -24,7 +24,7 @@ server.get('/app', (req: express.Request, res: express.Response) => {
 server.get('/db', (req: express.Request, res: express.Response) => {
     // res.send("hello db")
     db.ref('/user2').set({
-        username: "Ania",
+        username: "Wojtus",
         surname: "Aniowska",
         metadata: {
             mail: ['i@', "j@", "sadadad"],

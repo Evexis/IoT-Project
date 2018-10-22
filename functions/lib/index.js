@@ -4,19 +4,8 @@ const functions = require("firebase-functions");
 const express = require("express");
 const firebase = require("firebase");
 const server = express();
-// export const enviroment = {
-//     production: true,
-//     firebase: {
-//         apiKey: "AIzaSyCIHWTfTZ4oJj1DLBQNULUHT6AHMCJ9Asg",
-//         authDomain: "iotproject-eit.firebaseapp.com",
-//         databaseURL: "https://iotproject-eit.firebaseio.com",
-//         projectId: "iotproject-eit",
-//         storageBucket: "iotproject-eit.appspot.com",
-//         messagingSenderId: "192509429154"
-//     }
-// }
 const config = {
-    apiKey: "AIzaSyCIHWTfTZ4oJj1DLBQNULUHT6AHMCJ9Asg",
+    apiKey: "",
     authDomain: "iotproject-eit.firebaseapp.com",
     databaseURL: "https://iotproject-eit.firebaseio.com",
     projectId: "iotproject-eit",
