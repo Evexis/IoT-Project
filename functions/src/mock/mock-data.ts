@@ -1,4 +1,4 @@
-const samples = [
+export const samples = [
   {
     id: 0,
     date: "2018-10-22T12:19:07.191Z",

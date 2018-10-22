@@ -1,6 +1,7 @@
 import * as functions from 'firebase-functions';
-import * as express from 'express';
+import * as express from "express";
 import * as firebase from "firebase";
+import { samples } from "./mock/mock-data";
 
 const server = express();
 
@@ -22,22 +23,13 @@ server.get('/app', (req: express.Request, res: express.Response) => {
 });
 
 server.get('/db', (req: express.Request, res: express.Response) => {
-    // res.send("hello db")
-    db.ref('/user2').set({
-        username: "Wojtus",
-        surname: "Aniowska",
-        metadata: {
-            mail: ['i@', "j@", "sadadad"],
-            other: "super"
-        }    
-    })
+    db.ref('/samples').set(samples);
 });
 
 server.get('/db-read', (req: express.Request, res: express.Response) => {
     db.ref('/user').on('value', snap => {
         console.log(snap.child('/metadata').val())
     })
-
     // db.ref().once('value').then(snap => snap.val()) //prościej
 });
 
@@ -50,7 +42,6 @@ server.get('/app-update', (req: express.Request, res: express.Response) => {
         }
     })
 });
-
 
 export const app = functions.https.onRequest(server);
 

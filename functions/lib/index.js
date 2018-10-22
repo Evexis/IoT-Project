@@ -3,6 +3,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const functions = require("firebase-functions");
 const express = require("express");
 const firebase = require("firebase");
+const mock_data_1 = require("./mock/mock-data");
 const server = express();
 const config = {
     apiKey: "",
@@ -18,15 +19,7 @@ server.get('/app', (req, res) => {
     res.send("hello app");
 });
 server.get('/db', (req, res) => {
-    // res.send("hello db")
-    db.ref('/user2').set({
-        username: "Ania",
-        surname: "Aniowska",
-        metadata: {
-            mail: ['i@', "j@", "sadadad"],
-            other: "super"
-        }
-    });
+    db.ref('/samples').set(mock_data_1.samples);
 });
 server.get('/db-read', (req, res) => {
     db.ref('/user').on('value', snap => {
