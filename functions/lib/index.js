@@ -36,4 +36,5 @@ server.get('/app-update', (req, res) => {
     });
 });
 exports.app = functions.https.onRequest(server);
+;
 //# sourceMappingURL=index.js.map
