@@ -2,6 +2,8 @@ import * as functions from 'firebase-functions';
 import * as express from "express";
 import * as firebase from "firebase";
 import { samples } from "./mock/mock-data";
+import * as bodyParser from 'body-parser';
+import { MongoCollection } from './mongo';
 
 const server = express();
 
@@ -15,9 +17,21 @@ const config = {
 }
 firebase.initializeApp(config);
 
-const db = firebase.database();
+// const db = firebase.database();
 
+const collection = 'Samples';
+const url = 'mongodb://admin:Iot-Eit-Siu-2018@ds139193.mlab.com:39193/iot-project';
+const db = new MongoCollection(url, collection);
 
+server.use((req: express.Request, res: express.Response, next: express.NextFunction) => {
+    res.header("Access-Control-Allow-Origin", "*");
+    res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept, Authorization");
+    res.header("Access-Control-Allow-Methods", "GET, POST, HEAD, OPTIONS, PUT, DELETE, PATCH");
+    next();
+});
+
+server.use(bodyParser.json());
+server.use(bodyParser.urlencoded({ extended: true }));
 
 server.route('/api/data')
     .post((req: express.Request, res: express.Response) => {
@@ -28,30 +42,10 @@ server.route('/api/data')
     })
     .get((req: express.Request, res: express.Response) => {
         const {date, coord, type} = req.query;
-
+        db.insertElements({date, coord, type})
         res.json({ date, coord, type })
     });
 
 
 
 export const app = functions.https.onRequest(server);
-
-
-
-interface Data extends MeasuredValue {
-    id: string;
-    date: Date;
-    result: {
-        pm1: MeasuredValue;
-        pm25: MeasuredValue;
-        pm10: MeasuredValue;
-        formaldehyde: MeasuredValue;
-        temperature: MeasuredValue;
-        humidity: MeasuredValue;
-    }
-}
-
-interface MeasuredValue {
-    value: number;
-    unit: number;
-};
