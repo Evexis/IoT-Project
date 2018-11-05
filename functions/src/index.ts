@@ -18,47 +18,21 @@ firebase.initializeApp(config);
 const db = firebase.database();
 
 
-server.get('/app', (req: express.Request, res: express.Response) => {
-    res.send("hello app")
-});
 
+server.route('/api/data')
+    .post((req: express.Request, res: express.Response) => {
+        const data = req.body
+        // add data to database
 
-server.get("/generate-mock", (req: express.Request, res: express.Response) => {
-    db.ref("/samples").set(samples);
-  });
-  
-server.post("/samples", (req: express.Request, res: express.Response) => {
-    try {
-        const result = db.ref("/samples").push(req.body);
-        res.json(result.key);
-    } catch (err) {
-        res.send(err);
-    }
-});
-
-server.get('/db-read', (req: express.Request, res: express.Response) => {
-    db.ref('/user').on('value', snap => {
-        console.log(snap.child('/metadata').val())
+        res.json(data);
     })
-    // db.ref().once('value').then(snap => snap.val()) //prościej
-});
+    .get((req: express.Request, res: express.Response) => {
+        const {date, coord, type} = req.query;
+
+        res.json({ date, coord, type })
+    });
 
 
-server.get('/samples', async (req: express.Request, res: express.Response) => {
-    // res.send(req.query.date.split(','))
-    const result = await db.ref('/samples').once('value');
-    res.send(result.val());
-})
-
-
-server.get('/app-update', (req: express.Request, res: express.Response) => {
-    var newPostKey = db.ref().child('user').push().key;
-    db.ref().update({
-        [`/user/${newPostKey}`]: {
-            newData: '1231343243241'
-        }
-    })
-});
 
 export const app = functions.https.onRequest(server);
 
