@@ -18,30 +18,17 @@ firebase.initializeApp(config);
 const db = firebase.database();
 
 
-server.get('/app', (req: express.Request, res: express.Response) => {
-    res.send("hello app")
-});
 
-server.get('/db', (req: express.Request, res: express.Response) => {
-    db.ref('/samples').set(samples);
-});
-
-server.get('/db-read', (req: express.Request, res: express.Response) => {
-    db.ref('/user').on('value', snap => {
-        console.log(snap.child('/metadata').val())
+server.route('/api/data')
+    .post((req: express.Request, res: express.Response) => {
+        const data = req.body
+        // add data to database
     })
-    // db.ref().once('value').then(snap => snap.val()) //prościej
-});
+    .get((req: express.Request, res: express.Response) => {
+        const {date, coord, type} = req.query;
+    });
 
 
-server.get('/app-update', (req: express.Request, res: express.Response) => {
-    var newPostKey = db.ref().child('user').push().key;
-    db.ref().update({
-        [`/user/${newPostKey}`]: {
-            newData: '1231343243241'
-        }
-    })
-});
 
 export const app = functions.https.onRequest(server);
 
