@@ -1,5 +1,6 @@
 export interface Sample {
     id: string;
+    deviceId: string;
     date: Date;
     location: { //D.D° format
         latitude: {
