@@ -15,7 +15,7 @@ class MongoCollection {
         mongodb_1.MongoClient.connect(this.url).then((db) => {
             this.collection = db.collection(collectionName);
             console.log('Connected successfully to server');
-        });
+        }).catch(err => console.error(err));
     }
     insertElements(data) {
         return __awaiter(this, void 0, void 0, function* () {

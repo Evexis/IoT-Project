@@ -6,7 +6,7 @@ export class MongoCollection {
       MongoClient.connect(this.url).then((db) => {
         this.collection = db.collection(collectionName);
         console.log('Connected successfully to server');
-      });
+      }).catch(err => console.error(err));
     }
 
     async insertElements(data) {

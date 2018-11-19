@@ -1,5 +1,5 @@
 Arguments: 
-  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js serve
 
 PATH: 
   C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Program Files\dotnet\;C:\Program Files (x86)\VDesk;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Live\Shared;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Yarn\bin\;C:\ProgramData\nvm;C:\Program Files\nodejs;;C:\Program Files (x86)\Gpg4win\..\GnuPG\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Users\wkasp\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Heroku\bin;C:\Users\wkasp\AppData\Local\Yarn\bin;C:\Program Files\MongoDB\Server\3.6\bin;C:\Users\wkasp\AppData\Local\Programs\MiKTeX 2.9\miktex\bin\x64\;C:\Users\wkasp\AppData\Local\hyper\app-2.0.0\resources\bin;C:\Users\wkasp\AppData\Roaming\npm;C:\Users\wkasp\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Python 3.6;C:\Python27;C:\Python27\Scripts
@@ -28,14 +28,17 @@ npm manifest:
     },
     "main": "lib/index.js",
     "dependencies": {
+      "body-parser": "^1.18.3",
       "express": "^4.16.4",
       "firebase": "^5.5.5",
       "firebase-admin": "~6.0.0",
-      "firebase-functions": "^2.0.3"
+      "firebase-functions": "^2.0.3",
+      "mongodb": "^2.2.33"
     },
     "devDependencies": {
       "tslint": "~5.8.0",
-      "typescript": "~2.8.3"
+      "typescript": "~2.8.3",
+      "@types/mongodb": "^2.2.7"
     },
     "private": true
   }
@@ -297,6 +300,12 @@ Lockfile:
       "@types/connect" "*"
       "@types/node" "*"
   
+  "@types/bson@*":
+    version "1.0.11"
+    resolved "https://registry.yarnpkg.com/@types/bson/-/bson-1.0.11.tgz#c95ad69bb0b3f5c33b4bb6cc86d86cafb273335c"
+    dependencies:
+      "@types/node" "*"
+  
   "@types/caseless@*":
     version "0.12.1"
     resolved "https://registry.yarnpkg.com/@types/caseless/-/caseless-0.12.1.tgz#9794c69c8385d0192acc471a540d1f8e0d16218a"
@@ -363,6 +372,14 @@ Lockfile:
   "@types/mime@*":
     version "2.0.0"
     resolved "https://registry.yarnpkg.com/@types/mime/-/mime-2.0.0.tgz#5a7306e367c539b9f6543499de8dd519fac37a8b"
+  
+  "@types/mongodb@^2.2.7":
+    version "2.2.23"
+    resolved "https://registry.yarnpkg.com/@types/mongodb/-/mongodb-2.2.23.tgz#2a50071a1ef2f93c87e71cbf1a07a46df094c958"
+    dependencies:
+      "@types/bson" "*"
+      "@types/events" "*"
+      "@types/node" "*"
   
   "@types/node@*", "@types/node@^10.1.0":
     version "10.12.0"
@@ -575,7 +592,7 @@ Lockfile:
     dependencies:
       tweetnacl "^0.14.3"
   
-  body-parser@1.18.3:
+  body-parser@1.18.3, body-parser@^1.18.3:
     version "1.18.3"
     resolved "https://registry.yarnpkg.com/body-parser/-/body-parser-1.18.3.tgz#5b292198ffdd553b3a0f20ded0592b956955c8b4"
     dependencies:
@@ -612,6 +629,10 @@ Lockfile:
       split-string "^3.0.2"
       to-regex "^3.0.1"
   
+  bson@~1.0.4:
+    version "1.0.9"
+    resolved "https://registry.yarnpkg.com/bson/-/bson-1.0.9.tgz#12319f8323b1254739b7c6bef8d3e89ae05a2f57"
+  
   buffer-equal-constant-time@1.0.1:
     version "1.0.1"
     resolved "https://registry.yarnpkg.com/buffer-equal-constant-time/-/buffer-equal-constant-time-1.0.1.tgz#f8e71132f7ffe6e01a5c9697a4c6f3e48d5cc819"
@@ -619,6 +640,10 @@ Lockfile:
   buffer-from@^1.0.0:
     version "1.1.1"
     resolved "https://registry.yarnpkg.com/buffer-from/-/buffer-from-1.1.1.tgz#32713bc028f75c02fdb710d7c7bcec1f2c6070ef"
+  
+  buffer-shims@~1.0.0:
+    version "1.0.0"
+    resolved "https://registry.yarnpkg.com/buffer-shims/-/buffer-shims-1.0.0.tgz#9978ce317388c649ad8793028c3477ef044a8b51"
   
   builtin-modules@^1.1.1:
     version "1.1.1"
@@ -1006,6 +1031,10 @@ Lockfile:
   ent@^2.2.0:
     version "2.2.0"
     resolved "https://registry.yarnpkg.com/ent/-/ent-2.2.0.tgz#e964219325a21d05f44466a2f686ed6ce5f5dd1d"
+  
+  es6-promise@3.2.1:
+    version "3.2.1"
+    resolved "http://registry.npmjs.org/es6-promise/-/es6-promise-3.2.1.tgz#ec56233868032909207170c39448e24449dd1fc4"
   
   escape-html@~1.0.3:
     version "1.0.3"
@@ -1961,6 +1990,21 @@ Lockfile:
     version "4.2.3"
     resolved "https://registry.yarnpkg.com/modelo/-/modelo-4.2.3.tgz#b278588a4db87fc1e5107ae3a277c0876f38d894"
   
+  mongodb-core@2.1.20:
+    version "2.1.20"
+    resolved "https://registry.yarnpkg.com/mongodb-core/-/mongodb-core-2.1.20.tgz#fece8dd76b59ee7d7f2d313b65322c160492d8f1"
+    dependencies:
+      bson "~1.0.4"
+      require_optional "~1.0.0"
+  
+  mongodb@^2.2.33:
+    version "2.2.36"
+    resolved "https://registry.yarnpkg.com/mongodb/-/mongodb-2.2.36.tgz#1c573680b2849fb0f47acbba3dc5fa228de975f5"
+    dependencies:
+      es6-promise "3.2.1"
+      mongodb-core "2.1.20"
+      readable-stream "2.2.7"
+  
   ms@2.0.0:
     version "2.0.0"
     resolved "https://registry.yarnpkg.com/ms/-/ms-2.0.0.tgz#5608aeadfc00be6c2901df5f9861788de0d597c8"
@@ -2261,6 +2305,10 @@ Lockfile:
       universal-deep-strict-equal "^1.2.1"
       xtend "^4.0.0"
   
+  process-nextick-args@~1.0.6:
+    version "1.0.7"
+    resolved "https://registry.yarnpkg.com/process-nextick-args/-/process-nextick-args-1.0.7.tgz#150e20b756590ad3f91093f25a4f2ad8bff30ba3"
+  
   process-nextick-args@~2.0.0:
     version "2.0.0"
     resolved "https://registry.yarnpkg.com/process-nextick-args/-/process-nextick-args-2.0.0.tgz#a37d732f4271b4ab1ad070d35508e8290788ffaa"
@@ -2356,6 +2404,18 @@ Lockfile:
       minimist "^1.2.0"
       strip-json-comments "~2.0.1"
   
+  readable-stream@2.2.7:
+    version "2.2.7"
+    resolved "https://registry.yarnpkg.com/readable-stream/-/readable-stream-2.2.7.tgz#07057acbe2467b22042d36f98c5ad507054e95b1"
+    dependencies:
+      buffer-shims "~1.0.0"
+      core-util-is "~1.0.0"
+      inherits "~2.0.1"
+      isarray "~1.0.0"
+      process-nextick-args "~1.0.6"
+      string_decoder "~1.0.0"
+      util-deprecate "~1.0.1"
+  
   readable-stream@^2.0.0, readable-stream@^2.0.6, readable-stream@^2.1.5, readable-stream@^2.2.2:
     version "2.3.6"
     resolved "http://registry.npmjs.org/readable-stream/-/readable-stream-2.3.6.tgz#b11c27d88b8ff1fbe070643cf94b0c79ae1b0aaf"
@@ -2417,6 +2477,17 @@ Lockfile:
       tunnel-agent "^0.6.0"
       uuid "^3.3.2"
   
+  require_optional@~1.0.0:
+    version "1.0.1"
+    resolved "https://registry.yarnpkg.com/require_optional/-/require_optional-1.0.1.tgz#4cf35a4247f64ca3df8c2ef208cc494b1ca8fc2e"
+    dependencies:
+      resolve-from "^2.0.0"
+      semver "^5.1.0"
+  
+  resolve-from@^2.0.0:
+    version "2.0.0"
+    resolved "https://registry.yarnpkg.com/resolve-from/-/resolve-from-2.0.0.tgz#9480ab20e94ffa1d9e80a804c7ea147611966b57"
+  
   resolve-url@^0.2.1:
     version "0.2.1"
     resolved "https://registry.yarnpkg.com/resolve-url/-/resolve-url-0.2.1.tgz#2c637fe77c893afd2a663fe21aa9080068e2052a"
@@ -2472,7 +2543,7 @@ Lockfile:
     version "1.2.4"
     resolved "https://registry.yarnpkg.com/sax/-/sax-1.2.4.tgz#2816234e2378bddc4e5354fab5caa895df7100d9"
   
-  semver@^5.3.0:
+  semver@^5.1.0, semver@^5.3.0:
     version "5.6.0"
     resolved "https://registry.yarnpkg.com/semver/-/semver-5.6.0.tgz#7e74256fbaa49c75aa7c7a205cc22799cac80004"
   
@@ -2660,6 +2731,12 @@ Lockfile:
   string_decoder@~0.10.x:
     version "0.10.31"
     resolved "https://registry.yarnpkg.com/string_decoder/-/string_decoder-0.10.31.tgz#62e203bc41766c6c28c9fc84301dab1c5310fa94"
+  
+  string_decoder@~1.0.0:
+    version "1.0.3"
+    resolved "https://registry.yarnpkg.com/string_decoder/-/string_decoder-1.0.3.tgz#0fc67d7c141825de94282dd536bec6b9bce860ab"
+    dependencies:
+      safe-buffer "~5.1.0"
   
   string_decoder@~1.1.1:
     version "1.1.1"
@@ -2967,14 +3044,17 @@ Lockfile:
       y18n "^3.2.0"
 
 Trace: 
-  Error: https://registry.yarnpkg.com/accepts/-/accepts-1.3.5.tgz: tunneling socket could not be established, statusCode=400
-      at ClientRequest.onConnect (C:\Program Files (x86)\Yarn\lib\cli.js:146207:19)
-      at Object.onceWrapper (events.js:319:30)
-      at emitThree (events.js:136:13)
-      at ClientRequest.emit (events.js:217:7)
-      at Socket.socketOnData (_http_client.js:474:11)
-      at emitOne (events.js:116:13)
-      at Socket.emit (events.js:211:7)
-      at addChunk (_stream_readable.js:263:12)
-      at readableAddChunk (_stream_readable.js:250:11)
-      at Socket.Readable.push (_stream_readable.js:208:10)
+  Error: Command failed.
+  Exit code: 1
+  Command: C:\WINDOWS\system32\cmd.exe
+  Arguments: /d /s /c npm run build && firebase serve --only functions
+  Directory: X:\ProjektyJS\IoT\IoT-Project\functions
+  Output:
+  
+      at ProcessTermError.MessageError (C:\Program Files (x86)\Yarn\lib\cli.js:186:110)
+      at new ProcessTermError (C:\Program Files (x86)\Yarn\lib\cli.js:226:113)
+      at ChildProcess.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:30281:17)
+      at emitTwo (events.js:126:13)
+      at ChildProcess.emit (events.js:214:7)
+      at maybeClose (internal/child_process.js:925:16)
+      at Process.ChildProcess._handle.onexit (internal/child_process.js:209:5)
