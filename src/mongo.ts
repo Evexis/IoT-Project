@@ -12,12 +12,16 @@ export class MongoCollection {
     async insertElements(data) {
       const result = await this.collection.insert(data);
       console.log(`Inserted ${data.length} documents into the collection`);
-      return new Promise ((resolve) => resolve(result));
+      return result;
     }
 
     async findElement(parameter?) {
-      const result = await this.collection.find(parameter ? {letter: parameter} : {}).toArray();
-      return new Promise(resolve => resolve(result)); 
+      const result = await this.collection.find(parameter ? parameter : {}).toArray();
+      return result; 
+    }
+
+    drop() {
+      this.collection.drop();
     }
 
 }

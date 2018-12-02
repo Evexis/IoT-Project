@@ -449,7 +449,7 @@ export const samples = [
   },
   {
     id: 28,
-    date: "2018-10-22T12:19:07.191Z",
+    date: "2018-10-2512:19:07.191Z",
     location: {
       latitude: { value: 50.46560977886203, direction: "N" },
       longitiude: { value: 19.298128273671544, direction: "E" }
@@ -465,7 +465,7 @@ export const samples = [
   },
   {
     id: 29,
-    date: "2018-10-22T12:19:07.191Z",
+    date: "2018-10-25T12:19:07.191Z",
     location: {
       latitude: { value: 50.26053221720366, direction: "N" },
       longitiude: { value: 19.511252877385857, direction: "E" }
@@ -481,7 +481,7 @@ export const samples = [
   },
   {
     id: 30,
-    date: "2018-10-22T12:19:07.191Z",
+    date: "2018-10-25T12:19:07.191Z",
     location: {
       latitude: { value: 50.46405540915856, direction: "N" },
       longitiude: { value: 19.729364931246305, direction: "E" }
@@ -497,7 +497,7 @@ export const samples = [
   },
   {
     id: 31,
-    date: "2018-10-22T12:19:07.191Z",
+    date: "2018-10-25T12:19:07.191Z",
     location: {
       latitude: { value: 50.5517695387374, direction: "N" },
       longitiude: { value: 19.45113561553943, direction: "E" }
@@ -513,7 +513,7 @@ export const samples = [
   },
   {
     id: 32,
-    date: "2018-10-22T12:19:07.191Z",
+    date: "2018-10-25T12:19:07.191Z",
     location: {
       latitude: { value: 50.328196176255986, direction: "N" },
       longitiude: { value: 19.658048355994566, direction: "E" }
@@ -529,7 +529,7 @@ export const samples = [
   },
   {
     id: 33,
-    date: "2018-10-22T12:19:07.191Z",
+    date: "2018-10-25T12:19:07.191Z",
     location: {
       latitude: { value: 50.03569622265949, direction: "N" },
       longitiude: { value: 19.06620416293863, direction: "E" }
@@ -545,7 +545,7 @@ export const samples = [
   },
   {
     id: 34,
-    date: "2018-10-22T12:19:07.191Z",
+    date: "2018-10-25T12:19:07.191Z",
     location: {
       latitude: { value: 50.694979588218175, direction: "N" },
       longitiude: { value: 19.29138705196365, direction: "E" }
@@ -561,7 +561,7 @@ export const samples = [
   },
   {
     id: 35,
-    date: "2018-10-22T12:19:07.191Z",
+    date: "2018-10-25T12:19:07.191Z",
     location: {
       latitude: { value: 50.15016962076873, direction: "N" },
       longitiude: { value: 19.03347352856867, direction: "E" }
@@ -577,7 +577,7 @@ export const samples = [
   },
   {
     id: 36,
-    date: "2018-10-22T12:19:07.191Z",
+    date: "2018-10-25T12:19:07.191Z",
     location: {
       latitude: { value: 50.336808444956475, direction: "N" },
       longitiude: { value: 19.282562024417935, direction: "E" }
@@ -593,7 +593,7 @@ export const samples = [
   },
   {
     id: 37,
-    date: "2018-10-22T12:19:07.191Z",
+    date: "2018-10-25T12:19:07.191Z",
     location: {
       latitude: { value: 50.62236050662982, direction: "N" },
       longitiude: { value: 19.269029143948206, direction: "E" }
@@ -609,7 +609,7 @@ export const samples = [
   },
   {
     id: 38,
-    date: "2018-10-22T12:19:07.191Z",
+    date: "2018-10-25T12:19:07.191Z",
     location: {
       latitude: { value: 50.277356476391745, direction: "N" },
       longitiude: { value: 19.12009795944926, direction: "E" }
@@ -625,7 +625,7 @@ export const samples = [
   },
   {
     id: 39,
-    date: "2018-10-22T12:19:07.191Z",
+    date: "2018-10-25T12:19:07.191Z",
     location: {
       latitude: { value: 50.62835524739131, direction: "N" },
       longitiude: { value: 19.476109670842707, direction: "E" }
@@ -641,7 +641,7 @@ export const samples = [
   },
   {
     id: 40,
-    date: "2018-10-22T12:19:07.191Z",
+    date: "2018-10-25T12:19:07.191Z",
     location: {
       latitude: { value: 50.750937930223365, direction: "N" },
       longitiude: { value: 19.49645086875629, direction: "E" }
@@ -657,7 +657,7 @@ export const samples = [
   },
   {
     id: 41,
-    date: "2018-10-22T12:19:07.191Z",
+    date: "2018-10-25T12:19:07.191Z",
     location: {
       latitude: { value: 50.45365403459782, direction: "N" },
       longitiude: { value: 19.767694209208276, direction: "E" }
@@ -673,7 +673,7 @@ export const samples = [
   },
   {
     id: 42,
-    date: "2018-10-22T12:19:07.191Z",
+    date: "2018-10-25T12:19:07.191Z",
     location: {
       latitude: { value: 50.294794219785494, direction: "N" },
       longitiude: { value: 19.304663462252176, direction: "E" }
@@ -689,7 +689,7 @@ export const samples = [
   },
   {
     id: 43,
-    date: "2018-10-22T12:19:07.191Z",
+    date: "2018-10-25T12:19:07.191Z",
     location: {
       latitude: { value: 50.22546125430704, direction: "N" },
       longitiude: { value: 19.428263277550535, direction: "E" }
@@ -705,7 +705,7 @@ export const samples = [
   },
   {
     id: 44,
-    date: "2018-10-22T12:19:07.191Z",
+    date: "2018-10-25T12:19:07.191Z",
     location: {
       latitude: { value: 50.22525622507575, direction: "N" },
       longitiude: { value: 19.244915967269264, direction: "E" }

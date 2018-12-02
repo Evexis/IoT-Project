@@ -1,8 +1,8 @@
 Arguments: 
-  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js serve
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js tsc
 
 PATH: 
-  C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Program Files\dotnet\;C:\Program Files (x86)\VDesk;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Live\Shared;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Yarn\bin\;C:\ProgramData\nvm;C:\Program Files\nodejs;;C:\Program Files (x86)\Gpg4win\..\GnuPG\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Users\wkasp\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Heroku\bin;C:\Users\wkasp\AppData\Local\Yarn\bin;C:\Program Files\MongoDB\Server\3.6\bin;C:\Users\wkasp\AppData\Local\Programs\MiKTeX 2.9\miktex\bin\x64\;C:\Users\wkasp\AppData\Local\hyper\app-2.0.0\resources\bin;C:\Users\wkasp\AppData\Roaming\npm;C:\Users\wkasp\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Python 3.6;C:\Python27;C:\Python27\Scripts
+  C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Program Files\dotnet\;C:\Program Files (x86)\VDesk;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Live\Shared;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Yarn\bin\;C:\ProgramData\nvm;C:\Program Files\nodejs;;C:\Program Files (x86)\Gpg4win\..\GnuPG\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Users\wkasp\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Heroku\bin;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Users\wkasp\AppData\Local\Yarn\bin;C:\Program Files\MongoDB\Server\3.6\bin;C:\Users\wkasp\AppData\Local\Programs\MiKTeX 2.9\miktex\bin\x64\;C:\Users\wkasp\AppData\Local\hyper\app-2.0.0\resources\bin;C:\Users\wkasp\AppData\Roaming\npm;C:\Users\wkasp\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Python 3.6;C:\Python27;C:\Python27\Scripts;
 
 Yarn version: 
   1.5.1
@@ -30,9 +30,6 @@ npm manifest:
     "dependencies": {
       "body-parser": "^1.18.3",
       "express": "^4.16.4",
-      "firebase": "^5.5.5",
-      "firebase-admin": "~6.0.0",
-      "firebase-functions": "^2.0.3",
       "mongodb": "^2.2.33"
     },
     "devDependencies": {
@@ -40,7 +37,10 @@ npm manifest:
       "typescript": "~2.8.3",
       "@types/mongodb": "^2.2.7"
     },
-    "private": true
+    "private": true,
+    "engines": {
+      "node": "6"
+    }
   }
 
 yarn manifest: 
@@ -3045,10 +3045,10 @@ Lockfile:
 
 Trace: 
   Error: Command failed.
-  Exit code: 1
+  Exit code: 2
   Command: C:\WINDOWS\system32\cmd.exe
-  Arguments: /d /s /c npm run build && firebase serve --only functions
-  Directory: X:\ProjektyJS\IoT\IoT-Project\functions
+  Arguments: /d /s /c X:\ProjektyJS\IoT\iot-eit\node_modules\.bin\tsc
+  Directory: X:\ProjektyJS\IoT\iot-eit
   Output:
   
       at ProcessTermError.MessageError (C:\Program Files (x86)\Yarn\lib\cli.js:186:110)
