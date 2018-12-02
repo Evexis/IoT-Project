@@ -25,11 +25,18 @@ server.use(bodyParser.urlencoded({ extended: true }));
 
 server.route('/api/data')
     .post(async (req: express.Request, res: express.Response) => {
-        const device = await db.devices.findElement({ "deviceId": req.headers.id })
+        const device = await db.devices.findElement({ "deviceId": req.headers.deviceid })
         if (device[0]) {
-            const data = req.body
-            await db.samples.insertElements(data)
-            res.json(data);
+            bcrypt.compare(req.headers.authkey, device[0].authKey, async (err, result) => {
+                if (result) {
+                    const data = req.body
+                    await db.samples.insertElements(data)
+                    res.json(data);
+                }
+                else {
+                    res.status(403).send("Forbidden");
+                }
+            })
         }
         else {
             res.status(403).send("Forbidden");
@@ -40,6 +47,7 @@ server.route('/api/data')
         const search = {};
         if (deviceid) search["deviceId"] = deviceid;
         if (date) search["date"] = { $gt: date };
+
         const result = await db.samples.findElement(search);
         res.json(result)
     });
