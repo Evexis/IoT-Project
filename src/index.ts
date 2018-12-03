@@ -6,7 +6,7 @@ import * as bcrypt from 'bcrypt';
 
 const server = express();
 
-const url = 'mongodb://admin:Iot-Eit-Siu-2018@ds139193.mlab.com:39193/iot-project';
+const url = process.env.url;
 const db = {
     samples: new MongoCollection(url, 'Samples'),
     devices: new MongoCollection(url, 'Devices'),
