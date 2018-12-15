@@ -1,6 +1,15 @@
-      var g1 = new JustGage({
+   var urlString = "https://iot-eit.herokuapp.com/api/data?fbclid=IwAR3tXW_KAH_P2-4Q5oZaVGgWYkKrQNy_jiLaUrHj4IJqE8zvM1F1ZXcTIcs";
+    var data = fetch(urlString);
+setInterval(function(){   data.then(data => data.json())
+    .then(data => {
+        let pm25 = data[data.length-1].results.pm25.value;
+        let pm1 = data[data.length-1].results.pm1.value;
+        let pm10 = data[data.length-1].results.pm10.value;
+        let tempVal = data[data.length-1].results.humidity.value;
+        let humVal = data[data.length-1].results.temperature.value;
+        var g1 = new JustGage({
         id: 'g1',
-        value: 100,
+        value:  0 ,
         min: 0,
         minTxt: "Dobrze",
         max: 121,
@@ -72,7 +81,7 @@
       });
       var g2 = new JustGage({
         id: 'g2',
-        value: 100,
+        value: 0,
         min: 0,
         minTxt: "Dobrze",
         max: 201,
@@ -145,7 +154,7 @@
 
       var g3 = new JustGage({
         id: 'g3',
-        value: 10,
+        value: 0,
         min: 0,
         minTxt: "Mało",
         max: 100,
@@ -198,7 +207,7 @@
 
       var g4 = new JustGage({
         id: 'g4',
-        value: 1,
+        value: 0,
         min: -50,
         minTxt: "-50",
         max: 50,
@@ -228,12 +237,11 @@
           stroke_linecap: 'round'
         },
         gaugeWidthScale: 0.5,
-        counter: true,
         relativeGaugeSize: true
       });
       var g5 = new JustGage({
         id: 'g5',
-        value: 60,
+        value: 0,
         min: 0,
         minTxt: "0%",
         max: 100,
@@ -259,6 +267,16 @@
           stroke_linecap: 'round'
         },
         gaugeWidthScale: 0.5,
-        counter: true,
         relativeGaugeSize: true
       });
+
+      setInterval(function(){
+        g1.refresh(pm25);
+        g2.refresh(pm10);
+        g3.refresh(pm1);
+        g4.refresh(tempVal, );
+        g5.refresh(humVal, );
+      }, 5000);
+
+    });
+  }, 5000); 
