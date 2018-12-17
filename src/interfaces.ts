@@ -1,5 +1,5 @@
 export interface Sample {
-    id: string;
+    _id: string;
     deviceId: string;
     date: Date;
     location: { //D.D° format

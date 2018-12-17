@@ -3,7 +3,7 @@ function createRandomData(numberOfSamples) {
     var mockData = [];
     for (var i = 0; i < numberOfSamples; i++) {
         mockData.push({
-            id: i,
+            deviceId: Math.floor(Math.random() * 5),
             date: new Date(),
             location: {
                 latitude: {
@@ -46,7 +46,7 @@ function createRandomData(numberOfSamples) {
     return mockData;
 }
 function saveDataToFile(data) {
-    fs.writeFile('src/mock/mock-data.ts', data, function (err) {
+    fs.writeFile('./mock-data.ts', data, function (err) {
         if (err) {
             return console.error(err);
         }
@@ -57,4 +57,4 @@ function generateMockData(numberOfSamples) {
     var mockData = createRandomData(numberOfSamples);
     saveDataToFile("const samples =" + JSON.stringify(mockData));
 }
-generateMockData(100);
+generateMockData(500);
