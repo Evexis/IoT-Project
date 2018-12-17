@@ -1,1 +1,20002 @@
-const samples =[{"deviceId":2,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.39958153954184,"direction":"N"},"longitiude":{"value":19.551273654140882,"direction":"E"}},"results":{"pm1":{"value":346.875521255155,"unit":"ug/m3"},"pm25":{"value":361.83056026339386,"unit":"ug/m3"},"pm10":{"value":141.2108080989659,"unit":"ug/m3"},"formaldehyde":{"value":0.6359443275459009,"unit":"mg/m3"},"temperature":{"value":95.75064811619733,"unit":"°C"},"humidity":{"value":35.733940902203365,"unit":"%"}}},{"deviceId":0,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.47569794871165,"direction":"N"},"longitiude":{"value":19.894896994757442,"direction":"E"}},"results":{"pm1":{"value":421.62867242939393,"unit":"ug/m3"},"pm25":{"value":58.31561521135586,"unit":"ug/m3"},"pm10":{"value":371.65192048677653,"unit":"ug/m3"},"formaldehyde":{"value":0.8560523255602215,"unit":"mg/m3"},"temperature":{"value":14.764299466228024,"unit":"°C"},"humidity":{"value":96.14962167970053,"unit":"%"}}},{"deviceId":0,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.270181133202094,"direction":"N"},"longitiude":{"value":19.80779080230047,"direction":"E"}},"results":{"pm1":{"value":253.5154841057008,"unit":"ug/m3"},"pm25":{"value":358.68972418087407,"unit":"ug/m3"},"pm10":{"value":258.23952457033573,"unit":"ug/m3"},"formaldehyde":{"value":0.8737235933884677,"unit":"mg/m3"},"temperature":{"value":41.55921954401905,"unit":"°C"},"humidity":{"value":35.333200337567774,"unit":"%"}}},{"deviceId":0,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.10300456306894,"direction":"N"},"longitiude":{"value":19.349942197636604,"direction":"E"}},"results":{"pm1":{"value":140.1466276676705,"unit":"ug/m3"},"pm25":{"value":221.41889032293372,"unit":"ug/m3"},"pm10":{"value":416.88151239438673,"unit":"ug/m3"},"formaldehyde":{"value":0.5528415141153431,"unit":"mg/m3"},"temperature":{"value":-13.672931609066023,"unit":"°C"},"humidity":{"value":76.60169618483552,"unit":"%"}}},{"deviceId":0,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.22560561262088,"direction":"N"},"longitiude":{"value":19.72872429401823,"direction":"E"}},"results":{"pm1":{"value":336.4050573087457,"unit":"ug/m3"},"pm25":{"value":43.052685896711296,"unit":"ug/m3"},"pm10":{"value":60.01666764025882,"unit":"ug/m3"},"formaldehyde":{"value":1.7147194604665996,"unit":"mg/m3"},"temperature":{"value":-15.655686293114293,"unit":"°C"},"humidity":{"value":6.381191230827721,"unit":"%"}}},{"deviceId":0,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.01485967678974,"direction":"N"},"longitiude":{"value":19.82620047328736,"direction":"E"}},"results":{"pm1":{"value":92.30800734421929,"unit":"ug/m3"},"pm25":{"value":137.94277409209076,"unit":"ug/m3"},"pm10":{"value":479.65124993146526,"unit":"ug/m3"},"formaldehyde":{"value":0.3010681680532352,"unit":"mg/m3"},"temperature":{"value":66.24307621597026,"unit":"°C"},"humidity":{"value":58.014953105209166,"unit":"%"}}},{"deviceId":1,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.06747421192969,"direction":"N"},"longitiude":{"value":19.17189866711233,"direction":"E"}},"results":{"pm1":{"value":101.20511624054629,"unit":"ug/m3"},"pm25":{"value":379.3116373834531,"unit":"ug/m3"},"pm10":{"value":488.6365591071895,"unit":"ug/m3"},"formaldehyde":{"value":1.9811409224486445,"unit":"mg/m3"},"temperature":{"value":7.508652137925807,"unit":"°C"},"humidity":{"value":8.10212235574217,"unit":"%"}}},{"deviceId":1,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.54395656702698,"direction":"N"},"longitiude":{"value":19.157470133617068,"direction":"E"}},"results":{"pm1":{"value":475.87363295028393,"unit":"ug/m3"},"pm25":{"value":176.76005221575497,"unit":"ug/m3"},"pm10":{"value":65.75975144211455,"unit":"ug/m3"},"formaldehyde":{"value":0.3101939814835326,"unit":"mg/m3"},"temperature":{"value":47.0639630519438,"unit":"°C"},"humidity":{"value":13.67073927426896,"unit":"%"}}},{"deviceId":4,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.96866072049489,"direction":"N"},"longitiude":{"value":19.84545842425114,"direction":"E"}},"results":{"pm1":{"value":241.08908150043538,"unit":"ug/m3"},"pm25":{"value":244.69549043091644,"unit":"ug/m3"},"pm10":{"value":247.13387938865273,"unit":"ug/m3"},"formaldehyde":{"value":1.1844707412888966,"unit":"mg/m3"},"temperature":{"value":11.376996458872213,"unit":"°C"},"humidity":{"value":10.718577387980499,"unit":"%"}}},{"deviceId":3,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.975156402005446,"direction":"N"},"longitiude":{"value":19.186080679355257,"direction":"E"}},"results":{"pm1":{"value":456.3058432591862,"unit":"ug/m3"},"pm25":{"value":428.64543880774306,"unit":"ug/m3"},"pm10":{"value":368.291954999903,"unit":"ug/m3"},"formaldehyde":{"value":0.5969932294060905,"unit":"mg/m3"},"temperature":{"value":3.183789228697716,"unit":"°C"},"humidity":{"value":1.2311650561873666,"unit":"%"}}},{"deviceId":1,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.40944387014594,"direction":"N"},"longitiude":{"value":19.2327281075707,"direction":"E"}},"results":{"pm1":{"value":354.57087392179443,"unit":"ug/m3"},"pm25":{"value":271.64596729009196,"unit":"ug/m3"},"pm10":{"value":342.11755365588937,"unit":"ug/m3"},"formaldehyde":{"value":1.928451257944051,"unit":"mg/m3"},"temperature":{"value":31.803378930773142,"unit":"°C"},"humidity":{"value":79.9945401011228,"unit":"%"}}},{"deviceId":4,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.57603823979753,"direction":"N"},"longitiude":{"value":19.215102620571134,"direction":"E"}},"results":{"pm1":{"value":461.28975045944264,"unit":"ug/m3"},"pm25":{"value":413.8003665544967,"unit":"ug/m3"},"pm10":{"value":5.446551433884617,"unit":"ug/m3"},"formaldehyde":{"value":0.840040861054363,"unit":"mg/m3"},"temperature":{"value":62.67046196954057,"unit":"°C"},"humidity":{"value":58.422543996062174,"unit":"%"}}},{"deviceId":3,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.45370841907165,"direction":"N"},"longitiude":{"value":19.611837999469973,"direction":"E"}},"results":{"pm1":{"value":385.3098840965299,"unit":"ug/m3"},"pm25":{"value":50.13966192711739,"unit":"ug/m3"},"pm10":{"value":388.35498619669727,"unit":"ug/m3"},"formaldehyde":{"value":0.7485216114332593,"unit":"mg/m3"},"temperature":{"value":73.72820404423078,"unit":"°C"},"humidity":{"value":8.857927610680338,"unit":"%"}}},{"deviceId":0,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.87508707088243,"direction":"N"},"longitiude":{"value":19.946120061691005,"direction":"E"}},"results":{"pm1":{"value":478.53542189894824,"unit":"ug/m3"},"pm25":{"value":446.93584004714415,"unit":"ug/m3"},"pm10":{"value":388.470109392319,"unit":"ug/m3"},"formaldehyde":{"value":0.026599137594100597,"unit":"mg/m3"},"temperature":{"value":-10.959638111066338,"unit":"°C"},"humidity":{"value":39.746261299862454,"unit":"%"}}},{"deviceId":2,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.27404639969841,"direction":"N"},"longitiude":{"value":19.32959490370048,"direction":"E"}},"results":{"pm1":{"value":497.1455309846291,"unit":"ug/m3"},"pm25":{"value":197.12157565959464,"unit":"ug/m3"},"pm10":{"value":176.036370914598,"unit":"ug/m3"},"formaldehyde":{"value":1.2374523561184954,"unit":"mg/m3"},"temperature":{"value":-15.329503877691764,"unit":"°C"},"humidity":{"value":97.36196468913951,"unit":"%"}}},{"deviceId":0,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.834012537106915,"direction":"N"},"longitiude":{"value":19.93034301582884,"direction":"E"}},"results":{"pm1":{"value":24.532426109844184,"unit":"ug/m3"},"pm25":{"value":474.3822918244471,"unit":"ug/m3"},"pm10":{"value":226.87199520102973,"unit":"ug/m3"},"formaldehyde":{"value":0.5358780077542149,"unit":"mg/m3"},"temperature":{"value":67.92167587714296,"unit":"°C"},"humidity":{"value":52.69122062236613,"unit":"%"}}},{"deviceId":2,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.91528203839506,"direction":"N"},"longitiude":{"value":19.015865056041548,"direction":"E"}},"results":{"pm1":{"value":425.9516756409877,"unit":"ug/m3"},"pm25":{"value":434.6109589638899,"unit":"ug/m3"},"pm10":{"value":233.10287573188583,"unit":"ug/m3"},"formaldehyde":{"value":0.8305923468520104,"unit":"mg/m3"},"temperature":{"value":-13.35968969166536,"unit":"°C"},"humidity":{"value":46.25057332650337,"unit":"%"}}},{"deviceId":2,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.93348920834808,"direction":"N"},"longitiude":{"value":19.710574951952367,"direction":"E"}},"results":{"pm1":{"value":346.17339913308075,"unit":"ug/m3"},"pm25":{"value":466.25893763065017,"unit":"ug/m3"},"pm10":{"value":321.2340839228255,"unit":"ug/m3"},"formaldehyde":{"value":0.38065087776792783,"unit":"mg/m3"},"temperature":{"value":78.29290096956852,"unit":"°C"},"humidity":{"value":81.23102128531225,"unit":"%"}}},{"deviceId":3,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.38654845704552,"direction":"N"},"longitiude":{"value":19.92095616556423,"direction":"E"}},"results":{"pm1":{"value":9.766382529250993,"unit":"ug/m3"},"pm25":{"value":198.6431319158607,"unit":"ug/m3"},"pm10":{"value":199.9474907942741,"unit":"ug/m3"},"formaldehyde":{"value":1.0838712571967015,"unit":"mg/m3"},"temperature":{"value":29.903949158431267,"unit":"°C"},"humidity":{"value":44.76085207615736,"unit":"%"}}},{"deviceId":0,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.19083031044543,"direction":"N"},"longitiude":{"value":19.608685323552354,"direction":"E"}},"results":{"pm1":{"value":163.27715401153264,"unit":"ug/m3"},"pm25":{"value":438.10267143488466,"unit":"ug/m3"},"pm10":{"value":27.389672950538625,"unit":"ug/m3"},"formaldehyde":{"value":0.19266008367658882,"unit":"mg/m3"},"temperature":{"value":-3.001483815408797,"unit":"°C"},"humidity":{"value":80.32498038063287,"unit":"%"}}},{"deviceId":1,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.902322712492314,"direction":"N"},"longitiude":{"value":19.48849252735262,"direction":"E"}},"results":{"pm1":{"value":304.612811939541,"unit":"ug/m3"},"pm25":{"value":33.125805398419025,"unit":"ug/m3"},"pm10":{"value":402.9720200239809,"unit":"ug/m3"},"formaldehyde":{"value":0.785440529923445,"unit":"mg/m3"},"temperature":{"value":29.040407765944728,"unit":"°C"},"humidity":{"value":37.62483151929163,"unit":"%"}}},{"deviceId":3,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.16979372780593,"direction":"N"},"longitiude":{"value":19.760747462625883,"direction":"E"}},"results":{"pm1":{"value":83.23595421878338,"unit":"ug/m3"},"pm25":{"value":10.085068185407554,"unit":"ug/m3"},"pm10":{"value":371.74195187813916,"unit":"ug/m3"},"formaldehyde":{"value":1.1905567930660959,"unit":"mg/m3"},"temperature":{"value":82.40471782977603,"unit":"°C"},"humidity":{"value":93.36024915082417,"unit":"%"}}},{"deviceId":3,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.891584563600404,"direction":"N"},"longitiude":{"value":19.55471868133991,"direction":"E"}},"results":{"pm1":{"value":264.47057075832527,"unit":"ug/m3"},"pm25":{"value":436.87784006526476,"unit":"ug/m3"},"pm10":{"value":321.47928942702254,"unit":"ug/m3"},"formaldehyde":{"value":1.4091634882623136,"unit":"mg/m3"},"temperature":{"value":37.5704274685867,"unit":"°C"},"humidity":{"value":0.36786466877987145,"unit":"%"}}},{"deviceId":4,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.08680524929744,"direction":"N"},"longitiude":{"value":19.89368037663455,"direction":"E"}},"results":{"pm1":{"value":471.40086331342746,"unit":"ug/m3"},"pm25":{"value":204.2421464631309,"unit":"ug/m3"},"pm10":{"value":454.0849577553662,"unit":"ug/m3"},"formaldehyde":{"value":0.7735889258750936,"unit":"mg/m3"},"temperature":{"value":83.22837410640372,"unit":"°C"},"humidity":{"value":59.67961131802586,"unit":"%"}}},{"deviceId":3,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.53201193043889,"direction":"N"},"longitiude":{"value":19.946238473128002,"direction":"E"}},"results":{"pm1":{"value":288.1477885953243,"unit":"ug/m3"},"pm25":{"value":151.17285449009944,"unit":"ug/m3"},"pm10":{"value":186.977689466017,"unit":"ug/m3"},"formaldehyde":{"value":0.9316397505802558,"unit":"mg/m3"},"temperature":{"value":-5.986758125119243,"unit":"°C"},"humidity":{"value":60.88803734259274,"unit":"%"}}},{"deviceId":0,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.10699040718445,"direction":"N"},"longitiude":{"value":19.54522331281767,"direction":"E"}},"results":{"pm1":{"value":373.77651459905223,"unit":"ug/m3"},"pm25":{"value":169.487855604052,"unit":"ug/m3"},"pm10":{"value":307.1354206838758,"unit":"ug/m3"},"formaldehyde":{"value":1.0213878252397368,"unit":"mg/m3"},"temperature":{"value":-9.098432669915749,"unit":"°C"},"humidity":{"value":69.58715770824269,"unit":"%"}}},{"deviceId":4,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.42385585777288,"direction":"N"},"longitiude":{"value":19.990145981840737,"direction":"E"}},"results":{"pm1":{"value":122.94234739627518,"unit":"ug/m3"},"pm25":{"value":359.86843835663143,"unit":"ug/m3"},"pm10":{"value":147.75698190645846,"unit":"ug/m3"},"formaldehyde":{"value":1.7839408324316128,"unit":"mg/m3"},"temperature":{"value":44.89316630301025,"unit":"°C"},"humidity":{"value":11.069458153912116,"unit":"%"}}},{"deviceId":0,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.988863337603576,"direction":"N"},"longitiude":{"value":19.311769088466768,"direction":"E"}},"results":{"pm1":{"value":265.44363214414193,"unit":"ug/m3"},"pm25":{"value":426.88782746987386,"unit":"ug/m3"},"pm10":{"value":444.0996216807176,"unit":"ug/m3"},"formaldehyde":{"value":0.5404278231102344,"unit":"mg/m3"},"temperature":{"value":-13.037453403942433,"unit":"°C"},"humidity":{"value":32.25466485229658,"unit":"%"}}},{"deviceId":0,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.05219731802069,"direction":"N"},"longitiude":{"value":19.35669658045048,"direction":"E"}},"results":{"pm1":{"value":71.49503123393907,"unit":"ug/m3"},"pm25":{"value":226.10790138574933,"unit":"ug/m3"},"pm10":{"value":382.6637682478048,"unit":"ug/m3"},"formaldehyde":{"value":0.17926471894914142,"unit":"mg/m3"},"temperature":{"value":14.54119184728929,"unit":"°C"},"humidity":{"value":57.54590509056692,"unit":"%"}}},{"deviceId":0,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.76778074601503,"direction":"N"},"longitiude":{"value":19.671865706441697,"direction":"E"}},"results":{"pm1":{"value":127.61982317754017,"unit":"ug/m3"},"pm25":{"value":65.56668605483517,"unit":"ug/m3"},"pm10":{"value":57.351694580109026,"unit":"ug/m3"},"formaldehyde":{"value":0.8280660963248856,"unit":"mg/m3"},"temperature":{"value":3.782641016258566,"unit":"°C"},"humidity":{"value":53.21997714452831,"unit":"%"}}},{"deviceId":4,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.85342807252016,"direction":"N"},"longitiude":{"value":19.451245736721077,"direction":"E"}},"results":{"pm1":{"value":161.92032193080053,"unit":"ug/m3"},"pm25":{"value":95.14598064673285,"unit":"ug/m3"},"pm10":{"value":212.2854328124476,"unit":"ug/m3"},"formaldehyde":{"value":1.891621167297814,"unit":"mg/m3"},"temperature":{"value":5.6695865822762315,"unit":"°C"},"humidity":{"value":46.78321245669119,"unit":"%"}}},{"deviceId":4,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.1242866307449,"direction":"N"},"longitiude":{"value":19.441537153315245,"direction":"E"}},"results":{"pm1":{"value":276.5061404850933,"unit":"ug/m3"},"pm25":{"value":248.19830806401333,"unit":"ug/m3"},"pm10":{"value":400.69968210262596,"unit":"ug/m3"},"formaldehyde":{"value":1.0143213937552233,"unit":"mg/m3"},"temperature":{"value":42.77225292815353,"unit":"°C"},"humidity":{"value":52.66057865225573,"unit":"%"}}},{"deviceId":3,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.779224077643875,"direction":"N"},"longitiude":{"value":19.66081887759074,"direction":"E"}},"results":{"pm1":{"value":184.26981691575173,"unit":"ug/m3"},"pm25":{"value":64.24435164443587,"unit":"ug/m3"},"pm10":{"value":413.21867391134003,"unit":"ug/m3"},"formaldehyde":{"value":0.8729090110498681,"unit":"mg/m3"},"temperature":{"value":77.9863219372065,"unit":"°C"},"humidity":{"value":44.74405135366879,"unit":"%"}}},{"deviceId":2,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.904562729953966,"direction":"N"},"longitiude":{"value":19.800924975484982,"direction":"E"}},"results":{"pm1":{"value":35.19652268536255,"unit":"ug/m3"},"pm25":{"value":12.898309694911902,"unit":"ug/m3"},"pm10":{"value":396.7272166229925,"unit":"ug/m3"},"formaldehyde":{"value":0.3052569960941711,"unit":"mg/m3"},"temperature":{"value":79.08556103692061,"unit":"°C"},"humidity":{"value":12.8098064219752,"unit":"%"}}},{"deviceId":2,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.680540690388675,"direction":"N"},"longitiude":{"value":19.887760679945522,"direction":"E"}},"results":{"pm1":{"value":327.04082346303073,"unit":"ug/m3"},"pm25":{"value":286.26985024563487,"unit":"ug/m3"},"pm10":{"value":389.09311908649767,"unit":"ug/m3"},"formaldehyde":{"value":0.5648238556159395,"unit":"mg/m3"},"temperature":{"value":66.44952999948318,"unit":"°C"},"humidity":{"value":80.15054905685797,"unit":"%"}}},{"deviceId":1,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.96747265670745,"direction":"N"},"longitiude":{"value":19.16607086101387,"direction":"E"}},"results":{"pm1":{"value":480.9383022108508,"unit":"ug/m3"},"pm25":{"value":373.85136197552725,"unit":"ug/m3"},"pm10":{"value":220.26484251452817,"unit":"ug/m3"},"formaldehyde":{"value":0.5065204063617577,"unit":"mg/m3"},"temperature":{"value":-11.22077905169018,"unit":"°C"},"humidity":{"value":22.78634895356162,"unit":"%"}}},{"deviceId":1,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.39156808208968,"direction":"N"},"longitiude":{"value":19.65417415406446,"direction":"E"}},"results":{"pm1":{"value":470.14233826644016,"unit":"ug/m3"},"pm25":{"value":285.2240333535676,"unit":"ug/m3"},"pm10":{"value":42.62779231843894,"unit":"ug/m3"},"formaldehyde":{"value":1.614605855773556,"unit":"mg/m3"},"temperature":{"value":74.36836026214729,"unit":"°C"},"humidity":{"value":82.33506406639218,"unit":"%"}}},{"deviceId":4,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.88687767375379,"direction":"N"},"longitiude":{"value":19.19748372655973,"direction":"E"}},"results":{"pm1":{"value":107.55675928194741,"unit":"ug/m3"},"pm25":{"value":76.65541156607836,"unit":"ug/m3"},"pm10":{"value":324.0058260398162,"unit":"ug/m3"},"formaldehyde":{"value":0.5818885730615007,"unit":"mg/m3"},"temperature":{"value":63.54774932154646,"unit":"°C"},"humidity":{"value":22.519106805747533,"unit":"%"}}},{"deviceId":2,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.22193146830327,"direction":"N"},"longitiude":{"value":19.842626235366627,"direction":"E"}},"results":{"pm1":{"value":328.9445092079872,"unit":"ug/m3"},"pm25":{"value":260.18012824006274,"unit":"ug/m3"},"pm10":{"value":408.7636004614699,"unit":"ug/m3"},"formaldehyde":{"value":1.4515214357380435,"unit":"mg/m3"},"temperature":{"value":-15.31991920970393,"unit":"°C"},"humidity":{"value":0.9434379602212939,"unit":"%"}}},{"deviceId":0,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.36486491837364,"direction":"N"},"longitiude":{"value":19.386179817587333,"direction":"E"}},"results":{"pm1":{"value":8.93104113717591,"unit":"ug/m3"},"pm25":{"value":434.19371655333117,"unit":"ug/m3"},"pm10":{"value":352.4136772484633,"unit":"ug/m3"},"formaldehyde":{"value":1.2168795521292575,"unit":"mg/m3"},"temperature":{"value":98.81079746463558,"unit":"°C"},"humidity":{"value":63.12087488818645,"unit":"%"}}},{"deviceId":2,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.856682666157226,"direction":"N"},"longitiude":{"value":19.428663062897037,"direction":"E"}},"results":{"pm1":{"value":14.362332868907647,"unit":"ug/m3"},"pm25":{"value":244.48341972028277,"unit":"ug/m3"},"pm10":{"value":85.57446187202711,"unit":"ug/m3"},"formaldehyde":{"value":0.2683721020801655,"unit":"mg/m3"},"temperature":{"value":21.035545435469075,"unit":"°C"},"humidity":{"value":78.07445894443157,"unit":"%"}}},{"deviceId":4,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.06026062918401,"direction":"N"},"longitiude":{"value":19.300765371731256,"direction":"E"}},"results":{"pm1":{"value":380.32521505384665,"unit":"ug/m3"},"pm25":{"value":181.31517227898496,"unit":"ug/m3"},"pm10":{"value":112.76338259580776,"unit":"ug/m3"},"formaldehyde":{"value":1.759066345457121,"unit":"mg/m3"},"temperature":{"value":30.893520944016892,"unit":"°C"},"humidity":{"value":55.189835798942234,"unit":"%"}}},{"deviceId":1,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.71549630692866,"direction":"N"},"longitiude":{"value":19.153290708769934,"direction":"E"}},"results":{"pm1":{"value":120.68728649012716,"unit":"ug/m3"},"pm25":{"value":26.045085485968734,"unit":"ug/m3"},"pm10":{"value":114.4768256872022,"unit":"ug/m3"},"formaldehyde":{"value":1.9774717473267498,"unit":"mg/m3"},"temperature":{"value":8.605261037858295,"unit":"°C"},"humidity":{"value":94.58281778744768,"unit":"%"}}},{"deviceId":2,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.16280224524713,"direction":"N"},"longitiude":{"value":19.242697299105807,"direction":"E"}},"results":{"pm1":{"value":421.498456343267,"unit":"ug/m3"},"pm25":{"value":317.13766777315686,"unit":"ug/m3"},"pm10":{"value":406.0508008209935,"unit":"ug/m3"},"formaldehyde":{"value":0.20506022779067035,"unit":"mg/m3"},"temperature":{"value":41.35374688925868,"unit":"°C"},"humidity":{"value":68.65963632228626,"unit":"%"}}},{"deviceId":3,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.28795549924677,"direction":"N"},"longitiude":{"value":19.512267190634216,"direction":"E"}},"results":{"pm1":{"value":57.31213746082942,"unit":"ug/m3"},"pm25":{"value":31.739921275253934,"unit":"ug/m3"},"pm10":{"value":85.49218082239607,"unit":"ug/m3"},"formaldehyde":{"value":1.8312906181195983,"unit":"mg/m3"},"temperature":{"value":23.173772874974645,"unit":"°C"},"humidity":{"value":83.85428626651658,"unit":"%"}}},{"deviceId":0,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.21384680240703,"direction":"N"},"longitiude":{"value":19.211566557392768,"direction":"E"}},"results":{"pm1":{"value":459.5771155980135,"unit":"ug/m3"},"pm25":{"value":285.1980838134153,"unit":"ug/m3"},"pm10":{"value":169.42795788834908,"unit":"ug/m3"},"formaldehyde":{"value":1.7792746782971443,"unit":"mg/m3"},"temperature":{"value":19.49616733090017,"unit":"°C"},"humidity":{"value":31.035790305720255,"unit":"%"}}},{"deviceId":1,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.87346091545243,"direction":"N"},"longitiude":{"value":19.71321959084773,"direction":"E"}},"results":{"pm1":{"value":452.9752230338058,"unit":"ug/m3"},"pm25":{"value":297.63957313019995,"unit":"ug/m3"},"pm10":{"value":138.74843371842115,"unit":"ug/m3"},"formaldehyde":{"value":0.8412191246843741,"unit":"mg/m3"},"temperature":{"value":98.8471590559536,"unit":"°C"},"humidity":{"value":2.6242204980564843,"unit":"%"}}},{"deviceId":4,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.05478668948425,"direction":"N"},"longitiude":{"value":19.537245825550308,"direction":"E"}},"results":{"pm1":{"value":421.0836725113686,"unit":"ug/m3"},"pm25":{"value":254.73333566001168,"unit":"ug/m3"},"pm10":{"value":384.05477327413405,"unit":"ug/m3"},"formaldehyde":{"value":0.28226772154420976,"unit":"mg/m3"},"temperature":{"value":8.586172399496125,"unit":"°C"},"humidity":{"value":69.51942899709904,"unit":"%"}}},{"deviceId":4,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.38555847122257,"direction":"N"},"longitiude":{"value":19.70931948740634,"direction":"E"}},"results":{"pm1":{"value":323.73199665095945,"unit":"ug/m3"},"pm25":{"value":452.6939871780166,"unit":"ug/m3"},"pm10":{"value":195.5197245062138,"unit":"ug/m3"},"formaldehyde":{"value":0.7451650821376696,"unit":"mg/m3"},"temperature":{"value":4.319532639271049,"unit":"°C"},"humidity":{"value":28.120822560986824,"unit":"%"}}},{"deviceId":0,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.445160307890255,"direction":"N"},"longitiude":{"value":19.565847469291974,"direction":"E"}},"results":{"pm1":{"value":386.06215822288937,"unit":"ug/m3"},"pm25":{"value":487.0395505307007,"unit":"ug/m3"},"pm10":{"value":331.3832552119467,"unit":"ug/m3"},"formaldehyde":{"value":1.3572831140755368,"unit":"mg/m3"},"temperature":{"value":65.88945395040187,"unit":"°C"},"humidity":{"value":2.711879987513499,"unit":"%"}}},{"deviceId":2,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.199522538562924,"direction":"N"},"longitiude":{"value":19.056140471714514,"direction":"E"}},"results":{"pm1":{"value":249.1546504574762,"unit":"ug/m3"},"pm25":{"value":28.998698240223607,"unit":"ug/m3"},"pm10":{"value":120.75968523051905,"unit":"ug/m3"},"formaldehyde":{"value":0.0943703291643545,"unit":"mg/m3"},"temperature":{"value":47.37784822816181,"unit":"°C"},"humidity":{"value":44.64865732459451,"unit":"%"}}},{"deviceId":1,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.433103541899484,"direction":"N"},"longitiude":{"value":19.053373139282883,"direction":"E"}},"results":{"pm1":{"value":191.37753611131592,"unit":"ug/m3"},"pm25":{"value":258.9300917810193,"unit":"ug/m3"},"pm10":{"value":359.67722084857667,"unit":"ug/m3"},"formaldehyde":{"value":0.2984046822005406,"unit":"mg/m3"},"temperature":{"value":37.60504716863756,"unit":"°C"},"humidity":{"value":53.87006965169887,"unit":"%"}}},{"deviceId":1,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.728173615428574,"direction":"N"},"longitiude":{"value":19.236742468470595,"direction":"E"}},"results":{"pm1":{"value":446.95658304879925,"unit":"ug/m3"},"pm25":{"value":187.04633705021158,"unit":"ug/m3"},"pm10":{"value":353.58764491938365,"unit":"ug/m3"},"formaldehyde":{"value":1.3116410257412587,"unit":"mg/m3"},"temperature":{"value":-14.913713083904744,"unit":"°C"},"humidity":{"value":34.385490182760535,"unit":"%"}}},{"deviceId":2,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.69675737801327,"direction":"N"},"longitiude":{"value":19.240018479082348,"direction":"E"}},"results":{"pm1":{"value":40.542689756820074,"unit":"ug/m3"},"pm25":{"value":23.619518670539573,"unit":"ug/m3"},"pm10":{"value":273.875448241695,"unit":"ug/m3"},"formaldehyde":{"value":1.792772024590739,"unit":"mg/m3"},"temperature":{"value":59.19035506052147,"unit":"°C"},"humidity":{"value":54.38405579854615,"unit":"%"}}},{"deviceId":0,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.87466968811331,"direction":"N"},"longitiude":{"value":19.02361627855211,"direction":"E"}},"results":{"pm1":{"value":398.8138062277269,"unit":"ug/m3"},"pm25":{"value":77.2959377639234,"unit":"ug/m3"},"pm10":{"value":228.5886460307883,"unit":"ug/m3"},"formaldehyde":{"value":0.6616873485841501,"unit":"mg/m3"},"temperature":{"value":4.695609303160456,"unit":"°C"},"humidity":{"value":88.69892379189042,"unit":"%"}}},{"deviceId":0,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.78473317242059,"direction":"N"},"longitiude":{"value":19.552247348244833,"direction":"E"}},"results":{"pm1":{"value":375.69570401415933,"unit":"ug/m3"},"pm25":{"value":221.6361921330744,"unit":"ug/m3"},"pm10":{"value":150.46188335910082,"unit":"ug/m3"},"formaldehyde":{"value":0.8769012309220963,"unit":"mg/m3"},"temperature":{"value":75.69377175308989,"unit":"°C"},"humidity":{"value":25.42937555882179,"unit":"%"}}},{"deviceId":1,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.06378112280302,"direction":"N"},"longitiude":{"value":19.69248998094601,"direction":"E"}},"results":{"pm1":{"value":383.0891318973979,"unit":"ug/m3"},"pm25":{"value":0.5587967331495136,"unit":"ug/m3"},"pm10":{"value":53.220993318957795,"unit":"ug/m3"},"formaldehyde":{"value":0.7965043245090127,"unit":"mg/m3"},"temperature":{"value":60.36826697257679,"unit":"°C"},"humidity":{"value":59.839242162529914,"unit":"%"}}},{"deviceId":0,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.575615508134156,"direction":"N"},"longitiude":{"value":19.94943971373067,"direction":"E"}},"results":{"pm1":{"value":28.12562484226344,"unit":"ug/m3"},"pm25":{"value":353.7248620591064,"unit":"ug/m3"},"pm10":{"value":387.88440102154567,"unit":"ug/m3"},"formaldehyde":{"value":1.4721325981986695,"unit":"mg/m3"},"temperature":{"value":91.00658222401796,"unit":"°C"},"humidity":{"value":43.15258518814675,"unit":"%"}}},{"deviceId":3,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.39837751590781,"direction":"N"},"longitiude":{"value":19.777922846516002,"direction":"E"}},"results":{"pm1":{"value":488.52381553736666,"unit":"ug/m3"},"pm25":{"value":8.44687757125473,"unit":"ug/m3"},"pm10":{"value":256.18538031959406,"unit":"ug/m3"},"formaldehyde":{"value":1.0735964837255905,"unit":"mg/m3"},"temperature":{"value":13.502424109107949,"unit":"°C"},"humidity":{"value":97.18128706713571,"unit":"%"}}},{"deviceId":0,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.959171024272976,"direction":"N"},"longitiude":{"value":19.73017989816097,"direction":"E"}},"results":{"pm1":{"value":225.9065931275347,"unit":"ug/m3"},"pm25":{"value":269.9104001084389,"unit":"ug/m3"},"pm10":{"value":484.0713672405551,"unit":"ug/m3"},"formaldehyde":{"value":1.2748152578436938,"unit":"mg/m3"},"temperature":{"value":52.46769018236448,"unit":"°C"},"humidity":{"value":38.26089324328264,"unit":"%"}}},{"deviceId":1,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.464289536978406,"direction":"N"},"longitiude":{"value":19.908772495681767,"direction":"E"}},"results":{"pm1":{"value":355.86450908524347,"unit":"ug/m3"},"pm25":{"value":368.22211997757756,"unit":"ug/m3"},"pm10":{"value":45.74238258299334,"unit":"ug/m3"},"formaldehyde":{"value":1.9366026169981643,"unit":"mg/m3"},"temperature":{"value":-13.609536214512445,"unit":"°C"},"humidity":{"value":87.23335056202477,"unit":"%"}}},{"deviceId":4,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.46332727047983,"direction":"N"},"longitiude":{"value":19.481855777713935,"direction":"E"}},"results":{"pm1":{"value":386.3472489688653,"unit":"ug/m3"},"pm25":{"value":151.86061806656005,"unit":"ug/m3"},"pm10":{"value":281.7217684877634,"unit":"ug/m3"},"formaldehyde":{"value":0.22274251048599014,"unit":"mg/m3"},"temperature":{"value":-4.673595814363447,"unit":"°C"},"humidity":{"value":69.83394149006246,"unit":"%"}}},{"deviceId":0,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.42601653013215,"direction":"N"},"longitiude":{"value":19.404939496430096,"direction":"E"}},"results":{"pm1":{"value":370.28725470042514,"unit":"ug/m3"},"pm25":{"value":179.951608188481,"unit":"ug/m3"},"pm10":{"value":86.13388746184913,"unit":"ug/m3"},"formaldehyde":{"value":0.2937036150007377,"unit":"mg/m3"},"temperature":{"value":26.477103538385094,"unit":"°C"},"humidity":{"value":12.403331468460177,"unit":"%"}}},{"deviceId":3,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.89015593754036,"direction":"N"},"longitiude":{"value":19.08762429182891,"direction":"E"}},"results":{"pm1":{"value":5.5516408008287055,"unit":"ug/m3"},"pm25":{"value":350.58189725293397,"unit":"ug/m3"},"pm10":{"value":164.77244273863977,"unit":"ug/m3"},"formaldehyde":{"value":0.2392045274480239,"unit":"mg/m3"},"temperature":{"value":-18.754870758551082,"unit":"°C"},"humidity":{"value":31.7078176268637,"unit":"%"}}},{"deviceId":2,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.685508922862844,"direction":"N"},"longitiude":{"value":19.209916706454383,"direction":"E"}},"results":{"pm1":{"value":432.39314537782,"unit":"ug/m3"},"pm25":{"value":161.50167992592534,"unit":"ug/m3"},"pm10":{"value":496.58428468047,"unit":"ug/m3"},"formaldehyde":{"value":1.6529929313516947,"unit":"mg/m3"},"temperature":{"value":1.151579186647421,"unit":"°C"},"humidity":{"value":60.26439952372515,"unit":"%"}}},{"deviceId":3,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.25061876058096,"direction":"N"},"longitiude":{"value":19.419102035859506,"direction":"E"}},"results":{"pm1":{"value":51.08207072772575,"unit":"ug/m3"},"pm25":{"value":361.89305503480983,"unit":"ug/m3"},"pm10":{"value":342.56965257685533,"unit":"ug/m3"},"formaldehyde":{"value":1.0703228039512638,"unit":"mg/m3"},"temperature":{"value":20.500881886605455,"unit":"°C"},"humidity":{"value":97.47938093564399,"unit":"%"}}},{"deviceId":0,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.382427258428436,"direction":"N"},"longitiude":{"value":19.691090765215378,"direction":"E"}},"results":{"pm1":{"value":358.1440739869716,"unit":"ug/m3"},"pm25":{"value":130.40967398509585,"unit":"ug/m3"},"pm10":{"value":197.10414728779523,"unit":"ug/m3"},"formaldehyde":{"value":1.405072525786775,"unit":"mg/m3"},"temperature":{"value":3.5825070195119295,"unit":"°C"},"humidity":{"value":14.15844840431475,"unit":"%"}}},{"deviceId":2,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.237596734957755,"direction":"N"},"longitiude":{"value":19.34683887610992,"direction":"E"}},"results":{"pm1":{"value":133.238741838114,"unit":"ug/m3"},"pm25":{"value":173.37206450687214,"unit":"ug/m3"},"pm10":{"value":385.1899253088299,"unit":"ug/m3"},"formaldehyde":{"value":0.021719175058907414,"unit":"mg/m3"},"temperature":{"value":59.84088009834848,"unit":"°C"},"humidity":{"value":9.362486721314367,"unit":"%"}}},{"deviceId":3,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.83878359598073,"direction":"N"},"longitiude":{"value":19.642285278418637,"direction":"E"}},"results":{"pm1":{"value":35.81188313606343,"unit":"ug/m3"},"pm25":{"value":346.0445838638506,"unit":"ug/m3"},"pm10":{"value":244.03142149614067,"unit":"ug/m3"},"formaldehyde":{"value":0.1623482019502882,"unit":"mg/m3"},"temperature":{"value":72.51415800507868,"unit":"°C"},"humidity":{"value":53.78004258205274,"unit":"%"}}},{"deviceId":0,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.24937315919968,"direction":"N"},"longitiude":{"value":19.14956199892017,"direction":"E"}},"results":{"pm1":{"value":363.07786629328785,"unit":"ug/m3"},"pm25":{"value":105.39355064935185,"unit":"ug/m3"},"pm10":{"value":294.9920250988618,"unit":"ug/m3"},"formaldehyde":{"value":0.7480857395405618,"unit":"mg/m3"},"temperature":{"value":11.90315859445678,"unit":"°C"},"humidity":{"value":44.13378726827823,"unit":"%"}}},{"deviceId":3,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.97985062578898,"direction":"N"},"longitiude":{"value":19.213670129469694,"direction":"E"}},"results":{"pm1":{"value":170.18510926432197,"unit":"ug/m3"},"pm25":{"value":117.5623591547319,"unit":"ug/m3"},"pm10":{"value":121.39258612732395,"unit":"ug/m3"},"formaldehyde":{"value":0.09318172889262222,"unit":"mg/m3"},"temperature":{"value":64.70727545499908,"unit":"°C"},"humidity":{"value":56.29941403163492,"unit":"%"}}},{"deviceId":1,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.74518668078367,"direction":"N"},"longitiude":{"value":19.29978288530071,"direction":"E"}},"results":{"pm1":{"value":164.47432402428973,"unit":"ug/m3"},"pm25":{"value":383.7933685541458,"unit":"ug/m3"},"pm10":{"value":328.0806136532307,"unit":"ug/m3"},"formaldehyde":{"value":0.3269380991992823,"unit":"mg/m3"},"temperature":{"value":-17.825974233186933,"unit":"°C"},"humidity":{"value":53.567605109610895,"unit":"%"}}},{"deviceId":0,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.57416402550707,"direction":"N"},"longitiude":{"value":19.261797149908126,"direction":"E"}},"results":{"pm1":{"value":102.20405284650325,"unit":"ug/m3"},"pm25":{"value":496.3904937622653,"unit":"ug/m3"},"pm10":{"value":109.29349485710449,"unit":"ug/m3"},"formaldehyde":{"value":1.8656087741306013,"unit":"mg/m3"},"temperature":{"value":-16.366318775595076,"unit":"°C"},"humidity":{"value":52.27552107185301,"unit":"%"}}},{"deviceId":3,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.95215081087185,"direction":"N"},"longitiude":{"value":19.614620068408904,"direction":"E"}},"results":{"pm1":{"value":472.6542512352664,"unit":"ug/m3"},"pm25":{"value":197.99154588121192,"unit":"ug/m3"},"pm10":{"value":367.90292188514474,"unit":"ug/m3"},"formaldehyde":{"value":0.07630890240309318,"unit":"mg/m3"},"temperature":{"value":-19.415339246171786,"unit":"°C"},"humidity":{"value":88.72815486900618,"unit":"%"}}},{"deviceId":0,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.125497506994286,"direction":"N"},"longitiude":{"value":19.70826346667728,"direction":"E"}},"results":{"pm1":{"value":87.11531958267283,"unit":"ug/m3"},"pm25":{"value":276.0353138881974,"unit":"ug/m3"},"pm10":{"value":366.7983868578497,"unit":"ug/m3"},"formaldehyde":{"value":0.8172901308259117,"unit":"mg/m3"},"temperature":{"value":-18.803591137976294,"unit":"°C"},"humidity":{"value":11.541622565246756,"unit":"%"}}},{"deviceId":1,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.0699036763794,"direction":"N"},"longitiude":{"value":19.678008685334323,"direction":"E"}},"results":{"pm1":{"value":395.8487924117533,"unit":"ug/m3"},"pm25":{"value":345.622872191558,"unit":"ug/m3"},"pm10":{"value":331.97818582798334,"unit":"ug/m3"},"formaldehyde":{"value":0.9130457659485227,"unit":"mg/m3"},"temperature":{"value":63.7710866207824,"unit":"°C"},"humidity":{"value":8.136954725187827,"unit":"%"}}},{"deviceId":3,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.5101825946459,"direction":"N"},"longitiude":{"value":19.37672718378785,"direction":"E"}},"results":{"pm1":{"value":300.2198800480356,"unit":"ug/m3"},"pm25":{"value":59.06366755559067,"unit":"ug/m3"},"pm10":{"value":376.0576268082353,"unit":"ug/m3"},"formaldehyde":{"value":1.0948961003792292,"unit":"mg/m3"},"temperature":{"value":22.349771218725294,"unit":"°C"},"humidity":{"value":58.10650919188416,"unit":"%"}}},{"deviceId":1,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.053034272828405,"direction":"N"},"longitiude":{"value":19.252738991575065,"direction":"E"}},"results":{"pm1":{"value":397.3563259620795,"unit":"ug/m3"},"pm25":{"value":384.2821586155435,"unit":"ug/m3"},"pm10":{"value":11.294278621827193,"unit":"ug/m3"},"formaldehyde":{"value":1.8281306402146922,"unit":"mg/m3"},"temperature":{"value":96.07799898208071,"unit":"°C"},"humidity":{"value":29.512915056500866,"unit":"%"}}},{"deviceId":2,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.780898051214784,"direction":"N"},"longitiude":{"value":19.788519752081378,"direction":"E"}},"results":{"pm1":{"value":143.3348221418257,"unit":"ug/m3"},"pm25":{"value":265.7922529939523,"unit":"ug/m3"},"pm10":{"value":320.438842809644,"unit":"ug/m3"},"formaldehyde":{"value":0.08294059396657438,"unit":"mg/m3"},"temperature":{"value":72.16111603070397,"unit":"°C"},"humidity":{"value":56.986711560208846,"unit":"%"}}},{"deviceId":3,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.569019607281724,"direction":"N"},"longitiude":{"value":19.683198070746734,"direction":"E"}},"results":{"pm1":{"value":14.172312648498831,"unit":"ug/m3"},"pm25":{"value":464.6959944325818,"unit":"ug/m3"},"pm10":{"value":216.89226167859633,"unit":"ug/m3"},"formaldehyde":{"value":0.6919465433607028,"unit":"mg/m3"},"temperature":{"value":-18.30490991803404,"unit":"°C"},"humidity":{"value":79.45886713304928,"unit":"%"}}},{"deviceId":3,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.881737475478445,"direction":"N"},"longitiude":{"value":19.71046657985652,"direction":"E"}},"results":{"pm1":{"value":13.228018934111073,"unit":"ug/m3"},"pm25":{"value":3.241253139963707,"unit":"ug/m3"},"pm10":{"value":22.07517332838782,"unit":"ug/m3"},"formaldehyde":{"value":1.373071498938951,"unit":"mg/m3"},"temperature":{"value":67.56128180477745,"unit":"°C"},"humidity":{"value":34.5413950752542,"unit":"%"}}},{"deviceId":2,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.62241239568169,"direction":"N"},"longitiude":{"value":19.26518542279971,"direction":"E"}},"results":{"pm1":{"value":62.52923422483292,"unit":"ug/m3"},"pm25":{"value":140.2627558397307,"unit":"ug/m3"},"pm10":{"value":38.05923016415513,"unit":"ug/m3"},"formaldehyde":{"value":0.32007749566068133,"unit":"mg/m3"},"temperature":{"value":-17.251424612600587,"unit":"°C"},"humidity":{"value":24.460394700536735,"unit":"%"}}},{"deviceId":1,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.34036578516552,"direction":"N"},"longitiude":{"value":19.91423451343328,"direction":"E"}},"results":{"pm1":{"value":467.69890780356536,"unit":"ug/m3"},"pm25":{"value":320.52489321777864,"unit":"ug/m3"},"pm10":{"value":117.53639587614384,"unit":"ug/m3"},"formaldehyde":{"value":0.5609624737714234,"unit":"mg/m3"},"temperature":{"value":50.59823173065884,"unit":"°C"},"humidity":{"value":35.68831697785384,"unit":"%"}}},{"deviceId":3,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.48242248382805,"direction":"N"},"longitiude":{"value":19.958394145980083,"direction":"E"}},"results":{"pm1":{"value":4.804397318990294,"unit":"ug/m3"},"pm25":{"value":147.70172580343032,"unit":"ug/m3"},"pm10":{"value":402.5757081784623,"unit":"ug/m3"},"formaldehyde":{"value":1.118106861831348,"unit":"mg/m3"},"temperature":{"value":47.03838045579711,"unit":"°C"},"humidity":{"value":77.65441328624674,"unit":"%"}}},{"deviceId":4,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.45045354453786,"direction":"N"},"longitiude":{"value":19.045487102340267,"direction":"E"}},"results":{"pm1":{"value":450.5439882096499,"unit":"ug/m3"},"pm25":{"value":186.0158148696317,"unit":"ug/m3"},"pm10":{"value":412.7775076218289,"unit":"ug/m3"},"formaldehyde":{"value":0.08958081232796955,"unit":"mg/m3"},"temperature":{"value":25.11309685740744,"unit":"°C"},"humidity":{"value":58.721980380670956,"unit":"%"}}},{"deviceId":4,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.67412635044181,"direction":"N"},"longitiude":{"value":19.39003365114059,"direction":"E"}},"results":{"pm1":{"value":273.2782869532673,"unit":"ug/m3"},"pm25":{"value":111.33836529014162,"unit":"ug/m3"},"pm10":{"value":130.25048154341835,"unit":"ug/m3"},"formaldehyde":{"value":0.326897708919089,"unit":"mg/m3"},"temperature":{"value":12.865854060731508,"unit":"°C"},"humidity":{"value":15.901983121917528,"unit":"%"}}},{"deviceId":4,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.20159582079965,"direction":"N"},"longitiude":{"value":19.357803945962154,"direction":"E"}},"results":{"pm1":{"value":225.92409094458088,"unit":"ug/m3"},"pm25":{"value":473.5893099418055,"unit":"ug/m3"},"pm10":{"value":159.76661689176964,"unit":"ug/m3"},"formaldehyde":{"value":1.3313677808709619,"unit":"mg/m3"},"temperature":{"value":89.58611524090671,"unit":"°C"},"humidity":{"value":74.9612033257478,"unit":"%"}}},{"deviceId":0,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.14078518743817,"direction":"N"},"longitiude":{"value":19.587651682937643,"direction":"E"}},"results":{"pm1":{"value":364.525150211053,"unit":"ug/m3"},"pm25":{"value":252.02969622495053,"unit":"ug/m3"},"pm10":{"value":22.568211403755978,"unit":"ug/m3"},"formaldehyde":{"value":1.2656678792263736,"unit":"mg/m3"},"temperature":{"value":38.76552266660618,"unit":"°C"},"humidity":{"value":35.84893336814285,"unit":"%"}}},{"deviceId":1,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.00891507534694,"direction":"N"},"longitiude":{"value":19.99425038489015,"direction":"E"}},"results":{"pm1":{"value":106.39773905104866,"unit":"ug/m3"},"pm25":{"value":52.239215701947,"unit":"ug/m3"},"pm10":{"value":20.39239408861382,"unit":"ug/m3"},"formaldehyde":{"value":0.45863980540668514,"unit":"mg/m3"},"temperature":{"value":81.78266085542217,"unit":"°C"},"humidity":{"value":43.104455014358976,"unit":"%"}}},{"deviceId":2,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.550177394019855,"direction":"N"},"longitiude":{"value":19.39397696326302,"direction":"E"}},"results":{"pm1":{"value":356.4440085790985,"unit":"ug/m3"},"pm25":{"value":433.4706623776526,"unit":"ug/m3"},"pm10":{"value":5.629124434074262,"unit":"ug/m3"},"formaldehyde":{"value":0.05518534614324855,"unit":"mg/m3"},"temperature":{"value":-3.977985929386687,"unit":"°C"},"humidity":{"value":97.60131421283896,"unit":"%"}}},{"deviceId":3,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.639053450747404,"direction":"N"},"longitiude":{"value":19.192849306330608,"direction":"E"}},"results":{"pm1":{"value":105.71812804745551,"unit":"ug/m3"},"pm25":{"value":195.81136853633907,"unit":"ug/m3"},"pm10":{"value":430.1536268236192,"unit":"ug/m3"},"formaldehyde":{"value":1.9687620340619953,"unit":"mg/m3"},"temperature":{"value":-8.328915213360776,"unit":"°C"},"humidity":{"value":85.22283145855218,"unit":"%"}}},{"deviceId":3,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.7497127049411,"direction":"N"},"longitiude":{"value":19.956647235345017,"direction":"E"}},"results":{"pm1":{"value":132.01868913398306,"unit":"ug/m3"},"pm25":{"value":119.802777242486,"unit":"ug/m3"},"pm10":{"value":130.27883973228194,"unit":"ug/m3"},"formaldehyde":{"value":0.2970494920644273,"unit":"mg/m3"},"temperature":{"value":96.07723040473728,"unit":"°C"},"humidity":{"value":0.057028606932307824,"unit":"%"}}},{"deviceId":3,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.3182004795787,"direction":"N"},"longitiude":{"value":19.778161875934178,"direction":"E"}},"results":{"pm1":{"value":3.3461796159655055,"unit":"ug/m3"},"pm25":{"value":185.5429343083189,"unit":"ug/m3"},"pm10":{"value":306.893692105579,"unit":"ug/m3"},"formaldehyde":{"value":0.7556319597190604,"unit":"mg/m3"},"temperature":{"value":44.91883429640285,"unit":"°C"},"humidity":{"value":53.016525793067615,"unit":"%"}}},{"deviceId":2,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.54378598348893,"direction":"N"},"longitiude":{"value":19.339292441297715,"direction":"E"}},"results":{"pm1":{"value":117.36085689942455,"unit":"ug/m3"},"pm25":{"value":43.87666066519014,"unit":"ug/m3"},"pm10":{"value":477.3956298807086,"unit":"ug/m3"},"formaldehyde":{"value":0.983388040387347,"unit":"mg/m3"},"temperature":{"value":53.07986803023137,"unit":"°C"},"humidity":{"value":80.58432705588716,"unit":"%"}}},{"deviceId":2,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.54719475870627,"direction":"N"},"longitiude":{"value":19.134603281223114,"direction":"E"}},"results":{"pm1":{"value":68.63860349350792,"unit":"ug/m3"},"pm25":{"value":229.99021465224857,"unit":"ug/m3"},"pm10":{"value":140.17147907249705,"unit":"ug/m3"},"formaldehyde":{"value":1.136014642425058,"unit":"mg/m3"},"temperature":{"value":92.67323306773055,"unit":"°C"},"humidity":{"value":37.825334060393104,"unit":"%"}}},{"deviceId":4,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.01497774448411,"direction":"N"},"longitiude":{"value":19.11136876728882,"direction":"E"}},"results":{"pm1":{"value":184.37890585683647,"unit":"ug/m3"},"pm25":{"value":56.55133092082099,"unit":"ug/m3"},"pm10":{"value":219.6925463906384,"unit":"ug/m3"},"formaldehyde":{"value":1.5186013469732371,"unit":"mg/m3"},"temperature":{"value":80.03607646156723,"unit":"°C"},"humidity":{"value":66.24722307877285,"unit":"%"}}},{"deviceId":1,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.846961455114304,"direction":"N"},"longitiude":{"value":19.487356179909465,"direction":"E"}},"results":{"pm1":{"value":53.89424832797551,"unit":"ug/m3"},"pm25":{"value":212.44644029569304,"unit":"ug/m3"},"pm10":{"value":454.2245278882858,"unit":"ug/m3"},"formaldehyde":{"value":0.3429788529817017,"unit":"mg/m3"},"temperature":{"value":17.82684379073121,"unit":"°C"},"humidity":{"value":20.929608568570757,"unit":"%"}}},{"deviceId":4,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.78492820168181,"direction":"N"},"longitiude":{"value":19.123178375674744,"direction":"E"}},"results":{"pm1":{"value":84.64361264392362,"unit":"ug/m3"},"pm25":{"value":231.21701744409884,"unit":"ug/m3"},"pm10":{"value":342.8154238235087,"unit":"ug/m3"},"formaldehyde":{"value":1.9982352801540246,"unit":"mg/m3"},"temperature":{"value":21.02366615143626,"unit":"°C"},"humidity":{"value":5.708959063476238,"unit":"%"}}},{"deviceId":2,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.26673195868978,"direction":"N"},"longitiude":{"value":19.341296411034538,"direction":"E"}},"results":{"pm1":{"value":73.00728967764381,"unit":"ug/m3"},"pm25":{"value":181.2472168854301,"unit":"ug/m3"},"pm10":{"value":382.6843920454418,"unit":"ug/m3"},"formaldehyde":{"value":1.228073652484294,"unit":"mg/m3"},"temperature":{"value":17.69950516960101,"unit":"°C"},"humidity":{"value":14.30281923711898,"unit":"%"}}},{"deviceId":3,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.10336406324327,"direction":"N"},"longitiude":{"value":19.793108990127973,"direction":"E"}},"results":{"pm1":{"value":192.93589382721532,"unit":"ug/m3"},"pm25":{"value":309.92386566868004,"unit":"ug/m3"},"pm10":{"value":193.65776074821116,"unit":"ug/m3"},"formaldehyde":{"value":0.4630687887913232,"unit":"mg/m3"},"temperature":{"value":72.62920940279457,"unit":"°C"},"humidity":{"value":23.586700159086725,"unit":"%"}}},{"deviceId":4,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.91417250532489,"direction":"N"},"longitiude":{"value":19.207832179757844,"direction":"E"}},"results":{"pm1":{"value":437.1710179104271,"unit":"ug/m3"},"pm25":{"value":325.2668978319042,"unit":"ug/m3"},"pm10":{"value":240.96345520535112,"unit":"ug/m3"},"formaldehyde":{"value":1.9878601494334527,"unit":"mg/m3"},"temperature":{"value":18.73558193460979,"unit":"°C"},"humidity":{"value":48.28033602982249,"unit":"%"}}},{"deviceId":2,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.5433296822819,"direction":"N"},"longitiude":{"value":19.407649609401318,"direction":"E"}},"results":{"pm1":{"value":428.9548300487945,"unit":"ug/m3"},"pm25":{"value":237.8391037237121,"unit":"ug/m3"},"pm10":{"value":204.8774520289004,"unit":"ug/m3"},"formaldehyde":{"value":1.1907039062397673,"unit":"mg/m3"},"temperature":{"value":86.60605435834962,"unit":"°C"},"humidity":{"value":26.26532442715872,"unit":"%"}}},{"deviceId":0,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.83704639301218,"direction":"N"},"longitiude":{"value":19.782779097389078,"direction":"E"}},"results":{"pm1":{"value":407.0053471416924,"unit":"ug/m3"},"pm25":{"value":356.67118115420317,"unit":"ug/m3"},"pm10":{"value":60.12670416971033,"unit":"ug/m3"},"formaldehyde":{"value":0.5995832253786579,"unit":"mg/m3"},"temperature":{"value":-17.763694440173587,"unit":"°C"},"humidity":{"value":31.117157206126777,"unit":"%"}}},{"deviceId":4,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.92607900408334,"direction":"N"},"longitiude":{"value":19.895546439053643,"direction":"E"}},"results":{"pm1":{"value":470.61592167433065,"unit":"ug/m3"},"pm25":{"value":287.2235835289861,"unit":"ug/m3"},"pm10":{"value":44.720369192557065,"unit":"ug/m3"},"formaldehyde":{"value":1.770137155843035,"unit":"mg/m3"},"temperature":{"value":94.82031868558326,"unit":"°C"},"humidity":{"value":83.9248091745065,"unit":"%"}}},{"deviceId":0,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.59532675637398,"direction":"N"},"longitiude":{"value":19.80585630487703,"direction":"E"}},"results":{"pm1":{"value":57.84795339006177,"unit":"ug/m3"},"pm25":{"value":458.4351258378381,"unit":"ug/m3"},"pm10":{"value":61.01487967170627,"unit":"ug/m3"},"formaldehyde":{"value":0.3348286230671498,"unit":"mg/m3"},"temperature":{"value":18.04122763213398,"unit":"°C"},"humidity":{"value":79.20529987360507,"unit":"%"}}},{"deviceId":0,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.95531054465928,"direction":"N"},"longitiude":{"value":19.43369786205121,"direction":"E"}},"results":{"pm1":{"value":467.8193003411202,"unit":"ug/m3"},"pm25":{"value":336.7414979956531,"unit":"ug/m3"},"pm10":{"value":71.50641256499912,"unit":"ug/m3"},"formaldehyde":{"value":1.0409853348485676,"unit":"mg/m3"},"temperature":{"value":53.56912383242357,"unit":"°C"},"humidity":{"value":85.99946780410971,"unit":"%"}}},{"deviceId":3,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.828211183056304,"direction":"N"},"longitiude":{"value":19.529590928704998,"direction":"E"}},"results":{"pm1":{"value":191.27823118001075,"unit":"ug/m3"},"pm25":{"value":202.3438477495455,"unit":"ug/m3"},"pm10":{"value":127.48934186250949,"unit":"ug/m3"},"formaldehyde":{"value":1.7176773542091537,"unit":"mg/m3"},"temperature":{"value":-8.608228650850378,"unit":"°C"},"humidity":{"value":49.20138426618279,"unit":"%"}}},{"deviceId":2,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.8085412805218,"direction":"N"},"longitiude":{"value":19.244201852704443,"direction":"E"}},"results":{"pm1":{"value":284.42209211396454,"unit":"ug/m3"},"pm25":{"value":111.7061285137706,"unit":"ug/m3"},"pm10":{"value":457.70104236641,"unit":"ug/m3"},"formaldehyde":{"value":1.9994399352904177,"unit":"mg/m3"},"temperature":{"value":1.5992455214941614,"unit":"°C"},"humidity":{"value":93.52148507096835,"unit":"%"}}},{"deviceId":3,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.78433020637544,"direction":"N"},"longitiude":{"value":19.7741585195264,"direction":"E"}},"results":{"pm1":{"value":157.89838466243833,"unit":"ug/m3"},"pm25":{"value":52.42589449079005,"unit":"ug/m3"},"pm10":{"value":112.07066046602243,"unit":"ug/m3"},"formaldehyde":{"value":1.3209108159954273,"unit":"mg/m3"},"temperature":{"value":35.77854063518361,"unit":"°C"},"humidity":{"value":80.33862106091314,"unit":"%"}}},{"deviceId":1,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.1081229697131,"direction":"N"},"longitiude":{"value":19.593355886313752,"direction":"E"}},"results":{"pm1":{"value":392.5697401803739,"unit":"ug/m3"},"pm25":{"value":239.2109210686477,"unit":"ug/m3"},"pm10":{"value":332.38410731550374,"unit":"ug/m3"},"formaldehyde":{"value":1.4151839051636101,"unit":"mg/m3"},"temperature":{"value":66.235330472081,"unit":"°C"},"humidity":{"value":84.84911432686424,"unit":"%"}}},{"deviceId":2,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.618934556358276,"direction":"N"},"longitiude":{"value":19.038519112442312,"direction":"E"}},"results":{"pm1":{"value":43.81039354519356,"unit":"ug/m3"},"pm25":{"value":434.12317063842033,"unit":"ug/m3"},"pm10":{"value":4.128529223112021,"unit":"ug/m3"},"formaldehyde":{"value":1.0894683676387409,"unit":"mg/m3"},"temperature":{"value":80.31207450265987,"unit":"°C"},"humidity":{"value":15.920113254034018,"unit":"%"}}},{"deviceId":2,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.42982908607739,"direction":"N"},"longitiude":{"value":19.465147916353878,"direction":"E"}},"results":{"pm1":{"value":188.59122599907496,"unit":"ug/m3"},"pm25":{"value":81.35266611032577,"unit":"ug/m3"},"pm10":{"value":483.15475987619163,"unit":"ug/m3"},"formaldehyde":{"value":0.8454454823056312,"unit":"mg/m3"},"temperature":{"value":35.109604248672504,"unit":"°C"},"humidity":{"value":68.94174073699789,"unit":"%"}}},{"deviceId":2,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.79451359144908,"direction":"N"},"longitiude":{"value":19.948519060992037,"direction":"E"}},"results":{"pm1":{"value":171.90636310746777,"unit":"ug/m3"},"pm25":{"value":286.87273889853714,"unit":"ug/m3"},"pm10":{"value":3.3235078514205485,"unit":"ug/m3"},"formaldehyde":{"value":1.36683791629022,"unit":"mg/m3"},"temperature":{"value":5.028385926399359,"unit":"°C"},"humidity":{"value":43.72426474343931,"unit":"%"}}},{"deviceId":2,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.97326470909593,"direction":"N"},"longitiude":{"value":19.75051734312956,"direction":"E"}},"results":{"pm1":{"value":154.13537253492237,"unit":"ug/m3"},"pm25":{"value":35.08838668905578,"unit":"ug/m3"},"pm10":{"value":465.27391004315155,"unit":"ug/m3"},"formaldehyde":{"value":0.37665182673227804,"unit":"mg/m3"},"temperature":{"value":92.6384822057426,"unit":"°C"},"humidity":{"value":17.211514193076958,"unit":"%"}}},{"deviceId":0,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.83040201529011,"direction":"N"},"longitiude":{"value":19.697593008774838,"direction":"E"}},"results":{"pm1":{"value":21.84923449293985,"unit":"ug/m3"},"pm25":{"value":393.1012423465986,"unit":"ug/m3"},"pm10":{"value":416.1118174347136,"unit":"ug/m3"},"formaldehyde":{"value":1.9845754883853872,"unit":"mg/m3"},"temperature":{"value":70.68056941638923,"unit":"°C"},"humidity":{"value":21.02043123382591,"unit":"%"}}},{"deviceId":0,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.622264121399084,"direction":"N"},"longitiude":{"value":19.516778849062938,"direction":"E"}},"results":{"pm1":{"value":369.8442494714642,"unit":"ug/m3"},"pm25":{"value":22.385368395663296,"unit":"ug/m3"},"pm10":{"value":446.2248915962822,"unit":"ug/m3"},"formaldehyde":{"value":0.07497815334610936,"unit":"mg/m3"},"temperature":{"value":96.27294554611959,"unit":"°C"},"humidity":{"value":78.85122428026227,"unit":"%"}}},{"deviceId":4,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.5379044606941,"direction":"N"},"longitiude":{"value":19.030282919278708,"direction":"E"}},"results":{"pm1":{"value":256.66404044727943,"unit":"ug/m3"},"pm25":{"value":140.89430580103922,"unit":"ug/m3"},"pm10":{"value":426.34373452006525,"unit":"ug/m3"},"formaldehyde":{"value":1.538858694482641,"unit":"mg/m3"},"temperature":{"value":72.37492265764864,"unit":"°C"},"humidity":{"value":98.81626304232647,"unit":"%"}}},{"deviceId":4,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.76040249738674,"direction":"N"},"longitiude":{"value":19.397912958849567,"direction":"E"}},"results":{"pm1":{"value":80.92555156671632,"unit":"ug/m3"},"pm25":{"value":26.89709648291516,"unit":"ug/m3"},"pm10":{"value":151.1251525180286,"unit":"ug/m3"},"formaldehyde":{"value":0.5080194465604673,"unit":"mg/m3"},"temperature":{"value":67.07818388672547,"unit":"°C"},"humidity":{"value":5.669069208361277,"unit":"%"}}},{"deviceId":1,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.13141058290626,"direction":"N"},"longitiude":{"value":19.305522976610533,"direction":"E"}},"results":{"pm1":{"value":255.07423620656732,"unit":"ug/m3"},"pm25":{"value":392.06834972012683,"unit":"ug/m3"},"pm10":{"value":26.565210730510103,"unit":"ug/m3"},"formaldehyde":{"value":1.6066919770486399,"unit":"mg/m3"},"temperature":{"value":17.495817232091035,"unit":"°C"},"humidity":{"value":29.41313052881982,"unit":"%"}}},{"deviceId":0,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.30241876200594,"direction":"N"},"longitiude":{"value":19.780304848587598,"direction":"E"}},"results":{"pm1":{"value":322.9242951615576,"unit":"ug/m3"},"pm25":{"value":356.19122388460977,"unit":"ug/m3"},"pm10":{"value":387.5024751121413,"unit":"ug/m3"},"formaldehyde":{"value":1.581943446976831,"unit":"mg/m3"},"temperature":{"value":14.287678022059602,"unit":"°C"},"humidity":{"value":16.384129760084786,"unit":"%"}}},{"deviceId":4,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.04859849644841,"direction":"N"},"longitiude":{"value":19.27624335260731,"direction":"E"}},"results":{"pm1":{"value":460.66795176026,"unit":"ug/m3"},"pm25":{"value":100.22637608819596,"unit":"ug/m3"},"pm10":{"value":321.248180254883,"unit":"ug/m3"},"formaldehyde":{"value":0.550171038984673,"unit":"mg/m3"},"temperature":{"value":60.917512152541946,"unit":"°C"},"humidity":{"value":56.687393483236434,"unit":"%"}}},{"deviceId":2,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.23088343917585,"direction":"N"},"longitiude":{"value":19.687142631909804,"direction":"E"}},"results":{"pm1":{"value":209.0892813771019,"unit":"ug/m3"},"pm25":{"value":76.23716726278606,"unit":"ug/m3"},"pm10":{"value":40.64055230502173,"unit":"ug/m3"},"formaldehyde":{"value":0.1444654744403273,"unit":"mg/m3"},"temperature":{"value":26.65790370087022,"unit":"°C"},"humidity":{"value":92.67348231222712,"unit":"%"}}},{"deviceId":2,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.221993493743966,"direction":"N"},"longitiude":{"value":19.07488293623489,"direction":"E"}},"results":{"pm1":{"value":452.0610608105691,"unit":"ug/m3"},"pm25":{"value":92.26301839935591,"unit":"ug/m3"},"pm10":{"value":434.8810850025957,"unit":"ug/m3"},"formaldehyde":{"value":1.9912903200433965,"unit":"mg/m3"},"temperature":{"value":87.57922876501449,"unit":"°C"},"humidity":{"value":38.03666226099502,"unit":"%"}}},{"deviceId":4,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.9033566011561,"direction":"N"},"longitiude":{"value":19.472712471703794,"direction":"E"}},"results":{"pm1":{"value":64.57374000120598,"unit":"ug/m3"},"pm25":{"value":399.37157225177054,"unit":"ug/m3"},"pm10":{"value":285.0999322952884,"unit":"ug/m3"},"formaldehyde":{"value":1.225214995791105,"unit":"mg/m3"},"temperature":{"value":47.20461380218288,"unit":"°C"},"humidity":{"value":39.87241305936473,"unit":"%"}}},{"deviceId":3,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.24292672014392,"direction":"N"},"longitiude":{"value":19.207325076683965,"direction":"E"}},"results":{"pm1":{"value":425.7948186768596,"unit":"ug/m3"},"pm25":{"value":423.6015811722219,"unit":"ug/m3"},"pm10":{"value":221.83355342855404,"unit":"ug/m3"},"formaldehyde":{"value":0.1889959554498164,"unit":"mg/m3"},"temperature":{"value":6.954464761914988,"unit":"°C"},"humidity":{"value":67.8860304992106,"unit":"%"}}},{"deviceId":1,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.630707274915665,"direction":"N"},"longitiude":{"value":19.81774004973579,"direction":"E"}},"results":{"pm1":{"value":214.18772794810624,"unit":"ug/m3"},"pm25":{"value":396.6687123167215,"unit":"ug/m3"},"pm10":{"value":169.49510302245307,"unit":"ug/m3"},"formaldehyde":{"value":0.08585941441494338,"unit":"mg/m3"},"temperature":{"value":72.86866584238295,"unit":"°C"},"humidity":{"value":19.623475949379365,"unit":"%"}}},{"deviceId":4,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.50470736606511,"direction":"N"},"longitiude":{"value":19.694610790416196,"direction":"E"}},"results":{"pm1":{"value":369.66433767226215,"unit":"ug/m3"},"pm25":{"value":418.3895406808389,"unit":"ug/m3"},"pm10":{"value":101.96780371194991,"unit":"ug/m3"},"formaldehyde":{"value":0.3681903624361582,"unit":"mg/m3"},"temperature":{"value":-8.703917690395365,"unit":"°C"},"humidity":{"value":4.127623116325219,"unit":"%"}}},{"deviceId":1,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.2413854703022,"direction":"N"},"longitiude":{"value":19.56027363032235,"direction":"E"}},"results":{"pm1":{"value":134.14102954032393,"unit":"ug/m3"},"pm25":{"value":250.49473546487744,"unit":"ug/m3"},"pm10":{"value":58.034070378884635,"unit":"ug/m3"},"formaldehyde":{"value":0.26050169490045283,"unit":"mg/m3"},"temperature":{"value":43.025006095476854,"unit":"°C"},"humidity":{"value":65.32150791623302,"unit":"%"}}},{"deviceId":0,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.444912071350586,"direction":"N"},"longitiude":{"value":19.35506544309342,"direction":"E"}},"results":{"pm1":{"value":201.48828589560574,"unit":"ug/m3"},"pm25":{"value":92.13913284322872,"unit":"ug/m3"},"pm10":{"value":304.772394982835,"unit":"ug/m3"},"formaldehyde":{"value":1.1513266816626553,"unit":"mg/m3"},"temperature":{"value":81.0658433251761,"unit":"°C"},"humidity":{"value":91.77815521350175,"unit":"%"}}},{"deviceId":3,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.770709585605665,"direction":"N"},"longitiude":{"value":19.82946106158673,"direction":"E"}},"results":{"pm1":{"value":187.74488885042095,"unit":"ug/m3"},"pm25":{"value":318.7678405210741,"unit":"ug/m3"},"pm10":{"value":40.49299302370501,"unit":"ug/m3"},"formaldehyde":{"value":1.7271691428418876,"unit":"mg/m3"},"temperature":{"value":-9.269324217061516,"unit":"°C"},"humidity":{"value":96.40202840592423,"unit":"%"}}},{"deviceId":4,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.45586306508306,"direction":"N"},"longitiude":{"value":19.275361871536425,"direction":"E"}},"results":{"pm1":{"value":13.980436873951007,"unit":"ug/m3"},"pm25":{"value":472.8957299208556,"unit":"ug/m3"},"pm10":{"value":451.74372189389265,"unit":"ug/m3"},"formaldehyde":{"value":1.5042218658669393,"unit":"mg/m3"},"temperature":{"value":-16.505432370229684,"unit":"°C"},"humidity":{"value":72.26496329118466,"unit":"%"}}},{"deviceId":0,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.34172914158959,"direction":"N"},"longitiude":{"value":19.315056202500386,"direction":"E"}},"results":{"pm1":{"value":157.3984430492389,"unit":"ug/m3"},"pm25":{"value":458.1237562443657,"unit":"ug/m3"},"pm10":{"value":76.10228621133264,"unit":"ug/m3"},"formaldehyde":{"value":1.180709695687903,"unit":"mg/m3"},"temperature":{"value":15.346238787669726,"unit":"°C"},"humidity":{"value":97.208139135445,"unit":"%"}}},{"deviceId":4,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.82097900976313,"direction":"N"},"longitiude":{"value":19.97283734347751,"direction":"E"}},"results":{"pm1":{"value":95.2057209342826,"unit":"ug/m3"},"pm25":{"value":47.9949207273509,"unit":"ug/m3"},"pm10":{"value":341.81986481923633,"unit":"ug/m3"},"formaldehyde":{"value":0.1827155277812058,"unit":"mg/m3"},"temperature":{"value":27.474962606614824,"unit":"°C"},"humidity":{"value":50.05096266163596,"unit":"%"}}},{"deviceId":0,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.28823091280415,"direction":"N"},"longitiude":{"value":19.47124877500508,"direction":"E"}},"results":{"pm1":{"value":224.36724708317834,"unit":"ug/m3"},"pm25":{"value":283.7867906875162,"unit":"ug/m3"},"pm10":{"value":309.9936535866713,"unit":"ug/m3"},"formaldehyde":{"value":1.5393192256993138,"unit":"mg/m3"},"temperature":{"value":88.47195531401864,"unit":"°C"},"humidity":{"value":36.23287954248726,"unit":"%"}}},{"deviceId":4,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.286924589588736,"direction":"N"},"longitiude":{"value":19.910682730478563,"direction":"E"}},"results":{"pm1":{"value":355.3714014324887,"unit":"ug/m3"},"pm25":{"value":90.54979017379094,"unit":"ug/m3"},"pm10":{"value":379.1529267408121,"unit":"ug/m3"},"formaldehyde":{"value":1.3160736697944602,"unit":"mg/m3"},"temperature":{"value":11.35656244639883,"unit":"°C"},"humidity":{"value":67.30112311751316,"unit":"%"}}},{"deviceId":4,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.323383453611754,"direction":"N"},"longitiude":{"value":19.267218367093257,"direction":"E"}},"results":{"pm1":{"value":111.07076841255103,"unit":"ug/m3"},"pm25":{"value":395.80409716964147,"unit":"ug/m3"},"pm10":{"value":499.34503777111195,"unit":"ug/m3"},"formaldehyde":{"value":0.6595697067046022,"unit":"mg/m3"},"temperature":{"value":-5.51913044641695,"unit":"°C"},"humidity":{"value":15.802608375504823,"unit":"%"}}},{"deviceId":4,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.48078580769836,"direction":"N"},"longitiude":{"value":19.564533355576458,"direction":"E"}},"results":{"pm1":{"value":314.81633252656906,"unit":"ug/m3"},"pm25":{"value":36.0741034469626,"unit":"ug/m3"},"pm10":{"value":49.971721544309624,"unit":"ug/m3"},"formaldehyde":{"value":0.7085477903271089,"unit":"mg/m3"},"temperature":{"value":-8.165197653221664,"unit":"°C"},"humidity":{"value":28.977054606238074,"unit":"%"}}},{"deviceId":0,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.86594081588426,"direction":"N"},"longitiude":{"value":19.00449910907782,"direction":"E"}},"results":{"pm1":{"value":267.9927093563389,"unit":"ug/m3"},"pm25":{"value":136.24550289119276,"unit":"ug/m3"},"pm10":{"value":226.57655772265073,"unit":"ug/m3"},"formaldehyde":{"value":0.9157134966554796,"unit":"mg/m3"},"temperature":{"value":-3.1853563509199994,"unit":"°C"},"humidity":{"value":6.542201746153897,"unit":"%"}}},{"deviceId":0,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.049978963778585,"direction":"N"},"longitiude":{"value":19.021064385678727,"direction":"E"}},"results":{"pm1":{"value":116.87456076396397,"unit":"ug/m3"},"pm25":{"value":427.9113336819068,"unit":"ug/m3"},"pm10":{"value":437.5058264945591,"unit":"ug/m3"},"formaldehyde":{"value":1.3205287805559633,"unit":"mg/m3"},"temperature":{"value":29.15827129302874,"unit":"°C"},"humidity":{"value":97.99174921441835,"unit":"%"}}},{"deviceId":4,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.952090732264736,"direction":"N"},"longitiude":{"value":19.255272050052906,"direction":"E"}},"results":{"pm1":{"value":72.17715396615698,"unit":"ug/m3"},"pm25":{"value":439.76235444755383,"unit":"ug/m3"},"pm10":{"value":213.83591179217655,"unit":"ug/m3"},"formaldehyde":{"value":0.8849365909132185,"unit":"mg/m3"},"temperature":{"value":65.75713543418303,"unit":"°C"},"humidity":{"value":83.38479320293766,"unit":"%"}}},{"deviceId":1,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.06791726477821,"direction":"N"},"longitiude":{"value":19.53621222753519,"direction":"E"}},"results":{"pm1":{"value":393.84887710097496,"unit":"ug/m3"},"pm25":{"value":28.42990706013171,"unit":"ug/m3"},"pm10":{"value":62.409104131515015,"unit":"ug/m3"},"formaldehyde":{"value":0.18109487894983012,"unit":"mg/m3"},"temperature":{"value":20.777943896626148,"unit":"°C"},"humidity":{"value":67.50559088464556,"unit":"%"}}},{"deviceId":4,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.28347294275773,"direction":"N"},"longitiude":{"value":19.766042388172085,"direction":"E"}},"results":{"pm1":{"value":368.18994560293584,"unit":"ug/m3"},"pm25":{"value":473.3340164022363,"unit":"ug/m3"},"pm10":{"value":324.76131190330517,"unit":"ug/m3"},"formaldehyde":{"value":1.9138109115276043,"unit":"mg/m3"},"temperature":{"value":77.43470721395593,"unit":"°C"},"humidity":{"value":70.14219515424615,"unit":"%"}}},{"deviceId":0,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.59032281622007,"direction":"N"},"longitiude":{"value":19.66934020128665,"direction":"E"}},"results":{"pm1":{"value":453.740509918159,"unit":"ug/m3"},"pm25":{"value":239.51779358554703,"unit":"ug/m3"},"pm10":{"value":348.2029962422329,"unit":"ug/m3"},"formaldehyde":{"value":1.1071067611545296,"unit":"mg/m3"},"temperature":{"value":-8.5799380760136,"unit":"°C"},"humidity":{"value":60.15467677921353,"unit":"%"}}},{"deviceId":2,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.203991239371796,"direction":"N"},"longitiude":{"value":19.105235947591687,"direction":"E"}},"results":{"pm1":{"value":325.9000318840699,"unit":"ug/m3"},"pm25":{"value":56.60316681738309,"unit":"ug/m3"},"pm10":{"value":386.81457638803494,"unit":"ug/m3"},"formaldehyde":{"value":1.7525687754606238,"unit":"mg/m3"},"temperature":{"value":35.18487264148975,"unit":"°C"},"humidity":{"value":18.27766237913009,"unit":"%"}}},{"deviceId":4,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.70348323264512,"direction":"N"},"longitiude":{"value":19.414987265117816,"direction":"E"}},"results":{"pm1":{"value":205.2645123012511,"unit":"ug/m3"},"pm25":{"value":300.0654262131073,"unit":"ug/m3"},"pm10":{"value":298.2016614891886,"unit":"ug/m3"},"formaldehyde":{"value":1.9436340323931627,"unit":"mg/m3"},"temperature":{"value":4.242433776175517,"unit":"°C"},"humidity":{"value":85.18448268745911,"unit":"%"}}},{"deviceId":2,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.45876565924843,"direction":"N"},"longitiude":{"value":19.465699005377555,"direction":"E"}},"results":{"pm1":{"value":100.74739457872673,"unit":"ug/m3"},"pm25":{"value":353.4519693992709,"unit":"ug/m3"},"pm10":{"value":160.22548422285354,"unit":"ug/m3"},"formaldehyde":{"value":1.1974565757118483,"unit":"mg/m3"},"temperature":{"value":22.962568878227124,"unit":"°C"},"humidity":{"value":32.502097427464285,"unit":"%"}}},{"deviceId":2,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.006790915651905,"direction":"N"},"longitiude":{"value":19.789272620403487,"direction":"E"}},"results":{"pm1":{"value":466.73886706935207,"unit":"ug/m3"},"pm25":{"value":444.4964916859794,"unit":"ug/m3"},"pm10":{"value":351.61463987537024,"unit":"ug/m3"},"formaldehyde":{"value":1.5115062449460734,"unit":"mg/m3"},"temperature":{"value":78.89258164396351,"unit":"°C"},"humidity":{"value":86.3792309127259,"unit":"%"}}},{"deviceId":3,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.90474559273071,"direction":"N"},"longitiude":{"value":19.961605819731755,"direction":"E"}},"results":{"pm1":{"value":458.1723280664952,"unit":"ug/m3"},"pm25":{"value":194.07836542194147,"unit":"ug/m3"},"pm10":{"value":38.678387395003625,"unit":"ug/m3"},"formaldehyde":{"value":0.7822261514302324,"unit":"mg/m3"},"temperature":{"value":65.23420242269404,"unit":"°C"},"humidity":{"value":47.92328798147105,"unit":"%"}}},{"deviceId":2,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.71240640953707,"direction":"N"},"longitiude":{"value":19.407366174692054,"direction":"E"}},"results":{"pm1":{"value":98.31711613560334,"unit":"ug/m3"},"pm25":{"value":189.74176963268675,"unit":"ug/m3"},"pm10":{"value":294.6288788233751,"unit":"ug/m3"},"formaldehyde":{"value":1.8853284332460598,"unit":"mg/m3"},"temperature":{"value":1.437723374319468,"unit":"°C"},"humidity":{"value":72.40263809374756,"unit":"%"}}},{"deviceId":2,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.32942826106882,"direction":"N"},"longitiude":{"value":19.283518607722467,"direction":"E"}},"results":{"pm1":{"value":412.2915331903202,"unit":"ug/m3"},"pm25":{"value":340.1143614042765,"unit":"ug/m3"},"pm10":{"value":232.2639700483624,"unit":"ug/m3"},"formaldehyde":{"value":1.2110335973480972,"unit":"mg/m3"},"temperature":{"value":86.42145325951925,"unit":"°C"},"humidity":{"value":98.84052656288974,"unit":"%"}}},{"deviceId":4,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.69142678797852,"direction":"N"},"longitiude":{"value":19.59044702750808,"direction":"E"}},"results":{"pm1":{"value":145.78261224206335,"unit":"ug/m3"},"pm25":{"value":346.4417456084881,"unit":"ug/m3"},"pm10":{"value":290.5147792772182,"unit":"ug/m3"},"formaldehyde":{"value":1.8575286928331738,"unit":"mg/m3"},"temperature":{"value":32.82531887701376,"unit":"°C"},"humidity":{"value":71.86086357938359,"unit":"%"}}},{"deviceId":2,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.44140942808299,"direction":"N"},"longitiude":{"value":19.30852464910213,"direction":"E"}},"results":{"pm1":{"value":69.4378821610242,"unit":"ug/m3"},"pm25":{"value":427.948715432954,"unit":"ug/m3"},"pm10":{"value":465.51840622795424,"unit":"ug/m3"},"formaldehyde":{"value":0.22598959870100055,"unit":"mg/m3"},"temperature":{"value":76.39434289252914,"unit":"°C"},"humidity":{"value":25.74846194990277,"unit":"%"}}},{"deviceId":3,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.37145579762713,"direction":"N"},"longitiude":{"value":19.697730330369644,"direction":"E"}},"results":{"pm1":{"value":342.91193901205776,"unit":"ug/m3"},"pm25":{"value":447.8502372517147,"unit":"ug/m3"},"pm10":{"value":222.63543554309928,"unit":"ug/m3"},"formaldehyde":{"value":1.7751725532993636,"unit":"mg/m3"},"temperature":{"value":48.12074109567715,"unit":"°C"},"humidity":{"value":9.89986015242379,"unit":"%"}}},{"deviceId":3,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.98060126172376,"direction":"N"},"longitiude":{"value":19.773922729298025,"direction":"E"}},"results":{"pm1":{"value":65.34684279887992,"unit":"ug/m3"},"pm25":{"value":236.85387579767482,"unit":"ug/m3"},"pm10":{"value":300.60665132488407,"unit":"ug/m3"},"formaldehyde":{"value":0.9243291329462027,"unit":"mg/m3"},"temperature":{"value":72.54764189668009,"unit":"°C"},"humidity":{"value":44.16835458834767,"unit":"%"}}},{"deviceId":0,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.639096724148985,"direction":"N"},"longitiude":{"value":19.571715585454704,"direction":"E"}},"results":{"pm1":{"value":247.66638547420428,"unit":"ug/m3"},"pm25":{"value":464.45906041789374,"unit":"ug/m3"},"pm10":{"value":448.01345792501667,"unit":"ug/m3"},"formaldehyde":{"value":1.2806938066149889,"unit":"mg/m3"},"temperature":{"value":-9.647929288396973,"unit":"°C"},"humidity":{"value":42.59965456272094,"unit":"%"}}},{"deviceId":1,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.89021551091382,"direction":"N"},"longitiude":{"value":19.431749566373785,"direction":"E"}},"results":{"pm1":{"value":368.56384670754596,"unit":"ug/m3"},"pm25":{"value":109.95689620233917,"unit":"ug/m3"},"pm10":{"value":364.3869315338334,"unit":"ug/m3"},"formaldehyde":{"value":0.9191446209746466,"unit":"mg/m3"},"temperature":{"value":65.15264195323994,"unit":"°C"},"humidity":{"value":47.370269401946395,"unit":"%"}}},{"deviceId":4,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.70133536888974,"direction":"N"},"longitiude":{"value":19.934970602480277,"direction":"E"}},"results":{"pm1":{"value":46.74023479118083,"unit":"ug/m3"},"pm25":{"value":318.62917322234216,"unit":"ug/m3"},"pm10":{"value":257.24518618480727,"unit":"ug/m3"},"formaldehyde":{"value":0.2512666582874874,"unit":"mg/m3"},"temperature":{"value":13.38968607960605,"unit":"°C"},"humidity":{"value":39.05313277221827,"unit":"%"}}},{"deviceId":4,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.80299190972744,"direction":"N"},"longitiude":{"value":19.454061687378275,"direction":"E"}},"results":{"pm1":{"value":267.9093551338234,"unit":"ug/m3"},"pm25":{"value":160.3643748628596,"unit":"ug/m3"},"pm10":{"value":214.99049465918608,"unit":"ug/m3"},"formaldehyde":{"value":0.6549226678808053,"unit":"mg/m3"},"temperature":{"value":76.46851058994098,"unit":"°C"},"humidity":{"value":53.869128937655276,"unit":"%"}}},{"deviceId":2,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.415776427970535,"direction":"N"},"longitiude":{"value":19.906565052831414,"direction":"E"}},"results":{"pm1":{"value":449.27545152782943,"unit":"ug/m3"},"pm25":{"value":322.4754306880309,"unit":"ug/m3"},"pm10":{"value":292.71635346212577,"unit":"ug/m3"},"formaldehyde":{"value":1.5368489783185706,"unit":"mg/m3"},"temperature":{"value":-12.167513258656683,"unit":"°C"},"humidity":{"value":25.964367849750715,"unit":"%"}}},{"deviceId":2,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.13664064024523,"direction":"N"},"longitiude":{"value":19.870426226158347,"direction":"E"}},"results":{"pm1":{"value":446.3890547917718,"unit":"ug/m3"},"pm25":{"value":84.26908465792016,"unit":"ug/m3"},"pm10":{"value":200.65505172372144,"unit":"ug/m3"},"formaldehyde":{"value":1.4013744656714362,"unit":"mg/m3"},"temperature":{"value":83.46002932672926,"unit":"°C"},"humidity":{"value":42.67877652596634,"unit":"%"}}},{"deviceId":3,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.39609685063111,"direction":"N"},"longitiude":{"value":19.884376184327444,"direction":"E"}},"results":{"pm1":{"value":86.62203401370382,"unit":"ug/m3"},"pm25":{"value":81.84280389076437,"unit":"ug/m3"},"pm10":{"value":251.24606616185264,"unit":"ug/m3"},"formaldehyde":{"value":0.2612791584847711,"unit":"mg/m3"},"temperature":{"value":80.60567943346648,"unit":"°C"},"humidity":{"value":5.922333777627142,"unit":"%"}}},{"deviceId":1,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.82585651062802,"direction":"N"},"longitiude":{"value":19.267310869958553,"direction":"E"}},"results":{"pm1":{"value":233.6245766102546,"unit":"ug/m3"},"pm25":{"value":164.7900879266505,"unit":"ug/m3"},"pm10":{"value":488.6223743937638,"unit":"ug/m3"},"formaldehyde":{"value":1.6709992442675672,"unit":"mg/m3"},"temperature":{"value":-2.779572065190166,"unit":"°C"},"humidity":{"value":30.279899147245604,"unit":"%"}}},{"deviceId":1,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.48090165880104,"direction":"N"},"longitiude":{"value":19.081888238664355,"direction":"E"}},"results":{"pm1":{"value":357.60312485933787,"unit":"ug/m3"},"pm25":{"value":316.59275292793944,"unit":"ug/m3"},"pm10":{"value":431.5247347424155,"unit":"ug/m3"},"formaldehyde":{"value":0.022701735884167906,"unit":"mg/m3"},"temperature":{"value":41.99906885392092,"unit":"°C"},"humidity":{"value":99.85296124440535,"unit":"%"}}},{"deviceId":0,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.36507224861326,"direction":"N"},"longitiude":{"value":19.460625321225457,"direction":"E"}},"results":{"pm1":{"value":46.47284698582443,"unit":"ug/m3"},"pm25":{"value":436.97605950703087,"unit":"ug/m3"},"pm10":{"value":212.9954466423255,"unit":"ug/m3"},"formaldehyde":{"value":1.202830086244083,"unit":"mg/m3"},"temperature":{"value":1.0079498994842773,"unit":"°C"},"humidity":{"value":92.3476566253994,"unit":"%"}}},{"deviceId":2,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.8219690272346,"direction":"N"},"longitiude":{"value":19.190097175854852,"direction":"E"}},"results":{"pm1":{"value":138.62692285393607,"unit":"ug/m3"},"pm25":{"value":488.2025481522819,"unit":"ug/m3"},"pm10":{"value":177.9297827838192,"unit":"ug/m3"},"formaldehyde":{"value":1.856583719034048,"unit":"mg/m3"},"temperature":{"value":39.99586905572404,"unit":"°C"},"humidity":{"value":30.236879508118463,"unit":"%"}}},{"deviceId":3,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.006379831873296,"direction":"N"},"longitiude":{"value":19.773469504195884,"direction":"E"}},"results":{"pm1":{"value":224.9048313017934,"unit":"ug/m3"},"pm25":{"value":13.02654017521354,"unit":"ug/m3"},"pm10":{"value":41.978507653763764,"unit":"ug/m3"},"formaldehyde":{"value":1.2279571709947303,"unit":"mg/m3"},"temperature":{"value":38.02265197837609,"unit":"°C"},"humidity":{"value":96.41580474493648,"unit":"%"}}},{"deviceId":2,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.30516607380581,"direction":"N"},"longitiude":{"value":19.498147500183062,"direction":"E"}},"results":{"pm1":{"value":17.872820979418226,"unit":"ug/m3"},"pm25":{"value":476.05248831135884,"unit":"ug/m3"},"pm10":{"value":269.51201976770335,"unit":"ug/m3"},"formaldehyde":{"value":1.430912702898004,"unit":"mg/m3"},"temperature":{"value":3.8629632668348677,"unit":"°C"},"humidity":{"value":57.851744704058426,"unit":"%"}}},{"deviceId":1,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.71346547793723,"direction":"N"},"longitiude":{"value":19.20654473741759,"direction":"E"}},"results":{"pm1":{"value":257.46476669594784,"unit":"ug/m3"},"pm25":{"value":148.4703425897186,"unit":"ug/m3"},"pm10":{"value":271.21470798107396,"unit":"ug/m3"},"formaldehyde":{"value":1.143861484919277,"unit":"mg/m3"},"temperature":{"value":58.658755259065046,"unit":"°C"},"humidity":{"value":85.95133159661432,"unit":"%"}}},{"deviceId":2,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.62262654557338,"direction":"N"},"longitiude":{"value":19.02130983976488,"direction":"E"}},"results":{"pm1":{"value":60.08987028503399,"unit":"ug/m3"},"pm25":{"value":192.898957659733,"unit":"ug/m3"},"pm10":{"value":289.0391605169358,"unit":"ug/m3"},"formaldehyde":{"value":0.9168272540080684,"unit":"mg/m3"},"temperature":{"value":82.52914214350794,"unit":"°C"},"humidity":{"value":37.45715660625568,"unit":"%"}}},{"deviceId":2,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.55548161006901,"direction":"N"},"longitiude":{"value":19.939201973358855,"direction":"E"}},"results":{"pm1":{"value":88.74238935874668,"unit":"ug/m3"},"pm25":{"value":387.9910398927131,"unit":"ug/m3"},"pm10":{"value":288.5534759855715,"unit":"ug/m3"},"formaldehyde":{"value":1.0678766295100615,"unit":"mg/m3"},"temperature":{"value":9.766635978696804,"unit":"°C"},"humidity":{"value":12.277753519348877,"unit":"%"}}},{"deviceId":4,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.98166307285785,"direction":"N"},"longitiude":{"value":19.1663471391023,"direction":"E"}},"results":{"pm1":{"value":381.7389374089624,"unit":"ug/m3"},"pm25":{"value":145.80844676762982,"unit":"ug/m3"},"pm10":{"value":258.9716299843209,"unit":"ug/m3"},"formaldehyde":{"value":1.2656902359653492,"unit":"mg/m3"},"temperature":{"value":27.300131797711003,"unit":"°C"},"humidity":{"value":47.28757816149876,"unit":"%"}}},{"deviceId":0,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.614981675068954,"direction":"N"},"longitiude":{"value":19.015719352060223,"direction":"E"}},"results":{"pm1":{"value":112.24866918795928,"unit":"ug/m3"},"pm25":{"value":203.28681411886885,"unit":"ug/m3"},"pm10":{"value":445.3339400080808,"unit":"ug/m3"},"formaldehyde":{"value":1.2215497809159506,"unit":"mg/m3"},"temperature":{"value":-13.315049172515693,"unit":"°C"},"humidity":{"value":90.20225456239423,"unit":"%"}}},{"deviceId":4,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.54290940844014,"direction":"N"},"longitiude":{"value":19.078622391861987,"direction":"E"}},"results":{"pm1":{"value":453.9699761922699,"unit":"ug/m3"},"pm25":{"value":156.5289202981832,"unit":"ug/m3"},"pm10":{"value":302.6733516375969,"unit":"ug/m3"},"formaldehyde":{"value":0.5370692881164092,"unit":"mg/m3"},"temperature":{"value":51.36353207676787,"unit":"°C"},"humidity":{"value":4.452755573996914,"unit":"%"}}},{"deviceId":4,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.9515810180259,"direction":"N"},"longitiude":{"value":19.933345562256623,"direction":"E"}},"results":{"pm1":{"value":39.76963571978476,"unit":"ug/m3"},"pm25":{"value":315.73346140780933,"unit":"ug/m3"},"pm10":{"value":154.58513672034746,"unit":"ug/m3"},"formaldehyde":{"value":0.08774138296505418,"unit":"mg/m3"},"temperature":{"value":89.24707412750207,"unit":"°C"},"humidity":{"value":4.894317015091376,"unit":"%"}}},{"deviceId":4,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.40276855769224,"direction":"N"},"longitiude":{"value":19.1303034724138,"direction":"E"}},"results":{"pm1":{"value":406.2311754427532,"unit":"ug/m3"},"pm25":{"value":227.63357853738376,"unit":"ug/m3"},"pm10":{"value":407.3505211327089,"unit":"ug/m3"},"formaldehyde":{"value":0.5371122316816659,"unit":"mg/m3"},"temperature":{"value":49.27543138041639,"unit":"°C"},"humidity":{"value":53.144767516709315,"unit":"%"}}},{"deviceId":0,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.463047541339236,"direction":"N"},"longitiude":{"value":19.905432178260185,"direction":"E"}},"results":{"pm1":{"value":117.52413307761122,"unit":"ug/m3"},"pm25":{"value":374.16423348928794,"unit":"ug/m3"},"pm10":{"value":346.2633384264403,"unit":"ug/m3"},"formaldehyde":{"value":1.8958537569353986,"unit":"mg/m3"},"temperature":{"value":-10.379900420669756,"unit":"°C"},"humidity":{"value":4.826407316417813,"unit":"%"}}},{"deviceId":1,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.54684702111955,"direction":"N"},"longitiude":{"value":19.51132675754873,"direction":"E"}},"results":{"pm1":{"value":41.13774878273979,"unit":"ug/m3"},"pm25":{"value":107.42821720165297,"unit":"ug/m3"},"pm10":{"value":437.55312239298206,"unit":"ug/m3"},"formaldehyde":{"value":0.9620026789496934,"unit":"mg/m3"},"temperature":{"value":67.58843149631532,"unit":"°C"},"humidity":{"value":30.95360916749994,"unit":"%"}}},{"deviceId":1,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.473096416461914,"direction":"N"},"longitiude":{"value":19.270477199238595,"direction":"E"}},"results":{"pm1":{"value":125.44811008646862,"unit":"ug/m3"},"pm25":{"value":333.6471515337476,"unit":"ug/m3"},"pm10":{"value":157.85913978817823,"unit":"ug/m3"},"formaldehyde":{"value":0.5883117555384363,"unit":"mg/m3"},"temperature":{"value":68.17725708968415,"unit":"°C"},"humidity":{"value":4.408364554420352,"unit":"%"}}},{"deviceId":4,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.2685109949298,"direction":"N"},"longitiude":{"value":19.226591074617918,"direction":"E"}},"results":{"pm1":{"value":238.83768957634487,"unit":"ug/m3"},"pm25":{"value":39.662722280842,"unit":"ug/m3"},"pm10":{"value":175.19648221858785,"unit":"ug/m3"},"formaldehyde":{"value":1.694647714883048,"unit":"mg/m3"},"temperature":{"value":74.05975137040339,"unit":"°C"},"humidity":{"value":70.54716054387865,"unit":"%"}}},{"deviceId":1,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.66144888818567,"direction":"N"},"longitiude":{"value":19.60173055326185,"direction":"E"}},"results":{"pm1":{"value":447.04008443391166,"unit":"ug/m3"},"pm25":{"value":342.51960676514204,"unit":"ug/m3"},"pm10":{"value":165.39064506147315,"unit":"ug/m3"},"formaldehyde":{"value":0.47673174466845536,"unit":"mg/m3"},"temperature":{"value":41.53984641039012,"unit":"°C"},"humidity":{"value":34.79256735785361,"unit":"%"}}},{"deviceId":0,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.72556910876414,"direction":"N"},"longitiude":{"value":19.074374039409868,"direction":"E"}},"results":{"pm1":{"value":271.38448918989013,"unit":"ug/m3"},"pm25":{"value":490.7187530087633,"unit":"ug/m3"},"pm10":{"value":79.23756517356462,"unit":"ug/m3"},"formaldehyde":{"value":0.19036088426576692,"unit":"mg/m3"},"temperature":{"value":-12.106988721752153,"unit":"°C"},"humidity":{"value":87.10982021982974,"unit":"%"}}},{"deviceId":2,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.66486002958167,"direction":"N"},"longitiude":{"value":19.453299668419174,"direction":"E"}},"results":{"pm1":{"value":110.63238516365892,"unit":"ug/m3"},"pm25":{"value":476.1555299545609,"unit":"ug/m3"},"pm10":{"value":50.743542179370934,"unit":"ug/m3"},"formaldehyde":{"value":1.5855039583150732,"unit":"mg/m3"},"temperature":{"value":46.8191735606507,"unit":"°C"},"humidity":{"value":32.883209779538916,"unit":"%"}}},{"deviceId":1,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.96819698018412,"direction":"N"},"longitiude":{"value":19.54571487300346,"direction":"E"}},"results":{"pm1":{"value":361.23114188372205,"unit":"ug/m3"},"pm25":{"value":142.47379239955183,"unit":"ug/m3"},"pm10":{"value":418.9589788770096,"unit":"ug/m3"},"formaldehyde":{"value":1.0050460012570537,"unit":"mg/m3"},"temperature":{"value":24.63533174309223,"unit":"°C"},"humidity":{"value":47.969217790125725,"unit":"%"}}},{"deviceId":1,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.641440898940175,"direction":"N"},"longitiude":{"value":19.70808867465508,"direction":"E"}},"results":{"pm1":{"value":274.24916433743715,"unit":"ug/m3"},"pm25":{"value":53.59392098173377,"unit":"ug/m3"},"pm10":{"value":448.1134319361956,"unit":"ug/m3"},"formaldehyde":{"value":0.13795643885167808,"unit":"mg/m3"},"temperature":{"value":-3.3034743237645543,"unit":"°C"},"humidity":{"value":41.87274142319974,"unit":"%"}}},{"deviceId":1,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.66991313724459,"direction":"N"},"longitiude":{"value":19.65188582893418,"direction":"E"}},"results":{"pm1":{"value":349.2883166981178,"unit":"ug/m3"},"pm25":{"value":12.01492053132236,"unit":"ug/m3"},"pm10":{"value":358.8189861850051,"unit":"ug/m3"},"formaldehyde":{"value":1.8736959136800908,"unit":"mg/m3"},"temperature":{"value":57.23065753730533,"unit":"°C"},"humidity":{"value":17.871969799812113,"unit":"%"}}},{"deviceId":1,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.41034306862272,"direction":"N"},"longitiude":{"value":19.72158224116057,"direction":"E"}},"results":{"pm1":{"value":59.57917479842001,"unit":"ug/m3"},"pm25":{"value":459.6527491276857,"unit":"ug/m3"},"pm10":{"value":246.64331569375264,"unit":"ug/m3"},"formaldehyde":{"value":0.12940132781748082,"unit":"mg/m3"},"temperature":{"value":38.32027109984095,"unit":"°C"},"humidity":{"value":0.34295800310788493,"unit":"%"}}},{"deviceId":1,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.68924850802341,"direction":"N"},"longitiude":{"value":19.99070547486893,"direction":"E"}},"results":{"pm1":{"value":218.00696174895796,"unit":"ug/m3"},"pm25":{"value":40.87982240220101,"unit":"ug/m3"},"pm10":{"value":73.79195126336424,"unit":"ug/m3"},"formaldehyde":{"value":1.6072526583873157,"unit":"mg/m3"},"temperature":{"value":10.159512053131156,"unit":"°C"},"humidity":{"value":3.810231533100805,"unit":"%"}}},{"deviceId":4,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.45384855599642,"direction":"N"},"longitiude":{"value":19.83125731381352,"direction":"E"}},"results":{"pm1":{"value":268.58849271301,"unit":"ug/m3"},"pm25":{"value":152.30586437129878,"unit":"ug/m3"},"pm10":{"value":487.5656532991144,"unit":"ug/m3"},"formaldehyde":{"value":1.6967050643117663,"unit":"mg/m3"},"temperature":{"value":29.12646324919764,"unit":"°C"},"humidity":{"value":15.878481806106981,"unit":"%"}}},{"deviceId":3,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.60390902750203,"direction":"N"},"longitiude":{"value":19.211002430050304,"direction":"E"}},"results":{"pm1":{"value":319.9967091001842,"unit":"ug/m3"},"pm25":{"value":414.3337843853718,"unit":"ug/m3"},"pm10":{"value":280.65910253329895,"unit":"ug/m3"},"formaldehyde":{"value":1.9127441128052158,"unit":"mg/m3"},"temperature":{"value":25.653023925230855,"unit":"°C"},"humidity":{"value":13.216385807143528,"unit":"%"}}},{"deviceId":4,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.44980721832096,"direction":"N"},"longitiude":{"value":19.08067194779466,"direction":"E"}},"results":{"pm1":{"value":132.3571277315687,"unit":"ug/m3"},"pm25":{"value":138.4968115273163,"unit":"ug/m3"},"pm10":{"value":1.719953069424851,"unit":"ug/m3"},"formaldehyde":{"value":0.5003532202781802,"unit":"mg/m3"},"temperature":{"value":-12.326621567754282,"unit":"°C"},"humidity":{"value":37.03941787081211,"unit":"%"}}},{"deviceId":0,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.29031630784538,"direction":"N"},"longitiude":{"value":19.719021742811144,"direction":"E"}},"results":{"pm1":{"value":235.31662871142612,"unit":"ug/m3"},"pm25":{"value":466.3600804138016,"unit":"ug/m3"},"pm10":{"value":69.30693630732299,"unit":"ug/m3"},"formaldehyde":{"value":1.0380774633361103,"unit":"mg/m3"},"temperature":{"value":-9.969042098848803,"unit":"°C"},"humidity":{"value":79.54637708309902,"unit":"%"}}},{"deviceId":4,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.361781451514474,"direction":"N"},"longitiude":{"value":19.98161527128263,"direction":"E"}},"results":{"pm1":{"value":321.7546328878339,"unit":"ug/m3"},"pm25":{"value":206.91727056207364,"unit":"ug/m3"},"pm10":{"value":127.9077229223664,"unit":"ug/m3"},"formaldehyde":{"value":1.5566537546301658,"unit":"mg/m3"},"temperature":{"value":74.29590179765816,"unit":"°C"},"humidity":{"value":54.53458460528415,"unit":"%"}}},{"deviceId":0,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.32664110880656,"direction":"N"},"longitiude":{"value":19.970183687829802,"direction":"E"}},"results":{"pm1":{"value":453.07122097958217,"unit":"ug/m3"},"pm25":{"value":260.26336560510276,"unit":"ug/m3"},"pm10":{"value":337.0778513453968,"unit":"ug/m3"},"formaldehyde":{"value":0.6717325269118954,"unit":"mg/m3"},"temperature":{"value":33.58637027436291,"unit":"°C"},"humidity":{"value":77.09150793673041,"unit":"%"}}},{"deviceId":3,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.715356921072534,"direction":"N"},"longitiude":{"value":19.987379074133422,"direction":"E"}},"results":{"pm1":{"value":1.432555704885874,"unit":"ug/m3"},"pm25":{"value":126.26515365183266,"unit":"ug/m3"},"pm10":{"value":59.450276478184236,"unit":"ug/m3"},"formaldehyde":{"value":0.9793345124269552,"unit":"mg/m3"},"temperature":{"value":53.28451149512202,"unit":"°C"},"humidity":{"value":13.219666328730927,"unit":"%"}}},{"deviceId":2,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.43853177055575,"direction":"N"},"longitiude":{"value":19.532667229952793,"direction":"E"}},"results":{"pm1":{"value":124.40972972460673,"unit":"ug/m3"},"pm25":{"value":422.4615011505781,"unit":"ug/m3"},"pm10":{"value":113.79442286201125,"unit":"ug/m3"},"formaldehyde":{"value":0.0881944666529777,"unit":"mg/m3"},"temperature":{"value":18.60988527347989,"unit":"°C"},"humidity":{"value":90.87214328020153,"unit":"%"}}},{"deviceId":4,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.489029040436975,"direction":"N"},"longitiude":{"value":19.78704236717985,"direction":"E"}},"results":{"pm1":{"value":288.37923816626665,"unit":"ug/m3"},"pm25":{"value":322.1166652708949,"unit":"ug/m3"},"pm10":{"value":467.57309617326734,"unit":"ug/m3"},"formaldehyde":{"value":1.8319282829668686,"unit":"mg/m3"},"temperature":{"value":-18.62315795032806,"unit":"°C"},"humidity":{"value":31.148323721024983,"unit":"%"}}},{"deviceId":3,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.94740551017034,"direction":"N"},"longitiude":{"value":19.469503847853,"direction":"E"}},"results":{"pm1":{"value":267.4364392107018,"unit":"ug/m3"},"pm25":{"value":344.32335960982897,"unit":"ug/m3"},"pm10":{"value":138.61385834758877,"unit":"ug/m3"},"formaldehyde":{"value":1.4081339526833143,"unit":"mg/m3"},"temperature":{"value":43.84530000280169,"unit":"°C"},"humidity":{"value":91.56662177691874,"unit":"%"}}},{"deviceId":0,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.015985704647115,"direction":"N"},"longitiude":{"value":19.51771180846825,"direction":"E"}},"results":{"pm1":{"value":442.12416720989546,"unit":"ug/m3"},"pm25":{"value":329.23768441350086,"unit":"ug/m3"},"pm10":{"value":376.06513430143195,"unit":"ug/m3"},"formaldehyde":{"value":0.9357594543803653,"unit":"mg/m3"},"temperature":{"value":81.3089258189465,"unit":"°C"},"humidity":{"value":2.5350172936352333,"unit":"%"}}},{"deviceId":2,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.850241132448474,"direction":"N"},"longitiude":{"value":19.624793855088637,"direction":"E"}},"results":{"pm1":{"value":450.62334233707526,"unit":"ug/m3"},"pm25":{"value":268.8940619634819,"unit":"ug/m3"},"pm10":{"value":495.83826133307787,"unit":"ug/m3"},"formaldehyde":{"value":1.1926335892544508,"unit":"mg/m3"},"temperature":{"value":-15.551735320372675,"unit":"°C"},"humidity":{"value":43.263912045375854,"unit":"%"}}},{"deviceId":1,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.163908142774424,"direction":"N"},"longitiude":{"value":19.75299106102407,"direction":"E"}},"results":{"pm1":{"value":329.6110307053727,"unit":"ug/m3"},"pm25":{"value":84.39483839372176,"unit":"ug/m3"},"pm10":{"value":380.55868515668044,"unit":"ug/m3"},"formaldehyde":{"value":0.3944629680215632,"unit":"mg/m3"},"temperature":{"value":64.61578507235106,"unit":"°C"},"humidity":{"value":38.6566675760037,"unit":"%"}}},{"deviceId":3,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.66778531951168,"direction":"N"},"longitiude":{"value":19.6971747523824,"direction":"E"}},"results":{"pm1":{"value":64.88377020476888,"unit":"ug/m3"},"pm25":{"value":120.79035809127691,"unit":"ug/m3"},"pm10":{"value":450.26354158496287,"unit":"ug/m3"},"formaldehyde":{"value":1.2399726423897417,"unit":"mg/m3"},"temperature":{"value":82.6233915817094,"unit":"°C"},"humidity":{"value":45.305148405611064,"unit":"%"}}},{"deviceId":0,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.90799446029961,"direction":"N"},"longitiude":{"value":19.223172831270183,"direction":"E"}},"results":{"pm1":{"value":335.68365369648046,"unit":"ug/m3"},"pm25":{"value":468.85982083182023,"unit":"ug/m3"},"pm10":{"value":365.3627273922277,"unit":"ug/m3"},"formaldehyde":{"value":1.901449720252618,"unit":"mg/m3"},"temperature":{"value":32.697087618408084,"unit":"°C"},"humidity":{"value":12.13020551254318,"unit":"%"}}},{"deviceId":2,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.03087870332218,"direction":"N"},"longitiude":{"value":19.149758770454337,"direction":"E"}},"results":{"pm1":{"value":466.0095013832325,"unit":"ug/m3"},"pm25":{"value":421.2992663522833,"unit":"ug/m3"},"pm10":{"value":387.48862618859624,"unit":"ug/m3"},"formaldehyde":{"value":1.6147508959252783,"unit":"mg/m3"},"temperature":{"value":-5.9873005145844065,"unit":"°C"},"humidity":{"value":70.95507771305213,"unit":"%"}}},{"deviceId":0,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.540571843035124,"direction":"N"},"longitiude":{"value":19.49247945737571,"direction":"E"}},"results":{"pm1":{"value":475.98302342460397,"unit":"ug/m3"},"pm25":{"value":140.06190144718167,"unit":"ug/m3"},"pm10":{"value":388.5760937531473,"unit":"ug/m3"},"formaldehyde":{"value":0.2545629440955368,"unit":"mg/m3"},"temperature":{"value":68.3757702764463,"unit":"°C"},"humidity":{"value":69.54878522101495,"unit":"%"}}},{"deviceId":2,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.51770918413818,"direction":"N"},"longitiude":{"value":19.306975919984307,"direction":"E"}},"results":{"pm1":{"value":485.76272901006536,"unit":"ug/m3"},"pm25":{"value":323.7059175254705,"unit":"ug/m3"},"pm10":{"value":185.28743162385186,"unit":"ug/m3"},"formaldehyde":{"value":0.836304317666392,"unit":"mg/m3"},"temperature":{"value":80.68630385540514,"unit":"°C"},"humidity":{"value":57.42037184076552,"unit":"%"}}},{"deviceId":3,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.53055814480972,"direction":"N"},"longitiude":{"value":19.344484517544927,"direction":"E"}},"results":{"pm1":{"value":402.80091921278193,"unit":"ug/m3"},"pm25":{"value":103.49671686018935,"unit":"ug/m3"},"pm10":{"value":363.2941387512517,"unit":"ug/m3"},"formaldehyde":{"value":0.4882990777435188,"unit":"mg/m3"},"temperature":{"value":29.658287986754956,"unit":"°C"},"humidity":{"value":39.763090104026254,"unit":"%"}}},{"deviceId":4,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.57539460947814,"direction":"N"},"longitiude":{"value":19.295128657545916,"direction":"E"}},"results":{"pm1":{"value":200.34461070514885,"unit":"ug/m3"},"pm25":{"value":158.42797251835805,"unit":"ug/m3"},"pm10":{"value":257.2455724713655,"unit":"ug/m3"},"formaldehyde":{"value":1.4500500274245574,"unit":"mg/m3"},"temperature":{"value":98.81461390557995,"unit":"°C"},"humidity":{"value":70.97436721776218,"unit":"%"}}},{"deviceId":2,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.60425320243748,"direction":"N"},"longitiude":{"value":19.058129429842033,"direction":"E"}},"results":{"pm1":{"value":117.97190413496882,"unit":"ug/m3"},"pm25":{"value":10.63702415668477,"unit":"ug/m3"},"pm10":{"value":213.04727391253553,"unit":"ug/m3"},"formaldehyde":{"value":0.0887172686862554,"unit":"mg/m3"},"temperature":{"value":-1.0023407961956217,"unit":"°C"},"humidity":{"value":45.81216080943409,"unit":"%"}}},{"deviceId":2,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.732275680213164,"direction":"N"},"longitiude":{"value":19.25644343344721,"direction":"E"}},"results":{"pm1":{"value":212.43882665507329,"unit":"ug/m3"},"pm25":{"value":138.28640427063888,"unit":"ug/m3"},"pm10":{"value":68.3342383942127,"unit":"ug/m3"},"formaldehyde":{"value":1.9221629719049305,"unit":"mg/m3"},"temperature":{"value":50.551943092317586,"unit":"°C"},"humidity":{"value":29.339483765592632,"unit":"%"}}},{"deviceId":2,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.95990838468444,"direction":"N"},"longitiude":{"value":19.61618028378426,"direction":"E"}},"results":{"pm1":{"value":146.2464378736652,"unit":"ug/m3"},"pm25":{"value":261.0669512505684,"unit":"ug/m3"},"pm10":{"value":249.72657993981028,"unit":"ug/m3"},"formaldehyde":{"value":0.5471855862989412,"unit":"mg/m3"},"temperature":{"value":12.593004287334658,"unit":"°C"},"humidity":{"value":64.01915372873881,"unit":"%"}}},{"deviceId":2,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.27594501158366,"direction":"N"},"longitiude":{"value":19.736812339995748,"direction":"E"}},"results":{"pm1":{"value":29.590391232248493,"unit":"ug/m3"},"pm25":{"value":302.3024617306909,"unit":"ug/m3"},"pm10":{"value":81.15138853541993,"unit":"ug/m3"},"formaldehyde":{"value":0.855361752131298,"unit":"mg/m3"},"temperature":{"value":66.5909416674997,"unit":"°C"},"humidity":{"value":22.772459894875084,"unit":"%"}}},{"deviceId":4,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.211681191569625,"direction":"N"},"longitiude":{"value":19.291298118935288,"direction":"E"}},"results":{"pm1":{"value":264.52980120777636,"unit":"ug/m3"},"pm25":{"value":333.4650146149415,"unit":"ug/m3"},"pm10":{"value":490.90038487671916,"unit":"ug/m3"},"formaldehyde":{"value":1.0579194547295647,"unit":"mg/m3"},"temperature":{"value":63.53415534174616,"unit":"°C"},"humidity":{"value":17.356729408413397,"unit":"%"}}},{"deviceId":0,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.08399959659615,"direction":"N"},"longitiude":{"value":19.264557926184413,"direction":"E"}},"results":{"pm1":{"value":323.4566205136001,"unit":"ug/m3"},"pm25":{"value":323.6799405974178,"unit":"ug/m3"},"pm10":{"value":209.0353013620483,"unit":"ug/m3"},"formaldehyde":{"value":1.1611707060427112,"unit":"mg/m3"},"temperature":{"value":25.375706051452568,"unit":"°C"},"humidity":{"value":92.54809167420719,"unit":"%"}}},{"deviceId":3,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.51581045130622,"direction":"N"},"longitiude":{"value":19.645088586138165,"direction":"E"}},"results":{"pm1":{"value":207.3602549062784,"unit":"ug/m3"},"pm25":{"value":325.5323110973155,"unit":"ug/m3"},"pm10":{"value":453.9379970035282,"unit":"ug/m3"},"formaldehyde":{"value":1.8253881954705338,"unit":"mg/m3"},"temperature":{"value":13.355301771774805,"unit":"°C"},"humidity":{"value":3.422200023795785,"unit":"%"}}},{"deviceId":4,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.063338507698546,"direction":"N"},"longitiude":{"value":19.261848291242107,"direction":"E"}},"results":{"pm1":{"value":36.40846060131886,"unit":"ug/m3"},"pm25":{"value":117.05288088173293,"unit":"ug/m3"},"pm10":{"value":404.3191615158054,"unit":"ug/m3"},"formaldehyde":{"value":0.2986151150829861,"unit":"mg/m3"},"temperature":{"value":-6.720265251062438,"unit":"°C"},"humidity":{"value":40.625494315514764,"unit":"%"}}},{"deviceId":1,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.97047841572338,"direction":"N"},"longitiude":{"value":19.669529191636823,"direction":"E"}},"results":{"pm1":{"value":225.40824176339314,"unit":"ug/m3"},"pm25":{"value":412.79565513842584,"unit":"ug/m3"},"pm10":{"value":207.6808267918252,"unit":"ug/m3"},"formaldehyde":{"value":1.3874899965727874,"unit":"mg/m3"},"temperature":{"value":43.46211280572385,"unit":"°C"},"humidity":{"value":48.27340093726351,"unit":"%"}}},{"deviceId":4,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.26526113734181,"direction":"N"},"longitiude":{"value":19.58994522888581,"direction":"E"}},"results":{"pm1":{"value":124.54312499833553,"unit":"ug/m3"},"pm25":{"value":326.5209200486775,"unit":"ug/m3"},"pm10":{"value":308.5418183102776,"unit":"ug/m3"},"formaldehyde":{"value":0.9351600379497711,"unit":"mg/m3"},"temperature":{"value":13.555305877893794,"unit":"°C"},"humidity":{"value":91.1507496621868,"unit":"%"}}},{"deviceId":3,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.88072698832113,"direction":"N"},"longitiude":{"value":19.404215926262143,"direction":"E"}},"results":{"pm1":{"value":361.67865540127883,"unit":"ug/m3"},"pm25":{"value":23.55430906947675,"unit":"ug/m3"},"pm10":{"value":250.33662894812613,"unit":"ug/m3"},"formaldehyde":{"value":0.9408569132120066,"unit":"mg/m3"},"temperature":{"value":26.99524589026972,"unit":"°C"},"humidity":{"value":55.66469023051952,"unit":"%"}}},{"deviceId":1,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.5442850427344,"direction":"N"},"longitiude":{"value":19.182343735537845,"direction":"E"}},"results":{"pm1":{"value":269.6768694267054,"unit":"ug/m3"},"pm25":{"value":176.4432780187485,"unit":"ug/m3"},"pm10":{"value":270.3291315012518,"unit":"ug/m3"},"formaldehyde":{"value":0.6518618631798563,"unit":"mg/m3"},"temperature":{"value":-6.529893031332055,"unit":"°C"},"humidity":{"value":17.600790809967105,"unit":"%"}}},{"deviceId":0,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.84414638882011,"direction":"N"},"longitiude":{"value":19.28350444097869,"direction":"E"}},"results":{"pm1":{"value":150.4998281497587,"unit":"ug/m3"},"pm25":{"value":385.24250676506597,"unit":"ug/m3"},"pm10":{"value":320.53296469014816,"unit":"ug/m3"},"formaldehyde":{"value":1.3317311213940464,"unit":"mg/m3"},"temperature":{"value":-8.659020419108671,"unit":"°C"},"humidity":{"value":85.59947960595025,"unit":"%"}}},{"deviceId":2,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.70163967321784,"direction":"N"},"longitiude":{"value":19.08180860479296,"direction":"E"}},"results":{"pm1":{"value":77.5537022531957,"unit":"ug/m3"},"pm25":{"value":98.9898403469085,"unit":"ug/m3"},"pm10":{"value":118.9965991538785,"unit":"ug/m3"},"formaldehyde":{"value":0.49487467569960897,"unit":"mg/m3"},"temperature":{"value":9.439545601641871,"unit":"°C"},"humidity":{"value":25.47617256067283,"unit":"%"}}},{"deviceId":2,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.9620280629115,"direction":"N"},"longitiude":{"value":19.529821288550487,"direction":"E"}},"results":{"pm1":{"value":34.24599673556716,"unit":"ug/m3"},"pm25":{"value":88.17531679787737,"unit":"ug/m3"},"pm10":{"value":289.380932232113,"unit":"ug/m3"},"formaldehyde":{"value":1.7840496293227357,"unit":"mg/m3"},"temperature":{"value":59.40723320291954,"unit":"°C"},"humidity":{"value":60.9316552359177,"unit":"%"}}},{"deviceId":0,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.51659584781783,"direction":"N"},"longitiude":{"value":19.338390126350532,"direction":"E"}},"results":{"pm1":{"value":465.8832027730049,"unit":"ug/m3"},"pm25":{"value":369.0909735326807,"unit":"ug/m3"},"pm10":{"value":152.98172841357393,"unit":"ug/m3"},"formaldehyde":{"value":1.7298504227909364,"unit":"mg/m3"},"temperature":{"value":45.48877845478444,"unit":"°C"},"humidity":{"value":55.550740527884,"unit":"%"}}},{"deviceId":4,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.80341013170154,"direction":"N"},"longitiude":{"value":19.681541818769333,"direction":"E"}},"results":{"pm1":{"value":298.2825497337771,"unit":"ug/m3"},"pm25":{"value":27.303346296504216,"unit":"ug/m3"},"pm10":{"value":479.41139229958674,"unit":"ug/m3"},"formaldehyde":{"value":0.05514833436126976,"unit":"mg/m3"},"temperature":{"value":23.164570791448334,"unit":"°C"},"humidity":{"value":22.77138629648001,"unit":"%"}}},{"deviceId":0,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.800676334211275,"direction":"N"},"longitiude":{"value":19.37457711085181,"direction":"E"}},"results":{"pm1":{"value":373.39883033673203,"unit":"ug/m3"},"pm25":{"value":114.08121280038553,"unit":"ug/m3"},"pm10":{"value":264.92798249343394,"unit":"ug/m3"},"formaldehyde":{"value":1.8193100374836795,"unit":"mg/m3"},"temperature":{"value":25.36266684187705,"unit":"°C"},"humidity":{"value":48.55265611955577,"unit":"%"}}},{"deviceId":4,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.337957857303344,"direction":"N"},"longitiude":{"value":19.556245804533237,"direction":"E"}},"results":{"pm1":{"value":345.2575593905629,"unit":"ug/m3"},"pm25":{"value":359.4194368156858,"unit":"ug/m3"},"pm10":{"value":388.1817595870788,"unit":"ug/m3"},"formaldehyde":{"value":1.8668588689040408,"unit":"mg/m3"},"temperature":{"value":-3.375537539804178,"unit":"°C"},"humidity":{"value":25.493696975949277,"unit":"%"}}},{"deviceId":4,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.1672150458383,"direction":"N"},"longitiude":{"value":19.563690469324193,"direction":"E"}},"results":{"pm1":{"value":264.3718653850865,"unit":"ug/m3"},"pm25":{"value":487.3383647176573,"unit":"ug/m3"},"pm10":{"value":309.28730435468634,"unit":"ug/m3"},"formaldehyde":{"value":1.512683181682175,"unit":"mg/m3"},"temperature":{"value":20.23089202305247,"unit":"°C"},"humidity":{"value":33.18605128571834,"unit":"%"}}},{"deviceId":1,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.35999039324473,"direction":"N"},"longitiude":{"value":19.96653699843068,"direction":"E"}},"results":{"pm1":{"value":425.84851367038266,"unit":"ug/m3"},"pm25":{"value":326.12744289990536,"unit":"ug/m3"},"pm10":{"value":249.88806002760234,"unit":"ug/m3"},"formaldehyde":{"value":0.02173563699452874,"unit":"mg/m3"},"temperature":{"value":3.3984356556259243,"unit":"°C"},"humidity":{"value":54.533691574674734,"unit":"%"}}},{"deviceId":0,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.64771699522232,"direction":"N"},"longitiude":{"value":19.92943626538735,"direction":"E"}},"results":{"pm1":{"value":294.2936012274062,"unit":"ug/m3"},"pm25":{"value":15.321544350428207,"unit":"ug/m3"},"pm10":{"value":210.14994064179194,"unit":"ug/m3"},"formaldehyde":{"value":0.3977162918291848,"unit":"mg/m3"},"temperature":{"value":92.77378059641829,"unit":"°C"},"humidity":{"value":5.166394570717059,"unit":"%"}}},{"deviceId":4,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.14371320467435,"direction":"N"},"longitiude":{"value":19.21987684437489,"direction":"E"}},"results":{"pm1":{"value":100.88103370831757,"unit":"ug/m3"},"pm25":{"value":324.75038289942347,"unit":"ug/m3"},"pm10":{"value":355.27010362511203,"unit":"ug/m3"},"formaldehyde":{"value":0.07929777037921681,"unit":"mg/m3"},"temperature":{"value":37.1374531995302,"unit":"°C"},"humidity":{"value":3.2360715254206696,"unit":"%"}}},{"deviceId":4,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.17202981576278,"direction":"N"},"longitiude":{"value":19.351187697584063,"direction":"E"}},"results":{"pm1":{"value":218.47809856059453,"unit":"ug/m3"},"pm25":{"value":11.463340371691388,"unit":"ug/m3"},"pm10":{"value":346.82727314550533,"unit":"ug/m3"},"formaldehyde":{"value":0.4132451002301436,"unit":"mg/m3"},"temperature":{"value":5.526200149820227,"unit":"°C"},"humidity":{"value":48.44355108641831,"unit":"%"}}},{"deviceId":2,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.5591401626188,"direction":"N"},"longitiude":{"value":19.500726417560355,"direction":"E"}},"results":{"pm1":{"value":237.53884182830765,"unit":"ug/m3"},"pm25":{"value":100.92620697704513,"unit":"ug/m3"},"pm10":{"value":275.6616385630634,"unit":"ug/m3"},"formaldehyde":{"value":1.3158306636229344,"unit":"mg/m3"},"temperature":{"value":-7.352471101446939,"unit":"°C"},"humidity":{"value":86.4235558303208,"unit":"%"}}},{"deviceId":3,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.09656422039211,"direction":"N"},"longitiude":{"value":19.6474641626495,"direction":"E"}},"results":{"pm1":{"value":9.899346222290383,"unit":"ug/m3"},"pm25":{"value":167.67006875926725,"unit":"ug/m3"},"pm10":{"value":484.0472650770797,"unit":"ug/m3"},"formaldehyde":{"value":1.1117715972086688,"unit":"mg/m3"},"temperature":{"value":79.31977608421438,"unit":"°C"},"humidity":{"value":93.06477165263306,"unit":"%"}}},{"deviceId":3,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.47384713257821,"direction":"N"},"longitiude":{"value":19.529779225234492,"direction":"E"}},"results":{"pm1":{"value":215.41354845965742,"unit":"ug/m3"},"pm25":{"value":373.3509114695097,"unit":"ug/m3"},"pm10":{"value":386.2397412317113,"unit":"ug/m3"},"formaldehyde":{"value":0.7157568506479399,"unit":"mg/m3"},"temperature":{"value":34.09075635668702,"unit":"°C"},"humidity":{"value":34.05247628807702,"unit":"%"}}},{"deviceId":0,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.06297323455346,"direction":"N"},"longitiude":{"value":19.04456206436314,"direction":"E"}},"results":{"pm1":{"value":403.64391087956307,"unit":"ug/m3"},"pm25":{"value":113.7837580574299,"unit":"ug/m3"},"pm10":{"value":316.5396573310878,"unit":"ug/m3"},"formaldehyde":{"value":1.7513232924476734,"unit":"mg/m3"},"temperature":{"value":2.7204271767883945,"unit":"°C"},"humidity":{"value":45.265665107298815,"unit":"%"}}},{"deviceId":1,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.2105461809047,"direction":"N"},"longitiude":{"value":19.092034364458044,"direction":"E"}},"results":{"pm1":{"value":330.7053330362031,"unit":"ug/m3"},"pm25":{"value":304.11630817116287,"unit":"ug/m3"},"pm10":{"value":426.645686661609,"unit":"ug/m3"},"formaldehyde":{"value":0.6551799361224893,"unit":"mg/m3"},"temperature":{"value":61.52065196815245,"unit":"°C"},"humidity":{"value":91.02238975297013,"unit":"%"}}},{"deviceId":4,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.88200393961103,"direction":"N"},"longitiude":{"value":19.500071721302387,"direction":"E"}},"results":{"pm1":{"value":357.86759322223406,"unit":"ug/m3"},"pm25":{"value":465.5086246711113,"unit":"ug/m3"},"pm10":{"value":428.71417724090765,"unit":"ug/m3"},"formaldehyde":{"value":1.3535406008808004,"unit":"mg/m3"},"temperature":{"value":42.44003292227027,"unit":"°C"},"humidity":{"value":2.6782385537613473,"unit":"%"}}},{"deviceId":1,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.06804682474769,"direction":"N"},"longitiude":{"value":19.155065465767212,"direction":"E"}},"results":{"pm1":{"value":376.6779855835548,"unit":"ug/m3"},"pm25":{"value":460.4718508587814,"unit":"ug/m3"},"pm10":{"value":79.8940058218558,"unit":"ug/m3"},"formaldehyde":{"value":0.36513395019779704,"unit":"mg/m3"},"temperature":{"value":15.71280697782165,"unit":"°C"},"humidity":{"value":6.185926952378185,"unit":"%"}}},{"deviceId":2,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.66379234763007,"direction":"N"},"longitiude":{"value":19.463988924647044,"direction":"E"}},"results":{"pm1":{"value":220.86056368397456,"unit":"ug/m3"},"pm25":{"value":321.4836996201247,"unit":"ug/m3"},"pm10":{"value":170.01165914033322,"unit":"ug/m3"},"formaldehyde":{"value":1.3275914423692972,"unit":"mg/m3"},"temperature":{"value":-6.414217088573613,"unit":"°C"},"humidity":{"value":34.902967354745805,"unit":"%"}}},{"deviceId":0,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.1990248573219,"direction":"N"},"longitiude":{"value":19.61389750536844,"direction":"E"}},"results":{"pm1":{"value":353.5241749990118,"unit":"ug/m3"},"pm25":{"value":247.5805066462743,"unit":"ug/m3"},"pm10":{"value":225.63399729689738,"unit":"ug/m3"},"formaldehyde":{"value":0.6394233426408378,"unit":"mg/m3"},"temperature":{"value":84.76774951056335,"unit":"°C"},"humidity":{"value":31.32157024461506,"unit":"%"}}},{"deviceId":0,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.20486431566969,"direction":"N"},"longitiude":{"value":19.91567845455564,"direction":"E"}},"results":{"pm1":{"value":490.9733396915269,"unit":"ug/m3"},"pm25":{"value":36.14974151324368,"unit":"ug/m3"},"pm10":{"value":87.06998359475071,"unit":"ug/m3"},"formaldehyde":{"value":1.1934303031194675,"unit":"mg/m3"},"temperature":{"value":27.829358811831746,"unit":"°C"},"humidity":{"value":27.236443330921787,"unit":"%"}}},{"deviceId":3,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.468276536785616,"direction":"N"},"longitiude":{"value":19.835017466466905,"direction":"E"}},"results":{"pm1":{"value":344.3755140222322,"unit":"ug/m3"},"pm25":{"value":35.871760440826186,"unit":"ug/m3"},"pm10":{"value":201.32261501021333,"unit":"ug/m3"},"formaldehyde":{"value":0.012657206715509961,"unit":"mg/m3"},"temperature":{"value":67.7226436471238,"unit":"°C"},"humidity":{"value":72.67072196922548,"unit":"%"}}},{"deviceId":2,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.54838215085208,"direction":"N"},"longitiude":{"value":19.069899925836342,"direction":"E"}},"results":{"pm1":{"value":88.90668065425244,"unit":"ug/m3"},"pm25":{"value":170.12126190454757,"unit":"ug/m3"},"pm10":{"value":234.34420356400722,"unit":"ug/m3"},"formaldehyde":{"value":1.2158900510484636,"unit":"mg/m3"},"temperature":{"value":71.41832442474428,"unit":"°C"},"humidity":{"value":33.583750500553265,"unit":"%"}}},{"deviceId":2,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.161187170570614,"direction":"N"},"longitiude":{"value":19.02554575902611,"direction":"E"}},"results":{"pm1":{"value":408.47117049681293,"unit":"ug/m3"},"pm25":{"value":474.7210349474986,"unit":"ug/m3"},"pm10":{"value":198.86193909906535,"unit":"ug/m3"},"formaldehyde":{"value":1.3497075317065437,"unit":"mg/m3"},"temperature":{"value":5.886612973550193,"unit":"°C"},"humidity":{"value":36.15836167906106,"unit":"%"}}},{"deviceId":2,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.68729059712105,"direction":"N"},"longitiude":{"value":19.70264571468172,"direction":"E"}},"results":{"pm1":{"value":10.43963362051381,"unit":"ug/m3"},"pm25":{"value":89.26535262998937,"unit":"ug/m3"},"pm10":{"value":366.7105766328127,"unit":"ug/m3"},"formaldehyde":{"value":0.6017057330073525,"unit":"mg/m3"},"temperature":{"value":-13.01695238885587,"unit":"°C"},"humidity":{"value":61.716403235031294,"unit":"%"}}},{"deviceId":4,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.06327488702041,"direction":"N"},"longitiude":{"value":19.354236439311,"direction":"E"}},"results":{"pm1":{"value":91.99058398736403,"unit":"ug/m3"},"pm25":{"value":440.2699964326403,"unit":"ug/m3"},"pm10":{"value":331.36516721839547,"unit":"ug/m3"},"formaldehyde":{"value":1.6559098504395493,"unit":"mg/m3"},"temperature":{"value":51.34299554902397,"unit":"°C"},"humidity":{"value":71.70999013779642,"unit":"%"}}},{"deviceId":1,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.24064286704378,"direction":"N"},"longitiude":{"value":19.85868918572786,"direction":"E"}},"results":{"pm1":{"value":330.35373267582736,"unit":"ug/m3"},"pm25":{"value":43.70143093825052,"unit":"ug/m3"},"pm10":{"value":476.9226639359316,"unit":"ug/m3"},"formaldehyde":{"value":0.6662226977646561,"unit":"mg/m3"},"temperature":{"value":44.1570797880692,"unit":"°C"},"humidity":{"value":28.529060799501636,"unit":"%"}}},{"deviceId":4,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.34766284441674,"direction":"N"},"longitiude":{"value":19.423721577816394,"direction":"E"}},"results":{"pm1":{"value":119.16815819713345,"unit":"ug/m3"},"pm25":{"value":429.6835921382722,"unit":"ug/m3"},"pm10":{"value":219.7608619876644,"unit":"ug/m3"},"formaldehyde":{"value":0.3253568517857941,"unit":"mg/m3"},"temperature":{"value":3.202672489829144,"unit":"°C"},"humidity":{"value":30.092915956316936,"unit":"%"}}},{"deviceId":4,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.797836357204794,"direction":"N"},"longitiude":{"value":19.463513780307192,"direction":"E"}},"results":{"pm1":{"value":154.25112339359092,"unit":"ug/m3"},"pm25":{"value":108.63318323407756,"unit":"ug/m3"},"pm10":{"value":463.4246240243112,"unit":"ug/m3"},"formaldehyde":{"value":1.5356290778199768,"unit":"mg/m3"},"temperature":{"value":43.62908847551367,"unit":"°C"},"humidity":{"value":17.596786013981934,"unit":"%"}}},{"deviceId":4,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.71940480625674,"direction":"N"},"longitiude":{"value":19.543450123370032,"direction":"E"}},"results":{"pm1":{"value":218.22318639336123,"unit":"ug/m3"},"pm25":{"value":476.17827768546783,"unit":"ug/m3"},"pm10":{"value":23.238798552794982,"unit":"ug/m3"},"formaldehyde":{"value":0.688084184525533,"unit":"mg/m3"},"temperature":{"value":96.02404275658256,"unit":"°C"},"humidity":{"value":84.64888065371787,"unit":"%"}}},{"deviceId":0,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.079465891075046,"direction":"N"},"longitiude":{"value":19.916983128970667,"direction":"E"}},"results":{"pm1":{"value":459.7406974418138,"unit":"ug/m3"},"pm25":{"value":290.4463096198348,"unit":"ug/m3"},"pm10":{"value":227.73589427417463,"unit":"ug/m3"},"formaldehyde":{"value":0.5872059880295368,"unit":"mg/m3"},"temperature":{"value":67.57383111815466,"unit":"°C"},"humidity":{"value":44.21302070916957,"unit":"%"}}},{"deviceId":4,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.74528752902055,"direction":"N"},"longitiude":{"value":19.108020216045517,"direction":"E"}},"results":{"pm1":{"value":311.7412768896338,"unit":"ug/m3"},"pm25":{"value":332.1831726740666,"unit":"ug/m3"},"pm10":{"value":279.6875564573031,"unit":"ug/m3"},"formaldehyde":{"value":1.4353758890539843,"unit":"mg/m3"},"temperature":{"value":77.42900650836162,"unit":"°C"},"humidity":{"value":17.73759134775488,"unit":"%"}}},{"deviceId":4,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.533404620807744,"direction":"N"},"longitiude":{"value":19.323740516853988,"direction":"E"}},"results":{"pm1":{"value":381.3735872578756,"unit":"ug/m3"},"pm25":{"value":267.1947139520053,"unit":"ug/m3"},"pm10":{"value":468.09853206366705,"unit":"ug/m3"},"formaldehyde":{"value":0.3860759961659972,"unit":"mg/m3"},"temperature":{"value":39.42576856844795,"unit":"°C"},"humidity":{"value":76.59426373608851,"unit":"%"}}},{"deviceId":1,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.25811312191507,"direction":"N"},"longitiude":{"value":19.312325980032504,"direction":"E"}},"results":{"pm1":{"value":432.4475273432452,"unit":"ug/m3"},"pm25":{"value":486.63123520728044,"unit":"ug/m3"},"pm10":{"value":79.5102072706304,"unit":"ug/m3"},"formaldehyde":{"value":1.284841172735741,"unit":"mg/m3"},"temperature":{"value":21.99396674773981,"unit":"°C"},"humidity":{"value":91.68885669044644,"unit":"%"}}},{"deviceId":2,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.133689349040836,"direction":"N"},"longitiude":{"value":19.45610623589328,"direction":"E"}},"results":{"pm1":{"value":316.2375874331258,"unit":"ug/m3"},"pm25":{"value":393.491173873838,"unit":"ug/m3"},"pm10":{"value":334.878058764875,"unit":"ug/m3"},"formaldehyde":{"value":1.4250626480627755,"unit":"mg/m3"},"temperature":{"value":36.904996052880485,"unit":"°C"},"humidity":{"value":14.112390594502644,"unit":"%"}}},{"deviceId":4,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.60131528020572,"direction":"N"},"longitiude":{"value":19.833694882110642,"direction":"E"}},"results":{"pm1":{"value":148.25807789727773,"unit":"ug/m3"},"pm25":{"value":99.67539946726023,"unit":"ug/m3"},"pm10":{"value":20.097159484699144,"unit":"ug/m3"},"formaldehyde":{"value":1.9208999010358676,"unit":"mg/m3"},"temperature":{"value":40.95739393793848,"unit":"°C"},"humidity":{"value":54.94544497253857,"unit":"%"}}},{"deviceId":0,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.24078526527332,"direction":"N"},"longitiude":{"value":19.060634207430745,"direction":"E"}},"results":{"pm1":{"value":305.97307294438446,"unit":"ug/m3"},"pm25":{"value":131.18084050970634,"unit":"ug/m3"},"pm10":{"value":458.6550159316205,"unit":"ug/m3"},"formaldehyde":{"value":1.6213162420376062,"unit":"mg/m3"},"temperature":{"value":67.91217198560199,"unit":"°C"},"humidity":{"value":65.70323430015206,"unit":"%"}}},{"deviceId":0,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.491420032792306,"direction":"N"},"longitiude":{"value":19.08196201506429,"direction":"E"}},"results":{"pm1":{"value":200.0197728917401,"unit":"ug/m3"},"pm25":{"value":6.3177473844722165,"unit":"ug/m3"},"pm10":{"value":116.55966122161998,"unit":"ug/m3"},"formaldehyde":{"value":0.9517100412061721,"unit":"mg/m3"},"temperature":{"value":55.09489789247877,"unit":"°C"},"humidity":{"value":59.17786155804428,"unit":"%"}}},{"deviceId":1,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.52000529754491,"direction":"N"},"longitiude":{"value":19.621319602348123,"direction":"E"}},"results":{"pm1":{"value":330.6373645413887,"unit":"ug/m3"},"pm25":{"value":270.095378696469,"unit":"ug/m3"},"pm10":{"value":325.60296557289803,"unit":"ug/m3"},"formaldehyde":{"value":0.3686573907278081,"unit":"mg/m3"},"temperature":{"value":10.007415705885073,"unit":"°C"},"humidity":{"value":79.02922366792386,"unit":"%"}}},{"deviceId":2,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.678542163466275,"direction":"N"},"longitiude":{"value":19.683208407192964,"direction":"E"}},"results":{"pm1":{"value":140.00107387583404,"unit":"ug/m3"},"pm25":{"value":430.68243599571633,"unit":"ug/m3"},"pm10":{"value":218.86687781172463,"unit":"ug/m3"},"formaldehyde":{"value":1.613561341231287,"unit":"mg/m3"},"temperature":{"value":42.509209911637925,"unit":"°C"},"humidity":{"value":48.16693999428854,"unit":"%"}}},{"deviceId":1,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.55010816381926,"direction":"N"},"longitiude":{"value":19.132006419832503,"direction":"E"}},"results":{"pm1":{"value":425.20348500469606,"unit":"ug/m3"},"pm25":{"value":457.15148243738423,"unit":"ug/m3"},"pm10":{"value":372.79121004986047,"unit":"ug/m3"},"formaldehyde":{"value":0.10748284395772201,"unit":"mg/m3"},"temperature":{"value":80.88159889676443,"unit":"°C"},"humidity":{"value":62.51429698090378,"unit":"%"}}},{"deviceId":4,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.42185147167707,"direction":"N"},"longitiude":{"value":19.14248062329441,"direction":"E"}},"results":{"pm1":{"value":400.29293789332985,"unit":"ug/m3"},"pm25":{"value":288.91592905791606,"unit":"ug/m3"},"pm10":{"value":72.30379482787608,"unit":"ug/m3"},"formaldehyde":{"value":1.0719232483610894,"unit":"mg/m3"},"temperature":{"value":16.66192109597563,"unit":"°C"},"humidity":{"value":83.97989593771132,"unit":"%"}}},{"deviceId":4,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.09566237073348,"direction":"N"},"longitiude":{"value":19.262448904739223,"direction":"E"}},"results":{"pm1":{"value":475.9661990785352,"unit":"ug/m3"},"pm25":{"value":478.8257911007122,"unit":"ug/m3"},"pm10":{"value":386.4847580018398,"unit":"ug/m3"},"formaldehyde":{"value":1.3252295821893512,"unit":"mg/m3"},"temperature":{"value":31.586228759720136,"unit":"°C"},"humidity":{"value":0.17794579427525825,"unit":"%"}}},{"deviceId":3,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.26487392991903,"direction":"N"},"longitiude":{"value":19.265523892253253,"direction":"E"}},"results":{"pm1":{"value":409.67572271914264,"unit":"ug/m3"},"pm25":{"value":141.35684034148045,"unit":"ug/m3"},"pm10":{"value":95.00219046423109,"unit":"ug/m3"},"formaldehyde":{"value":0.3537932860407409,"unit":"mg/m3"},"temperature":{"value":1.7299581970364244,"unit":"°C"},"humidity":{"value":0.8076306989209137,"unit":"%"}}},{"deviceId":2,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.268620531391065,"direction":"N"},"longitiude":{"value":19.177608094307537,"direction":"E"}},"results":{"pm1":{"value":322.12549385959744,"unit":"ug/m3"},"pm25":{"value":160.15284713085452,"unit":"ug/m3"},"pm10":{"value":51.62545853092926,"unit":"ug/m3"},"formaldehyde":{"value":0.46009548085179297,"unit":"mg/m3"},"temperature":{"value":43.28558010978358,"unit":"°C"},"humidity":{"value":77.84395780250011,"unit":"%"}}},{"deviceId":0,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.48559725515302,"direction":"N"},"longitiude":{"value":19.136482627179188,"direction":"E"}},"results":{"pm1":{"value":233.2729077642598,"unit":"ug/m3"},"pm25":{"value":29.043569486197242,"unit":"ug/m3"},"pm10":{"value":429.7852654623344,"unit":"ug/m3"},"formaldehyde":{"value":1.9181987291334033,"unit":"mg/m3"},"temperature":{"value":91.08819211240846,"unit":"°C"},"humidity":{"value":19.03659902389223,"unit":"%"}}},{"deviceId":2,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.73524648613671,"direction":"N"},"longitiude":{"value":19.454078248667475,"direction":"E"}},"results":{"pm1":{"value":191.53657464314867,"unit":"ug/m3"},"pm25":{"value":186.81368673386112,"unit":"ug/m3"},"pm10":{"value":203.27653491203978,"unit":"ug/m3"},"formaldehyde":{"value":0.7813399710844484,"unit":"mg/m3"},"temperature":{"value":-2.4168869232975503,"unit":"°C"},"humidity":{"value":54.18593623816423,"unit":"%"}}},{"deviceId":1,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.05640979007039,"direction":"N"},"longitiude":{"value":19.073099630711127,"direction":"E"}},"results":{"pm1":{"value":259.1662103967758,"unit":"ug/m3"},"pm25":{"value":345.1196996467374,"unit":"ug/m3"},"pm10":{"value":12.523459460945796,"unit":"ug/m3"},"formaldehyde":{"value":1.4202429367055638,"unit":"mg/m3"},"temperature":{"value":15.177234957626624,"unit":"°C"},"humidity":{"value":47.36902558036176,"unit":"%"}}},{"deviceId":2,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.26534304313632,"direction":"N"},"longitiude":{"value":19.75470483080821,"direction":"E"}},"results":{"pm1":{"value":366.15242204331054,"unit":"ug/m3"},"pm25":{"value":9.632350815544921,"unit":"ug/m3"},"pm10":{"value":139.61488060469196,"unit":"ug/m3"},"formaldehyde":{"value":1.9819022868665965,"unit":"mg/m3"},"temperature":{"value":65.75978737194366,"unit":"°C"},"humidity":{"value":1.762429386331621,"unit":"%"}}},{"deviceId":0,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.15148281868878,"direction":"N"},"longitiude":{"value":19.212535385570735,"direction":"E"}},"results":{"pm1":{"value":491.24586204164723,"unit":"ug/m3"},"pm25":{"value":231.78513680129143,"unit":"ug/m3"},"pm10":{"value":282.09584542934385,"unit":"ug/m3"},"formaldehyde":{"value":1.2356227237524928,"unit":"mg/m3"},"temperature":{"value":-14.226961015940567,"unit":"°C"},"humidity":{"value":29.158082913961625,"unit":"%"}}},{"deviceId":0,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.39567834261295,"direction":"N"},"longitiude":{"value":19.46943578333554,"direction":"E"}},"results":{"pm1":{"value":94.3361499326374,"unit":"ug/m3"},"pm25":{"value":476.9975703050994,"unit":"ug/m3"},"pm10":{"value":39.37098788126126,"unit":"ug/m3"},"formaldehyde":{"value":0.1795084308522612,"unit":"mg/m3"},"temperature":{"value":-7.935793206739678,"unit":"°C"},"humidity":{"value":90.57718951565485,"unit":"%"}}},{"deviceId":1,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.91179983530714,"direction":"N"},"longitiude":{"value":19.14469918031301,"direction":"E"}},"results":{"pm1":{"value":108.62863151791157,"unit":"ug/m3"},"pm25":{"value":493.82877064984257,"unit":"ug/m3"},"pm10":{"value":213.47822886328626,"unit":"ug/m3"},"formaldehyde":{"value":0.9506752456435779,"unit":"mg/m3"},"temperature":{"value":-4.067896983109657,"unit":"°C"},"humidity":{"value":1.740579395196451,"unit":"%"}}},{"deviceId":4,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.73113694597222,"direction":"N"},"longitiude":{"value":19.250448647410767,"direction":"E"}},"results":{"pm1":{"value":347.21835503560925,"unit":"ug/m3"},"pm25":{"value":281.3900049687511,"unit":"ug/m3"},"pm10":{"value":189.76625846726003,"unit":"ug/m3"},"formaldehyde":{"value":0.98196501897058,"unit":"mg/m3"},"temperature":{"value":36.06553067849612,"unit":"°C"},"humidity":{"value":41.13636838899946,"unit":"%"}}},{"deviceId":0,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.286307022833476,"direction":"N"},"longitiude":{"value":19.787439410985836,"direction":"E"}},"results":{"pm1":{"value":262.1490932772044,"unit":"ug/m3"},"pm25":{"value":389.5792916685934,"unit":"ug/m3"},"pm10":{"value":249.85463991250134,"unit":"ug/m3"},"formaldehyde":{"value":0.6417838121373975,"unit":"mg/m3"},"temperature":{"value":32.01624834790693,"unit":"°C"},"humidity":{"value":51.607530726124786,"unit":"%"}}},{"deviceId":4,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.30201350995008,"direction":"N"},"longitiude":{"value":19.19129977740824,"direction":"E"}},"results":{"pm1":{"value":205.32931807384992,"unit":"ug/m3"},"pm25":{"value":235.3606077529853,"unit":"ug/m3"},"pm10":{"value":398.92841718500625,"unit":"ug/m3"},"formaldehyde":{"value":0.5996093663854634,"unit":"mg/m3"},"temperature":{"value":33.54971065762354,"unit":"°C"},"humidity":{"value":32.40661912682663,"unit":"%"}}},{"deviceId":4,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.132945754825904,"direction":"N"},"longitiude":{"value":19.693605825671867,"direction":"E"}},"results":{"pm1":{"value":486.8495278375996,"unit":"ug/m3"},"pm25":{"value":339.04186395922596,"unit":"ug/m3"},"pm10":{"value":237.63964928260128,"unit":"ug/m3"},"formaldehyde":{"value":0.05481963066303441,"unit":"mg/m3"},"temperature":{"value":51.488434952960844,"unit":"°C"},"humidity":{"value":64.98249692103212,"unit":"%"}}},{"deviceId":3,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.280160896844436,"direction":"N"},"longitiude":{"value":19.071945241151866,"direction":"E"}},"results":{"pm1":{"value":186.84081140158904,"unit":"ug/m3"},"pm25":{"value":109.87133330942689,"unit":"ug/m3"},"pm10":{"value":229.3809938517193,"unit":"ug/m3"},"formaldehyde":{"value":0.27849942096113356,"unit":"mg/m3"},"temperature":{"value":78.34816801146762,"unit":"°C"},"humidity":{"value":12.638860204035108,"unit":"%"}}},{"deviceId":3,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.01882654463648,"direction":"N"},"longitiude":{"value":19.48884411036402,"direction":"E"}},"results":{"pm1":{"value":153.24474151048372,"unit":"ug/m3"},"pm25":{"value":146.04607352913524,"unit":"ug/m3"},"pm10":{"value":394.72298626298686,"unit":"ug/m3"},"formaldehyde":{"value":0.36822734318292705,"unit":"mg/m3"},"temperature":{"value":46.9073082619303,"unit":"°C"},"humidity":{"value":90.6708667490058,"unit":"%"}}},{"deviceId":1,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.09657165334987,"direction":"N"},"longitiude":{"value":19.276767073491545,"direction":"E"}},"results":{"pm1":{"value":184.43829878376795,"unit":"ug/m3"},"pm25":{"value":272.6839497978547,"unit":"ug/m3"},"pm10":{"value":186.8628670915623,"unit":"ug/m3"},"formaldehyde":{"value":1.2072985657501998,"unit":"mg/m3"},"temperature":{"value":53.89079804020032,"unit":"°C"},"humidity":{"value":83.30618055511971,"unit":"%"}}},{"deviceId":4,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.25079642225845,"direction":"N"},"longitiude":{"value":19.29898065208753,"direction":"E"}},"results":{"pm1":{"value":146.38350931916145,"unit":"ug/m3"},"pm25":{"value":326.8068495133355,"unit":"ug/m3"},"pm10":{"value":452.0947168168493,"unit":"ug/m3"},"formaldehyde":{"value":1.3280902918176323,"unit":"mg/m3"},"temperature":{"value":62.09550624153573,"unit":"°C"},"humidity":{"value":92.91628435510373,"unit":"%"}}},{"deviceId":4,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.20625992939202,"direction":"N"},"longitiude":{"value":19.180993670238166,"direction":"E"}},"results":{"pm1":{"value":154.76294290509486,"unit":"ug/m3"},"pm25":{"value":29.814970752489955,"unit":"ug/m3"},"pm10":{"value":285.66027689803684,"unit":"ug/m3"},"formaldehyde":{"value":1.4737856639523859,"unit":"mg/m3"},"temperature":{"value":15.499169232223188,"unit":"°C"},"humidity":{"value":1.1225403289306435,"unit":"%"}}},{"deviceId":1,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.4599650188012,"direction":"N"},"longitiude":{"value":19.59317882448804,"direction":"E"}},"results":{"pm1":{"value":190.3108213162472,"unit":"ug/m3"},"pm25":{"value":462.3733219153914,"unit":"ug/m3"},"pm10":{"value":321.68537538212286,"unit":"ug/m3"},"formaldehyde":{"value":1.5961499404053892,"unit":"mg/m3"},"temperature":{"value":29.251835689163705,"unit":"°C"},"humidity":{"value":77.64215318636415,"unit":"%"}}},{"deviceId":4,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.89422869105973,"direction":"N"},"longitiude":{"value":19.152029501702145,"direction":"E"}},"results":{"pm1":{"value":46.16526505062502,"unit":"ug/m3"},"pm25":{"value":6.8884474955667185,"unit":"ug/m3"},"pm10":{"value":225.93063887129082,"unit":"ug/m3"},"formaldehyde":{"value":1.0475037235581057,"unit":"mg/m3"},"temperature":{"value":0.9814348100025683,"unit":"°C"},"humidity":{"value":25.798387211451555,"unit":"%"}}},{"deviceId":2,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.284124370882154,"direction":"N"},"longitiude":{"value":19.8824626025374,"direction":"E"}},"results":{"pm1":{"value":127.96310256111465,"unit":"ug/m3"},"pm25":{"value":229.8889104323627,"unit":"ug/m3"},"pm10":{"value":392.3080214494502,"unit":"ug/m3"},"formaldehyde":{"value":1.8330475268797572,"unit":"mg/m3"},"temperature":{"value":50.748096239398436,"unit":"°C"},"humidity":{"value":9.475988625298903,"unit":"%"}}},{"deviceId":2,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.26943828142234,"direction":"N"},"longitiude":{"value":19.053770270225655,"direction":"E"}},"results":{"pm1":{"value":325.22534608127086,"unit":"ug/m3"},"pm25":{"value":136.96711681824746,"unit":"ug/m3"},"pm10":{"value":167.05553564948917,"unit":"ug/m3"},"formaldehyde":{"value":0.17708035763858998,"unit":"mg/m3"},"temperature":{"value":-8.402147171477223,"unit":"°C"},"humidity":{"value":71.09826294268859,"unit":"%"}}},{"deviceId":1,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.65284264018134,"direction":"N"},"longitiude":{"value":19.68383161797678,"direction":"E"}},"results":{"pm1":{"value":17.772257062952825,"unit":"ug/m3"},"pm25":{"value":230.9984941077581,"unit":"ug/m3"},"pm10":{"value":311.90418147135466,"unit":"ug/m3"},"formaldehyde":{"value":1.0600045580449815,"unit":"mg/m3"},"temperature":{"value":3.8444026870533925,"unit":"°C"},"humidity":{"value":8.814482631220354,"unit":"%"}}},{"deviceId":3,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.15794999289988,"direction":"N"},"longitiude":{"value":19.913455538521283,"direction":"E"}},"results":{"pm1":{"value":375.4316558744897,"unit":"ug/m3"},"pm25":{"value":410.5046385656386,"unit":"ug/m3"},"pm10":{"value":299.5967560048576,"unit":"ug/m3"},"formaldehyde":{"value":1.0807750865064034,"unit":"mg/m3"},"temperature":{"value":49.53081668663137,"unit":"°C"},"humidity":{"value":15.576789597010654,"unit":"%"}}},{"deviceId":0,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.61678715675247,"direction":"N"},"longitiude":{"value":19.833213667109288,"direction":"E"}},"results":{"pm1":{"value":298.9943850933635,"unit":"ug/m3"},"pm25":{"value":489.68463063807013,"unit":"ug/m3"},"pm10":{"value":485.2210500252129,"unit":"ug/m3"},"formaldehyde":{"value":0.9285098288624085,"unit":"mg/m3"},"temperature":{"value":68.84524419135857,"unit":"°C"},"humidity":{"value":94.02746362903827,"unit":"%"}}},{"deviceId":2,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.07049388534323,"direction":"N"},"longitiude":{"value":19.06077023951329,"direction":"E"}},"results":{"pm1":{"value":123.95302797978181,"unit":"ug/m3"},"pm25":{"value":181.53371060159796,"unit":"ug/m3"},"pm10":{"value":4.779302082798975,"unit":"ug/m3"},"formaldehyde":{"value":0.9064872771805201,"unit":"mg/m3"},"temperature":{"value":28.062713498474892,"unit":"°C"},"humidity":{"value":97.07034846574956,"unit":"%"}}},{"deviceId":2,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.412170295444874,"direction":"N"},"longitiude":{"value":19.165491073172245,"direction":"E"}},"results":{"pm1":{"value":148.06875434221334,"unit":"ug/m3"},"pm25":{"value":0.2849537286638837,"unit":"ug/m3"},"pm10":{"value":121.05235141023229,"unit":"ug/m3"},"formaldehyde":{"value":0.5936498507200514,"unit":"mg/m3"},"temperature":{"value":50.42749945635285,"unit":"°C"},"humidity":{"value":64.83908132274068,"unit":"%"}}},{"deviceId":2,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.589010742242934,"direction":"N"},"longitiude":{"value":19.36268841459922,"direction":"E"}},"results":{"pm1":{"value":284.46244867918693,"unit":"ug/m3"},"pm25":{"value":203.87129614321918,"unit":"ug/m3"},"pm10":{"value":38.13426268683029,"unit":"ug/m3"},"formaldehyde":{"value":1.681361264145977,"unit":"mg/m3"},"temperature":{"value":75.48030304210111,"unit":"°C"},"humidity":{"value":4.304011302163757,"unit":"%"}}},{"deviceId":4,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.40209824390169,"direction":"N"},"longitiude":{"value":19.618998910330706,"direction":"E"}},"results":{"pm1":{"value":151.24439579268113,"unit":"ug/m3"},"pm25":{"value":262.91236535232633,"unit":"ug/m3"},"pm10":{"value":164.96717332253908,"unit":"ug/m3"},"formaldehyde":{"value":1.620259765671662,"unit":"mg/m3"},"temperature":{"value":54.898135053929735,"unit":"°C"},"humidity":{"value":35.34197188523114,"unit":"%"}}},{"deviceId":4,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.301077512520926,"direction":"N"},"longitiude":{"value":19.441676851523226,"direction":"E"}},"results":{"pm1":{"value":295.5926930722483,"unit":"ug/m3"},"pm25":{"value":419.46257344238603,"unit":"ug/m3"},"pm10":{"value":484.64808874198263,"unit":"ug/m3"},"formaldehyde":{"value":1.7914918107832118,"unit":"mg/m3"},"temperature":{"value":78.5431635204508,"unit":"°C"},"humidity":{"value":43.20012920059082,"unit":"%"}}},{"deviceId":1,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.48104398325212,"direction":"N"},"longitiude":{"value":19.03158998748637,"direction":"E"}},"results":{"pm1":{"value":239.83901311432732,"unit":"ug/m3"},"pm25":{"value":248.30835838789312,"unit":"ug/m3"},"pm10":{"value":260.6381465586175,"unit":"ug/m3"},"formaldehyde":{"value":1.241860960788097,"unit":"mg/m3"},"temperature":{"value":71.32746401415321,"unit":"°C"},"humidity":{"value":44.84946965239689,"unit":"%"}}},{"deviceId":4,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.18742796816744,"direction":"N"},"longitiude":{"value":19.773146526145148,"direction":"E"}},"results":{"pm1":{"value":137.57394528716782,"unit":"ug/m3"},"pm25":{"value":32.62942637841315,"unit":"ug/m3"},"pm10":{"value":241.0333571925014,"unit":"ug/m3"},"formaldehyde":{"value":0.6338830405849776,"unit":"mg/m3"},"temperature":{"value":77.89446584725883,"unit":"°C"},"humidity":{"value":29.583166286361397,"unit":"%"}}},{"deviceId":0,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.77565454377403,"direction":"N"},"longitiude":{"value":19.258149608855167,"direction":"E"}},"results":{"pm1":{"value":433.5825827915386,"unit":"ug/m3"},"pm25":{"value":47.061056215400576,"unit":"ug/m3"},"pm10":{"value":153.54246165556418,"unit":"ug/m3"},"formaldehyde":{"value":1.230268328524902,"unit":"mg/m3"},"temperature":{"value":36.97924006735444,"unit":"°C"},"humidity":{"value":29.128331134024066,"unit":"%"}}},{"deviceId":1,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.4409480559741,"direction":"N"},"longitiude":{"value":19.629576119057628,"direction":"E"}},"results":{"pm1":{"value":376.27915978634996,"unit":"ug/m3"},"pm25":{"value":469.6393730733479,"unit":"ug/m3"},"pm10":{"value":125.36418792808246,"unit":"ug/m3"},"formaldehyde":{"value":1.716100317541156,"unit":"mg/m3"},"temperature":{"value":73.61096476582351,"unit":"°C"},"humidity":{"value":40.83018793382096,"unit":"%"}}},{"deviceId":2,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.752124504133526,"direction":"N"},"longitiude":{"value":19.389433137635866,"direction":"E"}},"results":{"pm1":{"value":311.40941568242044,"unit":"ug/m3"},"pm25":{"value":211.56658543965634,"unit":"ug/m3"},"pm10":{"value":184.53052907869582,"unit":"ug/m3"},"formaldehyde":{"value":0.5809072014325163,"unit":"mg/m3"},"temperature":{"value":57.43465546034213,"unit":"°C"},"humidity":{"value":52.562024103385106,"unit":"%"}}},{"deviceId":0,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.04259829497838,"direction":"N"},"longitiude":{"value":19.563043767728416,"direction":"E"}},"results":{"pm1":{"value":283.3772361320276,"unit":"ug/m3"},"pm25":{"value":203.14435510640527,"unit":"ug/m3"},"pm10":{"value":10.819625200334638,"unit":"ug/m3"},"formaldehyde":{"value":0.7366123734295327,"unit":"mg/m3"},"temperature":{"value":47.1043160486733,"unit":"°C"},"humidity":{"value":2.268128722213958,"unit":"%"}}},{"deviceId":2,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.87493800502909,"direction":"N"},"longitiude":{"value":19.40318144921065,"direction":"E"}},"results":{"pm1":{"value":20.813488832464255,"unit":"ug/m3"},"pm25":{"value":405.3716558351822,"unit":"ug/m3"},"pm10":{"value":228.55391655477908,"unit":"ug/m3"},"formaldehyde":{"value":0.4202166910739331,"unit":"mg/m3"},"temperature":{"value":-19.773596535445215,"unit":"°C"},"humidity":{"value":3.5297846371537434,"unit":"%"}}},{"deviceId":4,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.88711161832989,"direction":"N"},"longitiude":{"value":19.560236032968135,"direction":"E"}},"results":{"pm1":{"value":86.6030164553271,"unit":"ug/m3"},"pm25":{"value":427.6394107145677,"unit":"ug/m3"},"pm10":{"value":474.75023726808297,"unit":"ug/m3"},"formaldehyde":{"value":1.9648411614476755,"unit":"mg/m3"},"temperature":{"value":45.84722091281742,"unit":"°C"},"humidity":{"value":82.37534458654589,"unit":"%"}}},{"deviceId":4,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.26054515436855,"direction":"N"},"longitiude":{"value":19.352199674182202,"direction":"E"}},"results":{"pm1":{"value":382.1483068459086,"unit":"ug/m3"},"pm25":{"value":466.61415734387435,"unit":"ug/m3"},"pm10":{"value":21.08716332571703,"unit":"ug/m3"},"formaldehyde":{"value":0.3554277658793863,"unit":"mg/m3"},"temperature":{"value":40.74439296489641,"unit":"°C"},"humidity":{"value":63.03400617668908,"unit":"%"}}},{"deviceId":3,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.82843055969864,"direction":"N"},"longitiude":{"value":19.61913699031277,"direction":"E"}},"results":{"pm1":{"value":177.10300911337862,"unit":"ug/m3"},"pm25":{"value":22.56528542127001,"unit":"ug/m3"},"pm10":{"value":477.6901358317655,"unit":"ug/m3"},"formaldehyde":{"value":1.6845464838783202,"unit":"mg/m3"},"temperature":{"value":82.9325749869981,"unit":"°C"},"humidity":{"value":26.547941551925504,"unit":"%"}}},{"deviceId":0,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.38835188746869,"direction":"N"},"longitiude":{"value":19.16373671490967,"direction":"E"}},"results":{"pm1":{"value":203.7636859356412,"unit":"ug/m3"},"pm25":{"value":365.5323094334262,"unit":"ug/m3"},"pm10":{"value":423.8666024689115,"unit":"ug/m3"},"formaldehyde":{"value":0.5200261813709277,"unit":"mg/m3"},"temperature":{"value":74.02314776518374,"unit":"°C"},"humidity":{"value":73.58749147162631,"unit":"%"}}},{"deviceId":4,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.76147886254166,"direction":"N"},"longitiude":{"value":19.729057091599145,"direction":"E"}},"results":{"pm1":{"value":471.8010480779191,"unit":"ug/m3"},"pm25":{"value":437.19711726396116,"unit":"ug/m3"},"pm10":{"value":270.2200175423709,"unit":"ug/m3"},"formaldehyde":{"value":1.4648224850873635,"unit":"mg/m3"},"temperature":{"value":17.65444153855364,"unit":"°C"},"humidity":{"value":38.382504202203194,"unit":"%"}}},{"deviceId":2,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.18948744886235,"direction":"N"},"longitiude":{"value":19.152703946144953,"direction":"E"}},"results":{"pm1":{"value":110.68005826889326,"unit":"ug/m3"},"pm25":{"value":147.54058165719175,"unit":"ug/m3"},"pm10":{"value":340.5206105214109,"unit":"ug/m3"},"formaldehyde":{"value":0.7706418028034023,"unit":"mg/m3"},"temperature":{"value":53.08338537891399,"unit":"°C"},"humidity":{"value":39.31905145831753,"unit":"%"}}},{"deviceId":3,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.055305094867315,"direction":"N"},"longitiude":{"value":19.08352604300731,"direction":"E"}},"results":{"pm1":{"value":277.29043434404485,"unit":"ug/m3"},"pm25":{"value":489.4019642020517,"unit":"ug/m3"},"pm10":{"value":338.7199498162909,"unit":"ug/m3"},"formaldehyde":{"value":0.7297362574567066,"unit":"mg/m3"},"temperature":{"value":31.068355200274077,"unit":"°C"},"humidity":{"value":10.63934669115203,"unit":"%"}}},{"deviceId":2,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.48046731192123,"direction":"N"},"longitiude":{"value":19.786155141000748,"direction":"E"}},"results":{"pm1":{"value":280.6357297437244,"unit":"ug/m3"},"pm25":{"value":339.1497191115038,"unit":"ug/m3"},"pm10":{"value":197.43989143623276,"unit":"ug/m3"},"formaldehyde":{"value":1.871307421856316,"unit":"mg/m3"},"temperature":{"value":1.7070502384841646,"unit":"°C"},"humidity":{"value":14.88238088512941,"unit":"%"}}},{"deviceId":1,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.56866259356713,"direction":"N"},"longitiude":{"value":19.125624034722232,"direction":"E"}},"results":{"pm1":{"value":235.8508735498299,"unit":"ug/m3"},"pm25":{"value":373.6132159933948,"unit":"ug/m3"},"pm10":{"value":495.18041533941835,"unit":"ug/m3"},"formaldehyde":{"value":1.3544226756848126,"unit":"mg/m3"},"temperature":{"value":-16.328457296482455,"unit":"°C"},"humidity":{"value":78.70473363428532,"unit":"%"}}},{"deviceId":3,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.01168014700395,"direction":"N"},"longitiude":{"value":19.380433317889672,"direction":"E"}},"results":{"pm1":{"value":393.1374747993501,"unit":"ug/m3"},"pm25":{"value":161.81156897362615,"unit":"ug/m3"},"pm10":{"value":415.08676596422566,"unit":"ug/m3"},"formaldehyde":{"value":0.5460276019336128,"unit":"mg/m3"},"temperature":{"value":14.17855116319592,"unit":"°C"},"humidity":{"value":65.14241547736216,"unit":"%"}}},{"deviceId":3,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.297042601494425,"direction":"N"},"longitiude":{"value":19.753449104384817,"direction":"E"}},"results":{"pm1":{"value":176.6181933933497,"unit":"ug/m3"},"pm25":{"value":60.69436903148584,"unit":"ug/m3"},"pm10":{"value":445.116051095706,"unit":"ug/m3"},"formaldehyde":{"value":1.065876661318828,"unit":"mg/m3"},"temperature":{"value":82.58520098728161,"unit":"°C"},"humidity":{"value":58.46771886699147,"unit":"%"}}},{"deviceId":0,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.95286826502413,"direction":"N"},"longitiude":{"value":19.914869862177245,"direction":"E"}},"results":{"pm1":{"value":425.51832769203645,"unit":"ug/m3"},"pm25":{"value":462.1488440894104,"unit":"ug/m3"},"pm10":{"value":20.990786338319523,"unit":"ug/m3"},"formaldehyde":{"value":1.1947759312292554,"unit":"mg/m3"},"temperature":{"value":58.63522748485485,"unit":"°C"},"humidity":{"value":60.31150252450745,"unit":"%"}}},{"deviceId":1,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.716720813153714,"direction":"N"},"longitiude":{"value":19.043437546273616,"direction":"E"}},"results":{"pm1":{"value":310.79660491059036,"unit":"ug/m3"},"pm25":{"value":233.43586147654437,"unit":"ug/m3"},"pm10":{"value":123.82117536112214,"unit":"ug/m3"},"formaldehyde":{"value":0.7217138817440047,"unit":"mg/m3"},"temperature":{"value":6.5191185459446395,"unit":"°C"},"humidity":{"value":38.47536439961181,"unit":"%"}}},{"deviceId":3,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.22739186036128,"direction":"N"},"longitiude":{"value":19.53683590737777,"direction":"E"}},"results":{"pm1":{"value":387.02401562195456,"unit":"ug/m3"},"pm25":{"value":23.839163597456412,"unit":"ug/m3"},"pm10":{"value":236.66231170922248,"unit":"ug/m3"},"formaldehyde":{"value":1.1148528745990198,"unit":"mg/m3"},"temperature":{"value":5.952690050087995,"unit":"°C"},"humidity":{"value":40.90802382254446,"unit":"%"}}},{"deviceId":4,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.8786105279279,"direction":"N"},"longitiude":{"value":19.37847295863055,"direction":"E"}},"results":{"pm1":{"value":146.49783045442078,"unit":"ug/m3"},"pm25":{"value":294.17263215279286,"unit":"ug/m3"},"pm10":{"value":136.35497783393035,"unit":"ug/m3"},"formaldehyde":{"value":1.8202949295157995,"unit":"mg/m3"},"temperature":{"value":45.25215849339355,"unit":"°C"},"humidity":{"value":80.0770770712166,"unit":"%"}}},{"deviceId":1,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.927845285189385,"direction":"N"},"longitiude":{"value":19.06762736840748,"direction":"E"}},"results":{"pm1":{"value":385.7699915387001,"unit":"ug/m3"},"pm25":{"value":477.0924019968907,"unit":"ug/m3"},"pm10":{"value":427.79769258323597,"unit":"ug/m3"},"formaldehyde":{"value":1.1026727038326292,"unit":"mg/m3"},"temperature":{"value":62.16614066920799,"unit":"°C"},"humidity":{"value":42.21391500298937,"unit":"%"}}},{"deviceId":4,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.22341831289058,"direction":"N"},"longitiude":{"value":19.95383616191714,"direction":"E"}},"results":{"pm1":{"value":327.9386696868595,"unit":"ug/m3"},"pm25":{"value":60.276140089735804,"unit":"ug/m3"},"pm10":{"value":94.50486572491812,"unit":"ug/m3"},"formaldehyde":{"value":1.929268693218103,"unit":"mg/m3"},"temperature":{"value":-8.084429342201465,"unit":"°C"},"humidity":{"value":72.04822280822032,"unit":"%"}}},{"deviceId":1,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.865435489374335,"direction":"N"},"longitiude":{"value":19.649659054003454,"direction":"E"}},"results":{"pm1":{"value":216.62271661861166,"unit":"ug/m3"},"pm25":{"value":364.4334784649148,"unit":"ug/m3"},"pm10":{"value":50.98507737673963,"unit":"ug/m3"},"formaldehyde":{"value":1.724630224574891,"unit":"mg/m3"},"temperature":{"value":-15.137353479199785,"unit":"°C"},"humidity":{"value":36.53860902307624,"unit":"%"}}},{"deviceId":2,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.9302882070073,"direction":"N"},"longitiude":{"value":19.25737610214927,"direction":"E"}},"results":{"pm1":{"value":88.60794489009382,"unit":"ug/m3"},"pm25":{"value":469.41977673040157,"unit":"ug/m3"},"pm10":{"value":20.07295018264166,"unit":"ug/m3"},"formaldehyde":{"value":1.7467027103802484,"unit":"mg/m3"},"temperature":{"value":38.16963999066528,"unit":"°C"},"humidity":{"value":6.726890913093375,"unit":"%"}}},{"deviceId":1,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.70831066938059,"direction":"N"},"longitiude":{"value":19.009906697149557,"direction":"E"}},"results":{"pm1":{"value":438.9207006073883,"unit":"ug/m3"},"pm25":{"value":380.6678574043405,"unit":"ug/m3"},"pm10":{"value":44.24767589737255,"unit":"ug/m3"},"formaldehyde":{"value":1.2851683064896795,"unit":"mg/m3"},"temperature":{"value":35.65695082953225,"unit":"°C"},"humidity":{"value":96.97122417559211,"unit":"%"}}},{"deviceId":4,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.85252202450922,"direction":"N"},"longitiude":{"value":19.009739055347946,"direction":"E"}},"results":{"pm1":{"value":68.917098200179,"unit":"ug/m3"},"pm25":{"value":459.23663617275145,"unit":"ug/m3"},"pm10":{"value":471.7580099781139,"unit":"ug/m3"},"formaldehyde":{"value":0.6325076154673641,"unit":"mg/m3"},"temperature":{"value":13.594516598411055,"unit":"°C"},"humidity":{"value":69.43765550875716,"unit":"%"}}},{"deviceId":4,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.400030233101525,"direction":"N"},"longitiude":{"value":19.50163602822237,"direction":"E"}},"results":{"pm1":{"value":61.628937476125635,"unit":"ug/m3"},"pm25":{"value":207.62329998967044,"unit":"ug/m3"},"pm10":{"value":12.578501191354174,"unit":"ug/m3"},"formaldehyde":{"value":0.62249700316872,"unit":"mg/m3"},"temperature":{"value":72.43752328842392,"unit":"°C"},"humidity":{"value":32.124163293558226,"unit":"%"}}},{"deviceId":4,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.073197318347646,"direction":"N"},"longitiude":{"value":19.780353087530386,"direction":"E"}},"results":{"pm1":{"value":200.23082474343468,"unit":"ug/m3"},"pm25":{"value":211.00857404479422,"unit":"ug/m3"},"pm10":{"value":441.05691383825854,"unit":"ug/m3"},"formaldehyde":{"value":0.7663872049820069,"unit":"mg/m3"},"temperature":{"value":58.33394120334998,"unit":"°C"},"humidity":{"value":94.36351882483942,"unit":"%"}}},{"deviceId":1,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.492503654963734,"direction":"N"},"longitiude":{"value":19.216804977868623,"direction":"E"}},"results":{"pm1":{"value":391.7105235397931,"unit":"ug/m3"},"pm25":{"value":456.92200908837475,"unit":"ug/m3"},"pm10":{"value":362.3805934886184,"unit":"ug/m3"},"formaldehyde":{"value":1.0116632476521947,"unit":"mg/m3"},"temperature":{"value":36.186328448830295,"unit":"°C"},"humidity":{"value":15.665950371771252,"unit":"%"}}},{"deviceId":2,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.32819701008481,"direction":"N"},"longitiude":{"value":19.072532504270328,"direction":"E"}},"results":{"pm1":{"value":185.37733853835047,"unit":"ug/m3"},"pm25":{"value":435.5622655785496,"unit":"ug/m3"},"pm10":{"value":392.4827405745066,"unit":"ug/m3"},"formaldehyde":{"value":1.1086086694952257,"unit":"mg/m3"},"temperature":{"value":7.707547677731053,"unit":"°C"},"humidity":{"value":30.45903913935506,"unit":"%"}}},{"deviceId":3,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.02742985282878,"direction":"N"},"longitiude":{"value":19.206540724531163,"direction":"E"}},"results":{"pm1":{"value":324.367234166342,"unit":"ug/m3"},"pm25":{"value":162.01608606098483,"unit":"ug/m3"},"pm10":{"value":155.17719884143798,"unit":"ug/m3"},"formaldehyde":{"value":0.772036581668512,"unit":"mg/m3"},"temperature":{"value":7.461644501186456,"unit":"°C"},"humidity":{"value":34.17393559289938,"unit":"%"}}},{"deviceId":4,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.73207613677843,"direction":"N"},"longitiude":{"value":19.519389012070576,"direction":"E"}},"results":{"pm1":{"value":256.6083233211117,"unit":"ug/m3"},"pm25":{"value":109.7431639875589,"unit":"ug/m3"},"pm10":{"value":148.8407152196688,"unit":"ug/m3"},"formaldehyde":{"value":1.5524564223233837,"unit":"mg/m3"},"temperature":{"value":40.55543166408119,"unit":"°C"},"humidity":{"value":2.097209620921081,"unit":"%"}}},{"deviceId":0,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.261091262251696,"direction":"N"},"longitiude":{"value":19.91821959057009,"direction":"E"}},"results":{"pm1":{"value":66.16905243795945,"unit":"ug/m3"},"pm25":{"value":443.0882523226416,"unit":"ug/m3"},"pm10":{"value":262.47249803184945,"unit":"ug/m3"},"formaldehyde":{"value":1.6566876940084154,"unit":"mg/m3"},"temperature":{"value":4.813881098857632,"unit":"°C"},"humidity":{"value":37.318313104188384,"unit":"%"}}},{"deviceId":2,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.0140253409625,"direction":"N"},"longitiude":{"value":19.338054782973508,"direction":"E"}},"results":{"pm1":{"value":74.69289736107298,"unit":"ug/m3"},"pm25":{"value":389.532623887847,"unit":"ug/m3"},"pm10":{"value":180.52251404964403,"unit":"ug/m3"},"formaldehyde":{"value":1.9445816347974625,"unit":"mg/m3"},"temperature":{"value":15.810265493279921,"unit":"°C"},"humidity":{"value":13.318226812621447,"unit":"%"}}},{"deviceId":2,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.293326505090036,"direction":"N"},"longitiude":{"value":19.850357420102437,"direction":"E"}},"results":{"pm1":{"value":180.88715896187492,"unit":"ug/m3"},"pm25":{"value":264.7243128834631,"unit":"ug/m3"},"pm10":{"value":481.9621538166821,"unit":"ug/m3"},"formaldehyde":{"value":0.37326520007457553,"unit":"mg/m3"},"temperature":{"value":68.11268020969888,"unit":"°C"},"humidity":{"value":82.68662986094193,"unit":"%"}}},{"deviceId":3,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.459202983120335,"direction":"N"},"longitiude":{"value":19.428683778029008,"direction":"E"}},"results":{"pm1":{"value":320.6496441647165,"unit":"ug/m3"},"pm25":{"value":217.91504438632447,"unit":"ug/m3"},"pm10":{"value":77.83147156850146,"unit":"ug/m3"},"formaldehyde":{"value":0.40579505103081415,"unit":"mg/m3"},"temperature":{"value":94.21598514161039,"unit":"°C"},"humidity":{"value":19.666963355754994,"unit":"%"}}},{"deviceId":4,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.31989997723998,"direction":"N"},"longitiude":{"value":19.3785684106571,"direction":"E"}},"results":{"pm1":{"value":428.91044752360017,"unit":"ug/m3"},"pm25":{"value":422.6843330237463,"unit":"ug/m3"},"pm10":{"value":126.17502960370497,"unit":"ug/m3"},"formaldehyde":{"value":1.9221266415901468,"unit":"mg/m3"},"temperature":{"value":-17.059640398992542,"unit":"°C"},"humidity":{"value":67.02808618874741,"unit":"%"}}},{"deviceId":0,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.63649936861166,"direction":"N"},"longitiude":{"value":19.038833299890122,"direction":"E"}},"results":{"pm1":{"value":270.91806385757644,"unit":"ug/m3"},"pm25":{"value":384.9054434879218,"unit":"ug/m3"},"pm10":{"value":12.963306150965192,"unit":"ug/m3"},"formaldehyde":{"value":0.5917928289356809,"unit":"mg/m3"},"temperature":{"value":27.50128645878948,"unit":"°C"},"humidity":{"value":45.75332865490416,"unit":"%"}}},{"deviceId":3,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.58463708923189,"direction":"N"},"longitiude":{"value":19.32361034311731,"direction":"E"}},"results":{"pm1":{"value":128.54214913212903,"unit":"ug/m3"},"pm25":{"value":430.6548196663356,"unit":"ug/m3"},"pm10":{"value":325.5118688087877,"unit":"ug/m3"},"formaldehyde":{"value":0.11864272541033749,"unit":"mg/m3"},"temperature":{"value":42.038523663613645,"unit":"°C"},"humidity":{"value":84.41621833054703,"unit":"%"}}},{"deviceId":1,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.34751188591966,"direction":"N"},"longitiude":{"value":19.489495503839233,"direction":"E"}},"results":{"pm1":{"value":126.29025476029877,"unit":"ug/m3"},"pm25":{"value":306.5375770876405,"unit":"ug/m3"},"pm10":{"value":472.30706715718975,"unit":"ug/m3"},"formaldehyde":{"value":0.9916252878938292,"unit":"mg/m3"},"temperature":{"value":89.70045271130827,"unit":"°C"},"humidity":{"value":92.39988932360967,"unit":"%"}}},{"deviceId":0,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.43987329929611,"direction":"N"},"longitiude":{"value":19.438539857910687,"direction":"E"}},"results":{"pm1":{"value":136.90618930942722,"unit":"ug/m3"},"pm25":{"value":259.5757133997414,"unit":"ug/m3"},"pm10":{"value":229.66920535703971,"unit":"ug/m3"},"formaldehyde":{"value":1.5362506786298944,"unit":"mg/m3"},"temperature":{"value":31.94854292679029,"unit":"°C"},"humidity":{"value":90.7849340305231,"unit":"%"}}},{"deviceId":0,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.45726319737948,"direction":"N"},"longitiude":{"value":19.051426323014947,"direction":"E"}},"results":{"pm1":{"value":106.19042241480625,"unit":"ug/m3"},"pm25":{"value":0.2923078369914123,"unit":"ug/m3"},"pm10":{"value":20.153864719351432,"unit":"ug/m3"},"formaldehyde":{"value":0.3615758085175127,"unit":"mg/m3"},"temperature":{"value":30.787155698807027,"unit":"°C"},"humidity":{"value":9.517107802492596,"unit":"%"}}},{"deviceId":2,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.659401742080576,"direction":"N"},"longitiude":{"value":19.86874755746939,"direction":"E"}},"results":{"pm1":{"value":376.7465023924188,"unit":"ug/m3"},"pm25":{"value":114.8535968964438,"unit":"ug/m3"},"pm10":{"value":229.4559241633698,"unit":"ug/m3"},"formaldehyde":{"value":1.448050995390195,"unit":"mg/m3"},"temperature":{"value":88.45766886993073,"unit":"°C"},"humidity":{"value":7.153175792744482,"unit":"%"}}},{"deviceId":1,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.135230289353224,"direction":"N"},"longitiude":{"value":19.893223308366547,"direction":"E"}},"results":{"pm1":{"value":223.94241651727322,"unit":"ug/m3"},"pm25":{"value":192.69235661648887,"unit":"ug/m3"},"pm10":{"value":223.4470549141907,"unit":"ug/m3"},"formaldehyde":{"value":0.39929869962304076,"unit":"mg/m3"},"temperature":{"value":54.20041927991839,"unit":"°C"},"humidity":{"value":97.62855117998264,"unit":"%"}}},{"deviceId":3,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.963228161307725,"direction":"N"},"longitiude":{"value":19.503067841355,"direction":"E"}},"results":{"pm1":{"value":128.80779967401557,"unit":"ug/m3"},"pm25":{"value":416.2946899431369,"unit":"ug/m3"},"pm10":{"value":336.63535945102905,"unit":"ug/m3"},"formaldehyde":{"value":0.3607683405791269,"unit":"mg/m3"},"temperature":{"value":59.49780336592181,"unit":"°C"},"humidity":{"value":65.52531997325706,"unit":"%"}}},{"deviceId":1,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.1596211790152,"direction":"N"},"longitiude":{"value":19.498556646926005,"direction":"E"}},"results":{"pm1":{"value":176.59032452882718,"unit":"ug/m3"},"pm25":{"value":251.24386978927194,"unit":"ug/m3"},"pm10":{"value":369.5492391047561,"unit":"ug/m3"},"formaldehyde":{"value":1.3218170644696863,"unit":"mg/m3"},"temperature":{"value":-16.065622450471988,"unit":"°C"},"humidity":{"value":10.724034766844358,"unit":"%"}}},{"deviceId":0,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.62099423705856,"direction":"N"},"longitiude":{"value":19.7541755566056,"direction":"E"}},"results":{"pm1":{"value":389.8017911764643,"unit":"ug/m3"},"pm25":{"value":499.4708883104646,"unit":"ug/m3"},"pm10":{"value":407.01981838161817,"unit":"ug/m3"},"formaldehyde":{"value":0.2593883404372108,"unit":"mg/m3"},"temperature":{"value":47.432307960487464,"unit":"°C"},"humidity":{"value":70.25809588113252,"unit":"%"}}},{"deviceId":0,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.665658563924,"direction":"N"},"longitiude":{"value":19.347804938108506,"direction":"E"}},"results":{"pm1":{"value":209.3463983421886,"unit":"ug/m3"},"pm25":{"value":118.96818693538901,"unit":"ug/m3"},"pm10":{"value":397.4599246882691,"unit":"ug/m3"},"formaldehyde":{"value":0.7137715943889358,"unit":"mg/m3"},"temperature":{"value":58.48651729901249,"unit":"°C"},"humidity":{"value":80.61216516680471,"unit":"%"}}},{"deviceId":1,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.469966997952326,"direction":"N"},"longitiude":{"value":19.53630121538903,"direction":"E"}},"results":{"pm1":{"value":260.17627805733736,"unit":"ug/m3"},"pm25":{"value":66.74634849712702,"unit":"ug/m3"},"pm10":{"value":418.39308088770355,"unit":"ug/m3"},"formaldehyde":{"value":1.7226346031858695,"unit":"mg/m3"},"temperature":{"value":54.147762061027265,"unit":"°C"},"humidity":{"value":42.95680038977614,"unit":"%"}}},{"deviceId":4,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.26042268341081,"direction":"N"},"longitiude":{"value":19.660637289892804,"direction":"E"}},"results":{"pm1":{"value":270.64741571108897,"unit":"ug/m3"},"pm25":{"value":82.52931500906013,"unit":"ug/m3"},"pm10":{"value":280.34872037551673,"unit":"ug/m3"},"formaldehyde":{"value":1.15006827674083,"unit":"mg/m3"},"temperature":{"value":56.56885560181027,"unit":"°C"},"humidity":{"value":27.077276178991738,"unit":"%"}}},{"deviceId":3,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.37609918388824,"direction":"N"},"longitiude":{"value":19.327025838149957,"direction":"E"}},"results":{"pm1":{"value":218.11243826564163,"unit":"ug/m3"},"pm25":{"value":375.1646652579399,"unit":"ug/m3"},"pm10":{"value":180.47207490075513,"unit":"ug/m3"},"formaldehyde":{"value":1.9311879597001633,"unit":"mg/m3"},"temperature":{"value":49.80752093235701,"unit":"°C"},"humidity":{"value":60.64308839675989,"unit":"%"}}},{"deviceId":0,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.81744315231018,"direction":"N"},"longitiude":{"value":19.5366018835229,"direction":"E"}},"results":{"pm1":{"value":313.4125500785506,"unit":"ug/m3"},"pm25":{"value":302.38541991994504,"unit":"ug/m3"},"pm10":{"value":460.4217891032102,"unit":"ug/m3"},"formaldehyde":{"value":0.8354703443556399,"unit":"mg/m3"},"temperature":{"value":9.702537728943298,"unit":"°C"},"humidity":{"value":42.788516279547984,"unit":"%"}}},{"deviceId":2,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.04890512134219,"direction":"N"},"longitiude":{"value":19.827275468527834,"direction":"E"}},"results":{"pm1":{"value":316.3204872759423,"unit":"ug/m3"},"pm25":{"value":317.00383085789554,"unit":"ug/m3"},"pm10":{"value":496.08904122715234,"unit":"ug/m3"},"formaldehyde":{"value":1.8035756149204034,"unit":"mg/m3"},"temperature":{"value":24.282023134669508,"unit":"°C"},"humidity":{"value":67.43415334836406,"unit":"%"}}},{"deviceId":0,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.90942326700815,"direction":"N"},"longitiude":{"value":19.84267484454513,"direction":"E"}},"results":{"pm1":{"value":395.31756276918463,"unit":"ug/m3"},"pm25":{"value":185.9621164853251,"unit":"ug/m3"},"pm10":{"value":349.4499993502812,"unit":"ug/m3"},"formaldehyde":{"value":1.2835880070444503,"unit":"mg/m3"},"temperature":{"value":16.006202572517687,"unit":"°C"},"humidity":{"value":81.68905084264797,"unit":"%"}}},{"deviceId":3,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.8246041722117,"direction":"N"},"longitiude":{"value":19.953152079038187,"direction":"E"}},"results":{"pm1":{"value":152.24690332271106,"unit":"ug/m3"},"pm25":{"value":15.634050166344116,"unit":"ug/m3"},"pm10":{"value":471.59330347924686,"unit":"ug/m3"},"formaldehyde":{"value":0.27170914356170917,"unit":"mg/m3"},"temperature":{"value":77.4327121380559,"unit":"°C"},"humidity":{"value":39.869072748615686,"unit":"%"}}},{"deviceId":1,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.98326245006752,"direction":"N"},"longitiude":{"value":19.318998387192472,"direction":"E"}},"results":{"pm1":{"value":328.06796230584735,"unit":"ug/m3"},"pm25":{"value":268.9947829875178,"unit":"ug/m3"},"pm10":{"value":303.2255386122509,"unit":"ug/m3"},"formaldehyde":{"value":0.04285311245844703,"unit":"mg/m3"},"temperature":{"value":91.35750682800932,"unit":"°C"},"humidity":{"value":81.44934316558854,"unit":"%"}}},{"deviceId":4,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.7464266221628,"direction":"N"},"longitiude":{"value":19.80100070994119,"direction":"E"}},"results":{"pm1":{"value":246.30508276148853,"unit":"ug/m3"},"pm25":{"value":444.1823014025702,"unit":"ug/m3"},"pm10":{"value":459.93741815837376,"unit":"ug/m3"},"formaldehyde":{"value":1.0236159389885207,"unit":"mg/m3"},"temperature":{"value":92.76215434836695,"unit":"°C"},"humidity":{"value":41.151702770280906,"unit":"%"}}},{"deviceId":2,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.439048007128186,"direction":"N"},"longitiude":{"value":19.390132241785548,"direction":"E"}},"results":{"pm1":{"value":405.86947591820353,"unit":"ug/m3"},"pm25":{"value":385.07796959976383,"unit":"ug/m3"},"pm10":{"value":188.69552065200378,"unit":"ug/m3"},"formaldehyde":{"value":0.30385152923984204,"unit":"mg/m3"},"temperature":{"value":5.263234853361446,"unit":"°C"},"humidity":{"value":64.26826535843489,"unit":"%"}}},{"deviceId":3,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.19039858436511,"direction":"N"},"longitiude":{"value":19.525047975714624,"direction":"E"}},"results":{"pm1":{"value":103.97065444594023,"unit":"ug/m3"},"pm25":{"value":347.8868001063953,"unit":"ug/m3"},"pm10":{"value":193.21311138632524,"unit":"ug/m3"},"formaldehyde":{"value":0.5204669686545449,"unit":"mg/m3"},"temperature":{"value":32.28632413841434,"unit":"°C"},"humidity":{"value":94.66383741408053,"unit":"%"}}},{"deviceId":2,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.420217397659485,"direction":"N"},"longitiude":{"value":19.637284110427995,"direction":"E"}},"results":{"pm1":{"value":47.36849006530497,"unit":"ug/m3"},"pm25":{"value":120.39037230726902,"unit":"ug/m3"},"pm10":{"value":206.4098847452621,"unit":"ug/m3"},"formaldehyde":{"value":1.0063893388904197,"unit":"mg/m3"},"temperature":{"value":43.94728950693363,"unit":"°C"},"humidity":{"value":40.38575436330265,"unit":"%"}}},{"deviceId":2,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.251184811708555,"direction":"N"},"longitiude":{"value":19.06976242091691,"direction":"E"}},"results":{"pm1":{"value":211.6554008392655,"unit":"ug/m3"},"pm25":{"value":311.23058415647955,"unit":"ug/m3"},"pm10":{"value":2.444844391295775,"unit":"ug/m3"},"formaldehyde":{"value":1.3636457179395554,"unit":"mg/m3"},"temperature":{"value":4.273674365375243,"unit":"°C"},"humidity":{"value":92.87287169362715,"unit":"%"}}},{"deviceId":4,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.87211454512943,"direction":"N"},"longitiude":{"value":19.333380512470516,"direction":"E"}},"results":{"pm1":{"value":285.8230785911886,"unit":"ug/m3"},"pm25":{"value":188.70634659593554,"unit":"ug/m3"},"pm10":{"value":186.96279553645667,"unit":"ug/m3"},"formaldehyde":{"value":1.9013960494224262,"unit":"mg/m3"},"temperature":{"value":-2.5118347303924082,"unit":"°C"},"humidity":{"value":64.35697766854187,"unit":"%"}}},{"deviceId":2,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.515262552461145,"direction":"N"},"longitiude":{"value":19.62273625075548,"direction":"E"}},"results":{"pm1":{"value":262.7658450254032,"unit":"ug/m3"},"pm25":{"value":320.16362194486635,"unit":"ug/m3"},"pm10":{"value":163.49099879881612,"unit":"ug/m3"},"formaldehyde":{"value":1.0500788203263962,"unit":"mg/m3"},"temperature":{"value":44.394131925755346,"unit":"°C"},"humidity":{"value":85.99257507044706,"unit":"%"}}},{"deviceId":2,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.64284687067314,"direction":"N"},"longitiude":{"value":19.815936807557154,"direction":"E"}},"results":{"pm1":{"value":446.6633459522634,"unit":"ug/m3"},"pm25":{"value":347.52205853767794,"unit":"ug/m3"},"pm10":{"value":448.33200233473644,"unit":"ug/m3"},"formaldehyde":{"value":1.316919675923617,"unit":"mg/m3"},"temperature":{"value":21.418486937559194,"unit":"°C"},"humidity":{"value":41.738882326196006,"unit":"%"}}},{"deviceId":1,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.96061352491336,"direction":"N"},"longitiude":{"value":19.258418369275045,"direction":"E"}},"results":{"pm1":{"value":33.087999873495086,"unit":"ug/m3"},"pm25":{"value":109.64407406407406,"unit":"ug/m3"},"pm10":{"value":467.8814247532399,"unit":"ug/m3"},"formaldehyde":{"value":1.8001691606741308,"unit":"mg/m3"},"temperature":{"value":38.58903065528252,"unit":"°C"},"humidity":{"value":95.31888488910378,"unit":"%"}}},{"deviceId":0,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.58934072825448,"direction":"N"},"longitiude":{"value":19.074482480584432,"direction":"E"}},"results":{"pm1":{"value":37.946851850062416,"unit":"ug/m3"},"pm25":{"value":490.91083821204575,"unit":"ug/m3"},"pm10":{"value":392.64994203253434,"unit":"ug/m3"},"formaldehyde":{"value":0.13521319878909388,"unit":"mg/m3"},"temperature":{"value":55.62668320969091,"unit":"°C"},"humidity":{"value":62.68426414562916,"unit":"%"}}},{"deviceId":1,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.62595270883348,"direction":"N"},"longitiude":{"value":19.080233567003887,"direction":"E"}},"results":{"pm1":{"value":374.7207111919943,"unit":"ug/m3"},"pm25":{"value":443.7943877702691,"unit":"ug/m3"},"pm10":{"value":405.4701136790714,"unit":"ug/m3"},"formaldehyde":{"value":0.10651681270499624,"unit":"mg/m3"},"temperature":{"value":20.47946531179661,"unit":"°C"},"humidity":{"value":80.15865678114342,"unit":"%"}}},{"deviceId":4,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.27812018448533,"direction":"N"},"longitiude":{"value":19.4197105119582,"direction":"E"}},"results":{"pm1":{"value":142.31467806146648,"unit":"ug/m3"},"pm25":{"value":324.47700101355395,"unit":"ug/m3"},"pm10":{"value":456.56302154166116,"unit":"ug/m3"},"formaldehyde":{"value":0.10110585338584155,"unit":"mg/m3"},"temperature":{"value":-12.936155100338013,"unit":"°C"},"humidity":{"value":16.245744903336057,"unit":"%"}}},{"deviceId":4,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.00131299613803,"direction":"N"},"longitiude":{"value":19.566350645269154,"direction":"E"}},"results":{"pm1":{"value":120.89679607731429,"unit":"ug/m3"},"pm25":{"value":420.1501208577447,"unit":"ug/m3"},"pm10":{"value":259.03921936800276,"unit":"ug/m3"},"formaldehyde":{"value":1.900076336801431,"unit":"mg/m3"},"temperature":{"value":-11.70492785909446,"unit":"°C"},"humidity":{"value":17.824161907898528,"unit":"%"}}},{"deviceId":3,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.04184478667941,"direction":"N"},"longitiude":{"value":19.432464810768597,"direction":"E"}},"results":{"pm1":{"value":395.03583871564143,"unit":"ug/m3"},"pm25":{"value":302.0292965584164,"unit":"ug/m3"},"pm10":{"value":476.30866300628105,"unit":"ug/m3"},"formaldehyde":{"value":1.4458965309889353,"unit":"mg/m3"},"temperature":{"value":-17.47059280189363,"unit":"°C"},"humidity":{"value":26.21816451345431,"unit":"%"}}},{"deviceId":0,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.40693442340877,"direction":"N"},"longitiude":{"value":19.318444585199448,"direction":"E"}},"results":{"pm1":{"value":68.68432741691699,"unit":"ug/m3"},"pm25":{"value":119.03789976628676,"unit":"ug/m3"},"pm10":{"value":112.05854133089032,"unit":"ug/m3"},"formaldehyde":{"value":0.39330607880077073,"unit":"mg/m3"},"temperature":{"value":19.2298747532788,"unit":"°C"},"humidity":{"value":29.034889015225573,"unit":"%"}}},{"deviceId":4,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.20933849146619,"direction":"N"},"longitiude":{"value":19.219658485472543,"direction":"E"}},"results":{"pm1":{"value":478.98137383060947,"unit":"ug/m3"},"pm25":{"value":302.8982796962696,"unit":"ug/m3"},"pm10":{"value":155.29749276103954,"unit":"ug/m3"},"formaldehyde":{"value":1.6672374280737188,"unit":"mg/m3"},"temperature":{"value":11.468001525379869,"unit":"°C"},"humidity":{"value":45.098054236098385,"unit":"%"}}},{"deviceId":1,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.115897563909925,"direction":"N"},"longitiude":{"value":19.850089885498573,"direction":"E"}},"results":{"pm1":{"value":253.08037006215977,"unit":"ug/m3"},"pm25":{"value":494.0108468404576,"unit":"ug/m3"},"pm10":{"value":237.20812856279937,"unit":"ug/m3"},"formaldehyde":{"value":1.78308953670214,"unit":"mg/m3"},"temperature":{"value":73.29736108370061,"unit":"°C"},"humidity":{"value":36.074286247578115,"unit":"%"}}},{"deviceId":0,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.81613050390352,"direction":"N"},"longitiude":{"value":19.57689771818762,"direction":"E"}},"results":{"pm1":{"value":207.31290495861933,"unit":"ug/m3"},"pm25":{"value":460.9112119948997,"unit":"ug/m3"},"pm10":{"value":307.1299562319818,"unit":"ug/m3"},"formaldehyde":{"value":1.0256457217119297,"unit":"mg/m3"},"temperature":{"value":66.32897761661759,"unit":"°C"},"humidity":{"value":96.01976550574716,"unit":"%"}}},{"deviceId":2,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.276124923488254,"direction":"N"},"longitiude":{"value":19.97802124001355,"direction":"E"}},"results":{"pm1":{"value":402.57435503452564,"unit":"ug/m3"},"pm25":{"value":445.235033046226,"unit":"ug/m3"},"pm10":{"value":242.61628554232416,"unit":"ug/m3"},"formaldehyde":{"value":1.1961584068803712,"unit":"mg/m3"},"temperature":{"value":86.71413907571919,"unit":"°C"},"humidity":{"value":1.4078405108947756,"unit":"%"}}},{"deviceId":4,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.28354673876665,"direction":"N"},"longitiude":{"value":19.215685701586242,"direction":"E"}},"results":{"pm1":{"value":436.9995560085772,"unit":"ug/m3"},"pm25":{"value":114.40441792187606,"unit":"ug/m3"},"pm10":{"value":112.0295019920977,"unit":"ug/m3"},"formaldehyde":{"value":1.286977035456904,"unit":"mg/m3"},"temperature":{"value":10.906603993925287,"unit":"°C"},"humidity":{"value":91.28732949303944,"unit":"%"}}},{"deviceId":0,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.99672606026838,"direction":"N"},"longitiude":{"value":19.85167205393842,"direction":"E"}},"results":{"pm1":{"value":330.0078241237472,"unit":"ug/m3"},"pm25":{"value":102.25524902912653,"unit":"ug/m3"},"pm10":{"value":82.60301296676931,"unit":"ug/m3"},"formaldehyde":{"value":0.8746382026880108,"unit":"mg/m3"},"temperature":{"value":73.93005050680542,"unit":"°C"},"humidity":{"value":59.188490104439296,"unit":"%"}}},{"deviceId":4,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.288793749955026,"direction":"N"},"longitiude":{"value":19.186523539348514,"direction":"E"}},"results":{"pm1":{"value":57.765201577144374,"unit":"ug/m3"},"pm25":{"value":218.77047411591622,"unit":"ug/m3"},"pm10":{"value":35.35486772337171,"unit":"ug/m3"},"formaldehyde":{"value":1.3007674229190287,"unit":"mg/m3"},"temperature":{"value":91.62966142135144,"unit":"°C"},"humidity":{"value":46.365987630281616,"unit":"%"}}},{"deviceId":1,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.42144629637816,"direction":"N"},"longitiude":{"value":19.704768361089354,"direction":"E"}},"results":{"pm1":{"value":117.73132929593643,"unit":"ug/m3"},"pm25":{"value":224.56532148916108,"unit":"ug/m3"},"pm10":{"value":391.99986031125445,"unit":"ug/m3"},"formaldehyde":{"value":0.6750457303079305,"unit":"mg/m3"},"temperature":{"value":45.433723279876006,"unit":"°C"},"humidity":{"value":4.261257356759507,"unit":"%"}}},{"deviceId":4,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.488129432003284,"direction":"N"},"longitiude":{"value":19.60057710910095,"direction":"E"}},"results":{"pm1":{"value":274.2236516520039,"unit":"ug/m3"},"pm25":{"value":392.64721988250875,"unit":"ug/m3"},"pm10":{"value":474.4590733167112,"unit":"ug/m3"},"formaldehyde":{"value":0.22120903757188204,"unit":"mg/m3"},"temperature":{"value":79.84951798289646,"unit":"°C"},"humidity":{"value":58.44679931905943,"unit":"%"}}},{"deviceId":1,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.462911080079145,"direction":"N"},"longitiude":{"value":19.62610466476743,"direction":"E"}},"results":{"pm1":{"value":439.90196418890804,"unit":"ug/m3"},"pm25":{"value":196.5951532324941,"unit":"ug/m3"},"pm10":{"value":465.78154913975646,"unit":"ug/m3"},"formaldehyde":{"value":0.4456112796952789,"unit":"mg/m3"},"temperature":{"value":78.37139219820418,"unit":"°C"},"humidity":{"value":94.33815238831413,"unit":"%"}}},{"deviceId":0,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.80482784927178,"direction":"N"},"longitiude":{"value":19.251125992486184,"direction":"E"}},"results":{"pm1":{"value":16.2421729814044,"unit":"ug/m3"},"pm25":{"value":412.98663939674543,"unit":"ug/m3"},"pm10":{"value":236.79333682975613,"unit":"ug/m3"},"formaldehyde":{"value":1.8658635106243486,"unit":"mg/m3"},"temperature":{"value":82.41892267476848,"unit":"°C"},"humidity":{"value":45.74081241187058,"unit":"%"}}},{"deviceId":0,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.81533034961211,"direction":"N"},"longitiude":{"value":19.06634763290296,"direction":"E"}},"results":{"pm1":{"value":245.59323457578552,"unit":"ug/m3"},"pm25":{"value":295.66704358449135,"unit":"ug/m3"},"pm10":{"value":185.31264600714292,"unit":"ug/m3"},"formaldehyde":{"value":1.7325843970225852,"unit":"mg/m3"},"temperature":{"value":-5.080709622426948,"unit":"°C"},"humidity":{"value":48.847022717216014,"unit":"%"}}},{"deviceId":1,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.564711777520984,"direction":"N"},"longitiude":{"value":19.699211557406112,"direction":"E"}},"results":{"pm1":{"value":302.284927482787,"unit":"ug/m3"},"pm25":{"value":113.63420955017789,"unit":"ug/m3"},"pm10":{"value":109.5012027054727,"unit":"ug/m3"},"formaldehyde":{"value":0.2728812400877434,"unit":"mg/m3"},"temperature":{"value":27.084063706743137,"unit":"°C"},"humidity":{"value":52.815404911172,"unit":"%"}}},{"deviceId":2,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.45508093248758,"direction":"N"},"longitiude":{"value":19.763991837649964,"direction":"E"}},"results":{"pm1":{"value":274.6417971884544,"unit":"ug/m3"},"pm25":{"value":331.13985548872694,"unit":"ug/m3"},"pm10":{"value":228.56106468758654,"unit":"ug/m3"},"formaldehyde":{"value":1.2790836792737337,"unit":"mg/m3"},"temperature":{"value":-18.013679808142705,"unit":"°C"},"humidity":{"value":6.453040841266544,"unit":"%"}}},{"deviceId":0,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.69056970794636,"direction":"N"},"longitiude":{"value":19.632402078875685,"direction":"E"}},"results":{"pm1":{"value":231.9848816072525,"unit":"ug/m3"},"pm25":{"value":196.32264544135592,"unit":"ug/m3"},"pm10":{"value":226.15739906567512,"unit":"ug/m3"},"formaldehyde":{"value":1.694863116408369,"unit":"mg/m3"},"temperature":{"value":65.73309911725491,"unit":"°C"},"humidity":{"value":42.19046791871421,"unit":"%"}}},{"deviceId":4,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.97621090027307,"direction":"N"},"longitiude":{"value":19.404968212063636,"direction":"E"}},"results":{"pm1":{"value":413.45743868736906,"unit":"ug/m3"},"pm25":{"value":11.634104150418656,"unit":"ug/m3"},"pm10":{"value":87.70026168471668,"unit":"ug/m3"},"formaldehyde":{"value":0.9196031866055803,"unit":"mg/m3"},"temperature":{"value":-2.254455287326671,"unit":"°C"},"humidity":{"value":97.73565855120748,"unit":"%"}}},{"deviceId":0,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.16929197673774,"direction":"N"},"longitiude":{"value":19.399014469085,"direction":"E"}},"results":{"pm1":{"value":159.9570048135659,"unit":"ug/m3"},"pm25":{"value":388.1626616169407,"unit":"ug/m3"},"pm10":{"value":317.48832973945173,"unit":"ug/m3"},"formaldehyde":{"value":0.4131713774924277,"unit":"mg/m3"},"temperature":{"value":-4.132193357391063,"unit":"°C"},"humidity":{"value":55.157293093837964,"unit":"%"}}},{"deviceId":1,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.719465891818956,"direction":"N"},"longitiude":{"value":19.037178854751044,"direction":"E"}},"results":{"pm1":{"value":126.41119612549278,"unit":"ug/m3"},"pm25":{"value":231.59141774751313,"unit":"ug/m3"},"pm10":{"value":16.96707446308199,"unit":"ug/m3"},"formaldehyde":{"value":0.666705425688725,"unit":"mg/m3"},"temperature":{"value":-17.803515325268815,"unit":"°C"},"humidity":{"value":76.91574033435187,"unit":"%"}}},{"deviceId":2,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.678022389971915,"direction":"N"},"longitiude":{"value":19.99070794694197,"direction":"E"}},"results":{"pm1":{"value":266.5514179536169,"unit":"ug/m3"},"pm25":{"value":473.00408191527976,"unit":"ug/m3"},"pm10":{"value":214.98173620301387,"unit":"ug/m3"},"formaldehyde":{"value":1.7930422891511255,"unit":"mg/m3"},"temperature":{"value":80.90876639194774,"unit":"°C"},"humidity":{"value":79.80956312052494,"unit":"%"}}},{"deviceId":0,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.791901775842355,"direction":"N"},"longitiude":{"value":19.698126755840747,"direction":"E"}},"results":{"pm1":{"value":102.38563124379118,"unit":"ug/m3"},"pm25":{"value":81.07839314608111,"unit":"ug/m3"},"pm10":{"value":121.42519802566387,"unit":"ug/m3"},"formaldehyde":{"value":0.2697663199099338,"unit":"mg/m3"},"temperature":{"value":92.72013877682305,"unit":"°C"},"humidity":{"value":76.99371825768635,"unit":"%"}}},{"deviceId":1,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.770073686257106,"direction":"N"},"longitiude":{"value":19.373084683943663,"direction":"E"}},"results":{"pm1":{"value":326.32720306478103,"unit":"ug/m3"},"pm25":{"value":396.7642473291072,"unit":"ug/m3"},"pm10":{"value":480.07506618013196,"unit":"ug/m3"},"formaldehyde":{"value":0.5413579537831716,"unit":"mg/m3"},"temperature":{"value":62.80075930019434,"unit":"°C"},"humidity":{"value":36.156796904974975,"unit":"%"}}},{"deviceId":0,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.44830979647625,"direction":"N"},"longitiude":{"value":19.161375546605147,"direction":"E"}},"results":{"pm1":{"value":476.7152804579926,"unit":"ug/m3"},"pm25":{"value":267.73334975458664,"unit":"ug/m3"},"pm10":{"value":451.5276441536632,"unit":"ug/m3"},"formaldehyde":{"value":1.8954047194404655,"unit":"mg/m3"},"temperature":{"value":52.70100136855139,"unit":"°C"},"humidity":{"value":13.379758772065632,"unit":"%"}}},{"deviceId":3,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.167458719419585,"direction":"N"},"longitiude":{"value":19.30588649755989,"direction":"E"}},"results":{"pm1":{"value":40.87304697747973,"unit":"ug/m3"},"pm25":{"value":138.6232679726288,"unit":"ug/m3"},"pm10":{"value":36.246397867051414,"unit":"ug/m3"},"formaldehyde":{"value":0.6277495638993105,"unit":"mg/m3"},"temperature":{"value":95.42414117278157,"unit":"°C"},"humidity":{"value":27.451078775358106,"unit":"%"}}},{"deviceId":0,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.30700880100307,"direction":"N"},"longitiude":{"value":19.600245540582954,"direction":"E"}},"results":{"pm1":{"value":229.59674371058293,"unit":"ug/m3"},"pm25":{"value":399.04814510416367,"unit":"ug/m3"},"pm10":{"value":412.4596978436751,"unit":"ug/m3"},"formaldehyde":{"value":1.6365498823659794,"unit":"mg/m3"},"temperature":{"value":41.432354603193446,"unit":"°C"},"humidity":{"value":13.193017958310872,"unit":"%"}}},{"deviceId":3,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.19032417253856,"direction":"N"},"longitiude":{"value":19.415863745400458,"direction":"E"}},"results":{"pm1":{"value":156.3486343936563,"unit":"ug/m3"},"pm25":{"value":375.3444474366094,"unit":"ug/m3"},"pm10":{"value":279.9596716895678,"unit":"ug/m3"},"formaldehyde":{"value":0.5341428418103518,"unit":"mg/m3"},"temperature":{"value":98.50414861172074,"unit":"°C"},"humidity":{"value":52.4411584972599,"unit":"%"}}},{"deviceId":1,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.04137233237556,"direction":"N"},"longitiude":{"value":19.11113628247586,"direction":"E"}},"results":{"pm1":{"value":338.6002526893807,"unit":"ug/m3"},"pm25":{"value":449.5009448313284,"unit":"ug/m3"},"pm10":{"value":22.66239858728991,"unit":"ug/m3"},"formaldehyde":{"value":1.3453234442916076,"unit":"mg/m3"},"temperature":{"value":98.84687202772324,"unit":"°C"},"humidity":{"value":23.49892990090341,"unit":"%"}}},{"deviceId":1,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.44204645344493,"direction":"N"},"longitiude":{"value":19.502364474533824,"direction":"E"}},"results":{"pm1":{"value":121.10750765145461,"unit":"ug/m3"},"pm25":{"value":488.0157851800802,"unit":"ug/m3"},"pm10":{"value":172.11618088075554,"unit":"ug/m3"},"formaldehyde":{"value":0.6568105280931769,"unit":"mg/m3"},"temperature":{"value":53.70348754199058,"unit":"°C"},"humidity":{"value":76.08869704942533,"unit":"%"}}},{"deviceId":4,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.91575687031874,"direction":"N"},"longitiude":{"value":19.19350125864999,"direction":"E"}},"results":{"pm1":{"value":464.23748648716634,"unit":"ug/m3"},"pm25":{"value":402.4259489886426,"unit":"ug/m3"},"pm10":{"value":453.47154705868644,"unit":"ug/m3"},"formaldehyde":{"value":1.7078841298263936,"unit":"mg/m3"},"temperature":{"value":20.413790135359548,"unit":"°C"},"humidity":{"value":32.57800155240027,"unit":"%"}}},{"deviceId":1,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.297243919606785,"direction":"N"},"longitiude":{"value":19.512854921828225,"direction":"E"}},"results":{"pm1":{"value":85.5071074795778,"unit":"ug/m3"},"pm25":{"value":376.2423483996371,"unit":"ug/m3"},"pm10":{"value":263.7597947183928,"unit":"ug/m3"},"formaldehyde":{"value":0.24061885951193807,"unit":"mg/m3"},"temperature":{"value":5.295970795772767,"unit":"°C"},"humidity":{"value":94.09945323468803,"unit":"%"}}},{"deviceId":2,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.76411750932804,"direction":"N"},"longitiude":{"value":19.161917174744776,"direction":"E"}},"results":{"pm1":{"value":380.32563793461674,"unit":"ug/m3"},"pm25":{"value":191.86495123731427,"unit":"ug/m3"},"pm10":{"value":22.85065348617177,"unit":"ug/m3"},"formaldehyde":{"value":1.0305781592713759,"unit":"mg/m3"},"temperature":{"value":-11.335782140753405,"unit":"°C"},"humidity":{"value":15.299013714999777,"unit":"%"}}},{"deviceId":0,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.36568967915801,"direction":"N"},"longitiude":{"value":19.359266710211273,"direction":"E"}},"results":{"pm1":{"value":462.22310218665865,"unit":"ug/m3"},"pm25":{"value":488.2551713290002,"unit":"ug/m3"},"pm10":{"value":179.20432535875452,"unit":"ug/m3"},"formaldehyde":{"value":1.723656767731462,"unit":"mg/m3"},"temperature":{"value":-12.298930285328137,"unit":"°C"},"humidity":{"value":59.183750839392225,"unit":"%"}}},{"deviceId":4,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.99728378343604,"direction":"N"},"longitiude":{"value":19.05350829446907,"direction":"E"}},"results":{"pm1":{"value":194.76071918622685,"unit":"ug/m3"},"pm25":{"value":484.13262507532573,"unit":"ug/m3"},"pm10":{"value":183.3159423446523,"unit":"ug/m3"},"formaldehyde":{"value":1.9109829580013682,"unit":"mg/m3"},"temperature":{"value":-19.2738307391108,"unit":"°C"},"humidity":{"value":4.714047918695696,"unit":"%"}}},{"deviceId":4,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.98246708958804,"direction":"N"},"longitiude":{"value":19.219578854000147,"direction":"E"}},"results":{"pm1":{"value":42.02166802634943,"unit":"ug/m3"},"pm25":{"value":40.78243530977288,"unit":"ug/m3"},"pm10":{"value":414.9525375291829,"unit":"ug/m3"},"formaldehyde":{"value":1.979716838874888,"unit":"mg/m3"},"temperature":{"value":96.02853752343088,"unit":"°C"},"humidity":{"value":75.485196903779,"unit":"%"}}},{"deviceId":4,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.13451218003303,"direction":"N"},"longitiude":{"value":19.416384493114144,"direction":"E"}},"results":{"pm1":{"value":146.10779256179342,"unit":"ug/m3"},"pm25":{"value":179.9410257588807,"unit":"ug/m3"},"pm10":{"value":119.03239457421033,"unit":"ug/m3"},"formaldehyde":{"value":1.7413656913057252,"unit":"mg/m3"},"temperature":{"value":80.77810938383534,"unit":"°C"},"humidity":{"value":90.71230973838918,"unit":"%"}}},{"deviceId":0,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.582193302212445,"direction":"N"},"longitiude":{"value":19.673006313244773,"direction":"E"}},"results":{"pm1":{"value":485.42625198133413,"unit":"ug/m3"},"pm25":{"value":442.44863911995037,"unit":"ug/m3"},"pm10":{"value":138.03254810803966,"unit":"ug/m3"},"formaldehyde":{"value":1.8840254412744546,"unit":"mg/m3"},"temperature":{"value":-5.183837236093154,"unit":"°C"},"humidity":{"value":34.11833155195225,"unit":"%"}}},{"deviceId":4,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.837697440883694,"direction":"N"},"longitiude":{"value":19.61956806852031,"direction":"E"}},"results":{"pm1":{"value":149.10736516985702,"unit":"ug/m3"},"pm25":{"value":496.60891707623887,"unit":"ug/m3"},"pm10":{"value":302.20872692389054,"unit":"ug/m3"},"formaldehyde":{"value":1.12587332287652,"unit":"mg/m3"},"temperature":{"value":49.61838965261265,"unit":"°C"},"humidity":{"value":53.32692243008945,"unit":"%"}}},{"deviceId":0,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.60803687721914,"direction":"N"},"longitiude":{"value":19.327311504019672,"direction":"E"}},"results":{"pm1":{"value":101.54089313800341,"unit":"ug/m3"},"pm25":{"value":270.65395889720924,"unit":"ug/m3"},"pm10":{"value":392.4259896047266,"unit":"ug/m3"},"formaldehyde":{"value":1.0990996811541813,"unit":"mg/m3"},"temperature":{"value":89.85683797239338,"unit":"°C"},"humidity":{"value":49.75726476623939,"unit":"%"}}},{"deviceId":4,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.977503614372935,"direction":"N"},"longitiude":{"value":19.23834549070582,"direction":"E"}},"results":{"pm1":{"value":72.73349750652525,"unit":"ug/m3"},"pm25":{"value":373.7246293140496,"unit":"ug/m3"},"pm10":{"value":158.94405648670173,"unit":"ug/m3"},"formaldehyde":{"value":1.7086069140259261,"unit":"mg/m3"},"temperature":{"value":58.15565195875118,"unit":"°C"},"humidity":{"value":47.119422719167424,"unit":"%"}}},{"deviceId":0,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.07230659368253,"direction":"N"},"longitiude":{"value":19.440040422498452,"direction":"E"}},"results":{"pm1":{"value":301.63942353856874,"unit":"ug/m3"},"pm25":{"value":321.1378766507965,"unit":"ug/m3"},"pm10":{"value":489.89451175811126,"unit":"ug/m3"},"formaldehyde":{"value":0.10229836878388854,"unit":"mg/m3"},"temperature":{"value":-16.98231596527292,"unit":"°C"},"humidity":{"value":52.092177294052114,"unit":"%"}}},{"deviceId":0,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.500602003364925,"direction":"N"},"longitiude":{"value":19.35664226348904,"direction":"E"}},"results":{"pm1":{"value":169.27388609194873,"unit":"ug/m3"},"pm25":{"value":123.29580140900387,"unit":"ug/m3"},"pm10":{"value":355.68765928682325,"unit":"ug/m3"},"formaldehyde":{"value":1.533054665071183,"unit":"mg/m3"},"temperature":{"value":39.897554411637344,"unit":"°C"},"humidity":{"value":93.10600560618722,"unit":"%"}}},{"deviceId":2,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.23783865465096,"direction":"N"},"longitiude":{"value":19.764802223664248,"direction":"E"}},"results":{"pm1":{"value":61.94051472212969,"unit":"ug/m3"},"pm25":{"value":50.11422370031793,"unit":"ug/m3"},"pm10":{"value":255.65554972520644,"unit":"ug/m3"},"formaldehyde":{"value":0.437399672682965,"unit":"mg/m3"},"temperature":{"value":-18.812055568479213,"unit":"°C"},"humidity":{"value":64.53976436646718,"unit":"%"}}},{"deviceId":0,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.47573973519181,"direction":"N"},"longitiude":{"value":19.544016949173965,"direction":"E"}},"results":{"pm1":{"value":280.854850973956,"unit":"ug/m3"},"pm25":{"value":364.671074723636,"unit":"ug/m3"},"pm10":{"value":401.88861604946993,"unit":"ug/m3"},"formaldehyde":{"value":1.4854248536170318,"unit":"mg/m3"},"temperature":{"value":62.992707271759926,"unit":"°C"},"humidity":{"value":48.332315660229376,"unit":"%"}}},{"deviceId":3,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.69871932510652,"direction":"N"},"longitiude":{"value":19.9462132961625,"direction":"E"}},"results":{"pm1":{"value":153.53888617922507,"unit":"ug/m3"},"pm25":{"value":350.37065601445295,"unit":"ug/m3"},"pm10":{"value":28.848255684587155,"unit":"ug/m3"},"formaldehyde":{"value":1.1599955001499436,"unit":"mg/m3"},"temperature":{"value":-14.827498480471627,"unit":"°C"},"humidity":{"value":59.73642046394654,"unit":"%"}}},{"deviceId":1,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.28769080363335,"direction":"N"},"longitiude":{"value":19.840512136564357,"direction":"E"}},"results":{"pm1":{"value":317.8023316888023,"unit":"ug/m3"},"pm25":{"value":190.5671603869995,"unit":"ug/m3"},"pm10":{"value":421.41824328916323,"unit":"ug/m3"},"formaldehyde":{"value":1.1906431569747022,"unit":"mg/m3"},"temperature":{"value":-6.99178228603483,"unit":"°C"},"humidity":{"value":48.43842080472931,"unit":"%"}}},{"deviceId":0,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.7236326999094,"direction":"N"},"longitiude":{"value":19.5722565709937,"direction":"E"}},"results":{"pm1":{"value":290.129287873266,"unit":"ug/m3"},"pm25":{"value":469.1606137871942,"unit":"ug/m3"},"pm10":{"value":495.04604102682913,"unit":"ug/m3"},"formaldehyde":{"value":0.5087077155465694,"unit":"mg/m3"},"temperature":{"value":-14.105831312526712,"unit":"°C"},"humidity":{"value":56.95817821712972,"unit":"%"}}},{"deviceId":0,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.460631490342,"direction":"N"},"longitiude":{"value":19.583406465199907,"direction":"E"}},"results":{"pm1":{"value":142.53603824463357,"unit":"ug/m3"},"pm25":{"value":162.2322136247497,"unit":"ug/m3"},"pm10":{"value":61.011794230172335,"unit":"ug/m3"},"formaldehyde":{"value":1.611086849018494,"unit":"mg/m3"},"temperature":{"value":20.699018396757126,"unit":"°C"},"humidity":{"value":7.388586021034804,"unit":"%"}}},{"deviceId":0,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.54293566356409,"direction":"N"},"longitiude":{"value":19.24588790535368,"direction":"E"}},"results":{"pm1":{"value":381.33191771628674,"unit":"ug/m3"},"pm25":{"value":184.4516754398078,"unit":"ug/m3"},"pm10":{"value":65.1776465591597,"unit":"ug/m3"},"formaldehyde":{"value":0.7198480647879628,"unit":"mg/m3"},"temperature":{"value":9.397919897476388,"unit":"°C"},"humidity":{"value":86.67912510829363,"unit":"%"}}},{"deviceId":0,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.262632274567686,"direction":"N"},"longitiude":{"value":19.417385422098082,"direction":"E"}},"results":{"pm1":{"value":3.095135241610869,"unit":"ug/m3"},"pm25":{"value":223.97133748883635,"unit":"ug/m3"},"pm10":{"value":461.03701020479446,"unit":"ug/m3"},"formaldehyde":{"value":1.2438433372604871,"unit":"mg/m3"},"temperature":{"value":52.612575952897146,"unit":"°C"},"humidity":{"value":21.709283599026328,"unit":"%"}}},{"deviceId":0,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.30122117594411,"direction":"N"},"longitiude":{"value":19.31347887087645,"direction":"E"}},"results":{"pm1":{"value":460.91474422603164,"unit":"ug/m3"},"pm25":{"value":278.35449237025466,"unit":"ug/m3"},"pm10":{"value":394.50858995060423,"unit":"ug/m3"},"formaldehyde":{"value":0.911282590817061,"unit":"mg/m3"},"temperature":{"value":0.21529142127254985,"unit":"°C"},"humidity":{"value":6.665570706346724,"unit":"%"}}},{"deviceId":0,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.986221787601025,"direction":"N"},"longitiude":{"value":19.08929993233822,"direction":"E"}},"results":{"pm1":{"value":429.82263813149814,"unit":"ug/m3"},"pm25":{"value":483.6832328123888,"unit":"ug/m3"},"pm10":{"value":156.09925045134653,"unit":"ug/m3"},"formaldehyde":{"value":0.8720544364006111,"unit":"mg/m3"},"temperature":{"value":88.62495884441557,"unit":"°C"},"humidity":{"value":34.836696378944644,"unit":"%"}}},{"deviceId":0,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.6729810155821,"direction":"N"},"longitiude":{"value":19.324351037402185,"direction":"E"}},"results":{"pm1":{"value":97.99286436604382,"unit":"ug/m3"},"pm25":{"value":130.67086837141784,"unit":"ug/m3"},"pm10":{"value":459.9398183138574,"unit":"ug/m3"},"formaldehyde":{"value":0.37262070920010704,"unit":"mg/m3"},"temperature":{"value":96.506313232624,"unit":"°C"},"humidity":{"value":40.41494636908587,"unit":"%"}}},{"deviceId":1,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.80570109659654,"direction":"N"},"longitiude":{"value":19.636304959744656,"direction":"E"}},"results":{"pm1":{"value":342.767292049882,"unit":"ug/m3"},"pm25":{"value":352.46065028760796,"unit":"ug/m3"},"pm10":{"value":427.8321095925162,"unit":"ug/m3"},"formaldehyde":{"value":1.20607866421948,"unit":"mg/m3"},"temperature":{"value":79.26336374644787,"unit":"°C"},"humidity":{"value":22.42145524166206,"unit":"%"}}},{"deviceId":2,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.21206105127974,"direction":"N"},"longitiude":{"value":19.477688526562055,"direction":"E"}},"results":{"pm1":{"value":495.1465933014234,"unit":"ug/m3"},"pm25":{"value":481.77221849524864,"unit":"ug/m3"},"pm10":{"value":191.78679118357934,"unit":"ug/m3"},"formaldehyde":{"value":0.5169678114880982,"unit":"mg/m3"},"temperature":{"value":53.66931835352263,"unit":"°C"},"humidity":{"value":12.844410240017169,"unit":"%"}}},{"deviceId":3,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.04610952135514,"direction":"N"},"longitiude":{"value":19.23985842564077,"direction":"E"}},"results":{"pm1":{"value":376.76992552561904,"unit":"ug/m3"},"pm25":{"value":445.40447743406366,"unit":"ug/m3"},"pm10":{"value":474.0293448908601,"unit":"ug/m3"},"formaldehyde":{"value":1.7984342193859693,"unit":"mg/m3"},"temperature":{"value":14.048303841611698,"unit":"°C"},"humidity":{"value":60.16334103232168,"unit":"%"}}},{"deviceId":3,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.970573280648516,"direction":"N"},"longitiude":{"value":19.85556389730824,"direction":"E"}},"results":{"pm1":{"value":412.1764104599291,"unit":"ug/m3"},"pm25":{"value":231.93755863770704,"unit":"ug/m3"},"pm10":{"value":497.49175585942965,"unit":"ug/m3"},"formaldehyde":{"value":1.6276857202726376,"unit":"mg/m3"},"temperature":{"value":24.205825146666882,"unit":"°C"},"humidity":{"value":80.77582420720589,"unit":"%"}}},{"deviceId":2,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.953718962136705,"direction":"N"},"longitiude":{"value":19.261044650221066,"direction":"E"}},"results":{"pm1":{"value":300.2399018339248,"unit":"ug/m3"},"pm25":{"value":194.41003681388335,"unit":"ug/m3"},"pm10":{"value":195.52262858614066,"unit":"ug/m3"},"formaldehyde":{"value":0.25878349759635233,"unit":"mg/m3"},"temperature":{"value":-11.912826909204853,"unit":"°C"},"humidity":{"value":13.658317350147042,"unit":"%"}}},{"deviceId":3,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.74395940007755,"direction":"N"},"longitiude":{"value":19.538887069196964,"direction":"E"}},"results":{"pm1":{"value":223.77266572749832,"unit":"ug/m3"},"pm25":{"value":151.22639304617834,"unit":"ug/m3"},"pm10":{"value":181.9489299665068,"unit":"ug/m3"},"formaldehyde":{"value":0.2085256636863413,"unit":"mg/m3"},"temperature":{"value":52.890975109706616,"unit":"°C"},"humidity":{"value":31.492939139275823,"unit":"%"}}},{"deviceId":2,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.068207266493246,"direction":"N"},"longitiude":{"value":19.599246721221473,"direction":"E"}},"results":{"pm1":{"value":156.51063163744894,"unit":"ug/m3"},"pm25":{"value":266.4606028808653,"unit":"ug/m3"},"pm10":{"value":227.55585706844383,"unit":"ug/m3"},"formaldehyde":{"value":1.5307856154855148,"unit":"mg/m3"},"temperature":{"value":-10.004884450190124,"unit":"°C"},"humidity":{"value":12.622488564084922,"unit":"%"}}},{"deviceId":1,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.69676749681007,"direction":"N"},"longitiude":{"value":19.22092733535184,"direction":"E"}},"results":{"pm1":{"value":91.82708964217944,"unit":"ug/m3"},"pm25":{"value":182.30221979451744,"unit":"ug/m3"},"pm10":{"value":473.511948984521,"unit":"ug/m3"},"formaldehyde":{"value":0.5973537365146004,"unit":"mg/m3"},"temperature":{"value":94.63239948893732,"unit":"°C"},"humidity":{"value":68.4201479893689,"unit":"%"}}},{"deviceId":0,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.574390934075254,"direction":"N"},"longitiude":{"value":19.265702705122074,"direction":"E"}},"results":{"pm1":{"value":461.8567964442327,"unit":"ug/m3"},"pm25":{"value":91.05894484376842,"unit":"ug/m3"},"pm10":{"value":235.3597756527248,"unit":"ug/m3"},"formaldehyde":{"value":1.727328176989543,"unit":"mg/m3"},"temperature":{"value":41.76478176207603,"unit":"°C"},"humidity":{"value":84.6045831098964,"unit":"%"}}},{"deviceId":1,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.993511255402545,"direction":"N"},"longitiude":{"value":19.50388149116925,"direction":"E"}},"results":{"pm1":{"value":274.48838763359964,"unit":"ug/m3"},"pm25":{"value":412.6486828057989,"unit":"ug/m3"},"pm10":{"value":369.219442493634,"unit":"ug/m3"},"formaldehyde":{"value":1.2370247332449171,"unit":"mg/m3"},"temperature":{"value":72.90521268089621,"unit":"°C"},"humidity":{"value":77.82129168023693,"unit":"%"}}},{"deviceId":0,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.037270751170205,"direction":"N"},"longitiude":{"value":19.00864205658582,"direction":"E"}},"results":{"pm1":{"value":487.380327715101,"unit":"ug/m3"},"pm25":{"value":55.77480006442559,"unit":"ug/m3"},"pm10":{"value":12.094905532663347,"unit":"ug/m3"},"formaldehyde":{"value":0.4448486663376987,"unit":"mg/m3"},"temperature":{"value":59.53785333714731,"unit":"°C"},"humidity":{"value":48.6332899189746,"unit":"%"}}},{"deviceId":4,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.93961821378189,"direction":"N"},"longitiude":{"value":19.262373816071005,"direction":"E"}},"results":{"pm1":{"value":367.0344069059411,"unit":"ug/m3"},"pm25":{"value":447.2492071952976,"unit":"ug/m3"},"pm10":{"value":499.2336831141669,"unit":"ug/m3"},"formaldehyde":{"value":0.6241630962703599,"unit":"mg/m3"},"temperature":{"value":-3.7165536148110156,"unit":"°C"},"humidity":{"value":56.076201553310455,"unit":"%"}}},{"deviceId":4,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.04890825714691,"direction":"N"},"longitiude":{"value":19.376947132788143,"direction":"E"}},"results":{"pm1":{"value":376.95136917162296,"unit":"ug/m3"},"pm25":{"value":142.92255622717985,"unit":"ug/m3"},"pm10":{"value":140.94029478256599,"unit":"ug/m3"},"formaldehyde":{"value":0.043880469773735165,"unit":"mg/m3"},"temperature":{"value":49.94132605150094,"unit":"°C"},"humidity":{"value":41.59740384257156,"unit":"%"}}},{"deviceId":1,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.915648577655624,"direction":"N"},"longitiude":{"value":19.312678723487295,"direction":"E"}},"results":{"pm1":{"value":424.53112783971494,"unit":"ug/m3"},"pm25":{"value":488.57816662761746,"unit":"ug/m3"},"pm10":{"value":103.81900467867644,"unit":"ug/m3"},"formaldehyde":{"value":0.24333039096117348,"unit":"mg/m3"},"temperature":{"value":7.026936471270183,"unit":"°C"},"humidity":{"value":79.47916801161365,"unit":"%"}}},{"deviceId":1,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.86846239181216,"direction":"N"},"longitiude":{"value":19.75472582716367,"direction":"E"}},"results":{"pm1":{"value":486.43701562126006,"unit":"ug/m3"},"pm25":{"value":477.6335505450871,"unit":"ug/m3"},"pm10":{"value":386.45536731163634,"unit":"ug/m3"},"formaldehyde":{"value":1.3068207732991168,"unit":"mg/m3"},"temperature":{"value":98.2663136462609,"unit":"°C"},"humidity":{"value":23.325158276089454,"unit":"%"}}},{"deviceId":1,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.67025250823376,"direction":"N"},"longitiude":{"value":19.668808457860003,"direction":"E"}},"results":{"pm1":{"value":366.2725837794155,"unit":"ug/m3"},"pm25":{"value":48.68107650852627,"unit":"ug/m3"},"pm10":{"value":15.282606425116697,"unit":"ug/m3"},"formaldehyde":{"value":1.2808852712365995,"unit":"mg/m3"},"temperature":{"value":-10.115594547254497,"unit":"°C"},"humidity":{"value":81.24418073547193,"unit":"%"}}},{"deviceId":3,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.17265060580884,"direction":"N"},"longitiude":{"value":19.10512073898219,"direction":"E"}},"results":{"pm1":{"value":159.02426177929297,"unit":"ug/m3"},"pm25":{"value":273.5574744179623,"unit":"ug/m3"},"pm10":{"value":452.1727748869039,"unit":"ug/m3"},"formaldehyde":{"value":0.5054919403616234,"unit":"mg/m3"},"temperature":{"value":23.09232666399543,"unit":"°C"},"humidity":{"value":12.184525048089757,"unit":"%"}}},{"deviceId":4,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.59980274136581,"direction":"N"},"longitiude":{"value":19.46871418062466,"direction":"E"}},"results":{"pm1":{"value":466.5347304765093,"unit":"ug/m3"},"pm25":{"value":462.98238923302847,"unit":"ug/m3"},"pm10":{"value":441.6733320440307,"unit":"ug/m3"},"formaldehyde":{"value":1.537774014629354,"unit":"mg/m3"},"temperature":{"value":62.46785618050377,"unit":"°C"},"humidity":{"value":23.744253130273442,"unit":"%"}}},{"deviceId":2,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.762639934666566,"direction":"N"},"longitiude":{"value":19.47319796460565,"direction":"E"}},"results":{"pm1":{"value":276.6632635480454,"unit":"ug/m3"},"pm25":{"value":443.0192840795418,"unit":"ug/m3"},"pm10":{"value":57.276172988449225,"unit":"ug/m3"},"formaldehyde":{"value":1.6193348428259755,"unit":"mg/m3"},"temperature":{"value":73.60356989262893,"unit":"°C"},"humidity":{"value":2.4224037649190233,"unit":"%"}}},{"deviceId":1,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.93046948210437,"direction":"N"},"longitiude":{"value":19.050947046632693,"direction":"E"}},"results":{"pm1":{"value":147.1615382452356,"unit":"ug/m3"},"pm25":{"value":326.37880228627546,"unit":"ug/m3"},"pm10":{"value":112.0654846268171,"unit":"ug/m3"},"formaldehyde":{"value":1.837644722591,"unit":"mg/m3"},"temperature":{"value":81.01984622165908,"unit":"°C"},"humidity":{"value":97.03638757162354,"unit":"%"}}},{"deviceId":2,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.58191250197399,"direction":"N"},"longitiude":{"value":19.980200628645683,"direction":"E"}},"results":{"pm1":{"value":414.90372779051535,"unit":"ug/m3"},"pm25":{"value":323.50658038450433,"unit":"ug/m3"},"pm10":{"value":5.596446503107755,"unit":"ug/m3"},"formaldehyde":{"value":1.8221152831810508,"unit":"mg/m3"},"temperature":{"value":-19.880397347513494,"unit":"°C"},"humidity":{"value":67.4530082123189,"unit":"%"}}},{"deviceId":1,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.214040862842864,"direction":"N"},"longitiude":{"value":19.26209512731773,"direction":"E"}},"results":{"pm1":{"value":92.27042719132118,"unit":"ug/m3"},"pm25":{"value":395.0455707921888,"unit":"ug/m3"},"pm10":{"value":239.9340048387556,"unit":"ug/m3"},"formaldehyde":{"value":0.013152286974089211,"unit":"mg/m3"},"temperature":{"value":54.63674260689395,"unit":"°C"},"humidity":{"value":87.8413943285149,"unit":"%"}}},{"deviceId":2,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.979759045018525,"direction":"N"},"longitiude":{"value":19.549060705316723,"direction":"E"}},"results":{"pm1":{"value":337.2727952205501,"unit":"ug/m3"},"pm25":{"value":194.47059653710608,"unit":"ug/m3"},"pm10":{"value":219.2158835480731,"unit":"ug/m3"},"formaldehyde":{"value":0.9663773665593869,"unit":"mg/m3"},"temperature":{"value":51.14246376081361,"unit":"°C"},"humidity":{"value":68.44318403668615,"unit":"%"}}},{"deviceId":3,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.4256386929863,"direction":"N"},"longitiude":{"value":19.28812067398799,"direction":"E"}},"results":{"pm1":{"value":357.65992645113386,"unit":"ug/m3"},"pm25":{"value":52.52878420753271,"unit":"ug/m3"},"pm10":{"value":486.50840458292663,"unit":"ug/m3"},"formaldehyde":{"value":0.2993346829451444,"unit":"mg/m3"},"temperature":{"value":15.862914249186169,"unit":"°C"},"humidity":{"value":11.771816384751755,"unit":"%"}}},{"deviceId":0,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.85709442250375,"direction":"N"},"longitiude":{"value":19.386766773667095,"direction":"E"}},"results":{"pm1":{"value":357.43731663486824,"unit":"ug/m3"},"pm25":{"value":149.7401661972747,"unit":"ug/m3"},"pm10":{"value":301.7295598034473,"unit":"ug/m3"},"formaldehyde":{"value":1.5622109183246793,"unit":"mg/m3"},"temperature":{"value":-11.58670577931845,"unit":"°C"},"humidity":{"value":95.90262949987417,"unit":"%"}}},{"deviceId":3,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.330658141776134,"direction":"N"},"longitiude":{"value":19.724242472970857,"direction":"E"}},"results":{"pm1":{"value":282.94446193658786,"unit":"ug/m3"},"pm25":{"value":103.95624581389417,"unit":"ug/m3"},"pm10":{"value":381.80055568341555,"unit":"ug/m3"},"formaldehyde":{"value":1.3815182151556695,"unit":"mg/m3"},"temperature":{"value":92.26243231717464,"unit":"°C"},"humidity":{"value":54.092868471997434,"unit":"%"}}},{"deviceId":4,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.02128501056804,"direction":"N"},"longitiude":{"value":19.18871282294683,"direction":"E"}},"results":{"pm1":{"value":380.63189542082586,"unit":"ug/m3"},"pm25":{"value":465.6451702695002,"unit":"ug/m3"},"pm10":{"value":196.83168209507673,"unit":"ug/m3"},"formaldehyde":{"value":1.0636169667895796,"unit":"mg/m3"},"temperature":{"value":25.962684895592183,"unit":"°C"},"humidity":{"value":48.18229225669144,"unit":"%"}}},{"deviceId":1,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.49328692899009,"direction":"N"},"longitiude":{"value":19.96809973985407,"direction":"E"}},"results":{"pm1":{"value":479.46694566890613,"unit":"ug/m3"},"pm25":{"value":345.0527371774591,"unit":"ug/m3"},"pm10":{"value":490.4149912132968,"unit":"ug/m3"},"formaldehyde":{"value":1.079607428248536,"unit":"mg/m3"},"temperature":{"value":36.22102947290668,"unit":"°C"},"humidity":{"value":18.279173992486243,"unit":"%"}}},{"deviceId":4,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.960682142221096,"direction":"N"},"longitiude":{"value":19.524690931322947,"direction":"E"}},"results":{"pm1":{"value":79.20899064052256,"unit":"ug/m3"},"pm25":{"value":321.29144767445086,"unit":"ug/m3"},"pm10":{"value":92.67870872928918,"unit":"ug/m3"},"formaldehyde":{"value":0.5849093795387064,"unit":"mg/m3"},"temperature":{"value":35.66496287688021,"unit":"°C"},"humidity":{"value":65.93922964305084,"unit":"%"}}},{"deviceId":2,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.38394039435823,"direction":"N"},"longitiude":{"value":19.429970227441334,"direction":"E"}},"results":{"pm1":{"value":85.28076877422453,"unit":"ug/m3"},"pm25":{"value":80.90379506755818,"unit":"ug/m3"},"pm10":{"value":204.23526086923306,"unit":"ug/m3"},"formaldehyde":{"value":0.9599888891552149,"unit":"mg/m3"},"temperature":{"value":53.19298142217251,"unit":"°C"},"humidity":{"value":78.24360878133179,"unit":"%"}}},{"deviceId":1,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.36759565743556,"direction":"N"},"longitiude":{"value":19.272309578893143,"direction":"E"}},"results":{"pm1":{"value":227.13407470920842,"unit":"ug/m3"},"pm25":{"value":119.76021916034595,"unit":"ug/m3"},"pm10":{"value":83.34563001143059,"unit":"ug/m3"},"formaldehyde":{"value":0.11052826529754256,"unit":"mg/m3"},"temperature":{"value":18.19885185987085,"unit":"°C"},"humidity":{"value":82.72057564521889,"unit":"%"}}},{"deviceId":2,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.63411605304861,"direction":"N"},"longitiude":{"value":19.233786932805394,"direction":"E"}},"results":{"pm1":{"value":215.27777357897736,"unit":"ug/m3"},"pm25":{"value":301.82614731166655,"unit":"ug/m3"},"pm10":{"value":470.6355779203878,"unit":"ug/m3"},"formaldehyde":{"value":0.8154423280677938,"unit":"mg/m3"},"temperature":{"value":59.91394639528549,"unit":"°C"},"humidity":{"value":30.72189036540829,"unit":"%"}}},{"deviceId":0,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.46333662293105,"direction":"N"},"longitiude":{"value":19.427374483139744,"direction":"E"}},"results":{"pm1":{"value":129.18930160182762,"unit":"ug/m3"},"pm25":{"value":297.39139955626416,"unit":"ug/m3"},"pm10":{"value":120.01687896714142,"unit":"ug/m3"},"formaldehyde":{"value":1.0280167721354943,"unit":"mg/m3"},"temperature":{"value":87.9691726896789,"unit":"°C"},"humidity":{"value":66.11467303403987,"unit":"%"}}},{"deviceId":1,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.66883777760699,"direction":"N"},"longitiude":{"value":19.37529997870456,"direction":"E"}},"results":{"pm1":{"value":122.39138373399972,"unit":"ug/m3"},"pm25":{"value":93.59238547924909,"unit":"ug/m3"},"pm10":{"value":205.42916844092107,"unit":"ug/m3"},"formaldehyde":{"value":0.24093632151184563,"unit":"mg/m3"},"temperature":{"value":-11.399022959609532,"unit":"°C"},"humidity":{"value":28.549595609195567,"unit":"%"}}},{"deviceId":0,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.58348752924109,"direction":"N"},"longitiude":{"value":19.912305090998164,"direction":"E"}},"results":{"pm1":{"value":212.32319440924385,"unit":"ug/m3"},"pm25":{"value":449.7584932919819,"unit":"ug/m3"},"pm10":{"value":328.154453533085,"unit":"ug/m3"},"formaldehyde":{"value":0.09912199368599905,"unit":"mg/m3"},"temperature":{"value":-11.438743416387798,"unit":"°C"},"humidity":{"value":25.47393774966835,"unit":"%"}}},{"deviceId":0,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.77767345931657,"direction":"N"},"longitiude":{"value":19.579697846748076,"direction":"E"}},"results":{"pm1":{"value":368.24452538238097,"unit":"ug/m3"},"pm25":{"value":24.877853761401614,"unit":"ug/m3"},"pm10":{"value":240.7050824233138,"unit":"ug/m3"},"formaldehyde":{"value":1.4807693171650427,"unit":"mg/m3"},"temperature":{"value":62.5739790809844,"unit":"°C"},"humidity":{"value":95.86603622657212,"unit":"%"}}},{"deviceId":3,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.97713623840505,"direction":"N"},"longitiude":{"value":19.26603317758118,"direction":"E"}},"results":{"pm1":{"value":17.649634091779888,"unit":"ug/m3"},"pm25":{"value":433.5573962789608,"unit":"ug/m3"},"pm10":{"value":89.70632665036126,"unit":"ug/m3"},"formaldehyde":{"value":0.5558316797933349,"unit":"mg/m3"},"temperature":{"value":42.80180753917493,"unit":"°C"},"humidity":{"value":70.68601197151989,"unit":"%"}}},{"deviceId":1,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.79990113398634,"direction":"N"},"longitiude":{"value":19.77003765852027,"direction":"E"}},"results":{"pm1":{"value":275.1366109389931,"unit":"ug/m3"},"pm25":{"value":397.2014169584188,"unit":"ug/m3"},"pm10":{"value":223.58293387138593,"unit":"ug/m3"},"formaldehyde":{"value":0.846869677594162,"unit":"mg/m3"},"temperature":{"value":49.91424230878518,"unit":"°C"},"humidity":{"value":11.454131112048028,"unit":"%"}}},{"deviceId":4,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.34609991788539,"direction":"N"},"longitiude":{"value":19.462145095103523,"direction":"E"}},"results":{"pm1":{"value":190.10822421835405,"unit":"ug/m3"},"pm25":{"value":72.75046537323071,"unit":"ug/m3"},"pm10":{"value":91.13251180772986,"unit":"ug/m3"},"formaldehyde":{"value":0.9616233816205901,"unit":"mg/m3"},"temperature":{"value":56.78118977402431,"unit":"°C"},"humidity":{"value":59.039722860371825,"unit":"%"}}},{"deviceId":2,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.777416613365496,"direction":"N"},"longitiude":{"value":19.354856607746186,"direction":"E"}},"results":{"pm1":{"value":300.5489720225234,"unit":"ug/m3"},"pm25":{"value":183.78329981328733,"unit":"ug/m3"},"pm10":{"value":312.0104613284167,"unit":"ug/m3"},"formaldehyde":{"value":1.8720362950024598,"unit":"mg/m3"},"temperature":{"value":-5.860662423467662,"unit":"°C"},"humidity":{"value":81.17293860892063,"unit":"%"}}},{"deviceId":2,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.22212213358634,"direction":"N"},"longitiude":{"value":19.968961255868905,"direction":"E"}},"results":{"pm1":{"value":408.65367276911445,"unit":"ug/m3"},"pm25":{"value":69.82768175654319,"unit":"ug/m3"},"pm10":{"value":463.72134144926645,"unit":"ug/m3"},"formaldehyde":{"value":0.13012068777880437,"unit":"mg/m3"},"temperature":{"value":61.325988497148444,"unit":"°C"},"humidity":{"value":8.482926752567476,"unit":"%"}}},{"deviceId":2,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.39787745563543,"direction":"N"},"longitiude":{"value":19.997212909189063,"direction":"E"}},"results":{"pm1":{"value":361.94753004578484,"unit":"ug/m3"},"pm25":{"value":54.211594801648054,"unit":"ug/m3"},"pm10":{"value":306.44054568100023,"unit":"ug/m3"},"formaldehyde":{"value":1.6916683544821591,"unit":"mg/m3"},"temperature":{"value":71.87148655136289,"unit":"°C"},"humidity":{"value":33.247761738728144,"unit":"%"}}},{"deviceId":0,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.92288304915931,"direction":"N"},"longitiude":{"value":19.88450678012991,"direction":"E"}},"results":{"pm1":{"value":151.74945422250696,"unit":"ug/m3"},"pm25":{"value":252.6360182140772,"unit":"ug/m3"},"pm10":{"value":442.58518924084177,"unit":"ug/m3"},"formaldehyde":{"value":0.4372176889236643,"unit":"mg/m3"},"temperature":{"value":50.60800719168503,"unit":"°C"},"humidity":{"value":54.28583968212628,"unit":"%"}}},{"deviceId":4,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.92148986498143,"direction":"N"},"longitiude":{"value":19.856130490487832,"direction":"E"}},"results":{"pm1":{"value":193.30546609794354,"unit":"ug/m3"},"pm25":{"value":349.8042733779405,"unit":"ug/m3"},"pm10":{"value":467.0825531325139,"unit":"ug/m3"},"formaldehyde":{"value":0.5015125237505975,"unit":"mg/m3"},"temperature":{"value":83.78418978304036,"unit":"°C"},"humidity":{"value":55.890847086062465,"unit":"%"}}},{"deviceId":2,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.21284230943372,"direction":"N"},"longitiude":{"value":19.74280929772956,"direction":"E"}},"results":{"pm1":{"value":222.01163220950104,"unit":"ug/m3"},"pm25":{"value":154.27539745275087,"unit":"ug/m3"},"pm10":{"value":13.300776307549889,"unit":"ug/m3"},"formaldehyde":{"value":0.9078699702631701,"unit":"mg/m3"},"temperature":{"value":11.47620905407339,"unit":"°C"},"humidity":{"value":31.267279438023763,"unit":"%"}}},{"deviceId":2,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.61494771452905,"direction":"N"},"longitiude":{"value":19.85095594886656,"direction":"E"}},"results":{"pm1":{"value":134.467719088871,"unit":"ug/m3"},"pm25":{"value":363.0297892632912,"unit":"ug/m3"},"pm10":{"value":232.23251233678644,"unit":"ug/m3"},"formaldehyde":{"value":1.8828905115433052,"unit":"mg/m3"},"temperature":{"value":-18.92509818209195,"unit":"°C"},"humidity":{"value":15.585767921606353,"unit":"%"}}},{"deviceId":0,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.73303750264382,"direction":"N"},"longitiude":{"value":19.03477470892772,"direction":"E"}},"results":{"pm1":{"value":11.982997887373337,"unit":"ug/m3"},"pm25":{"value":305.0284009389721,"unit":"ug/m3"},"pm10":{"value":452.139104799139,"unit":"ug/m3"},"formaldehyde":{"value":1.8335536424411112,"unit":"mg/m3"},"temperature":{"value":82.1764681144458,"unit":"°C"},"humidity":{"value":54.93808493176526,"unit":"%"}}},{"deviceId":4,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.777527068315464,"direction":"N"},"longitiude":{"value":19.459424308085808,"direction":"E"}},"results":{"pm1":{"value":160.30327173213644,"unit":"ug/m3"},"pm25":{"value":221.66630705855806,"unit":"ug/m3"},"pm10":{"value":332.1304051581523,"unit":"ug/m3"},"formaldehyde":{"value":1.94270151572946,"unit":"mg/m3"},"temperature":{"value":21.476494159663915,"unit":"°C"},"humidity":{"value":51.33038870340047,"unit":"%"}}},{"deviceId":2,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.41800719595339,"direction":"N"},"longitiude":{"value":19.664520177217753,"direction":"E"}},"results":{"pm1":{"value":83.03689641371781,"unit":"ug/m3"},"pm25":{"value":76.20935873978907,"unit":"ug/m3"},"pm10":{"value":440.19133083204775,"unit":"ug/m3"},"formaldehyde":{"value":0.9244583260830246,"unit":"mg/m3"},"temperature":{"value":51.35960159897071,"unit":"°C"},"humidity":{"value":69.7167537013279,"unit":"%"}}},{"deviceId":1,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.13414043155363,"direction":"N"},"longitiude":{"value":19.46034489101315,"direction":"E"}},"results":{"pm1":{"value":440.5709822491294,"unit":"ug/m3"},"pm25":{"value":466.95503551387486,"unit":"ug/m3"},"pm10":{"value":14.160632118742743,"unit":"ug/m3"},"formaldehyde":{"value":1.8652520687454208,"unit":"mg/m3"},"temperature":{"value":2.622445077449566,"unit":"°C"},"humidity":{"value":69.04941190595235,"unit":"%"}}},{"deviceId":3,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.15610218537607,"direction":"N"},"longitiude":{"value":19.649132701352478,"direction":"E"}},"results":{"pm1":{"value":357.2060292523218,"unit":"ug/m3"},"pm25":{"value":405.7016816429756,"unit":"ug/m3"},"pm10":{"value":240.53024599680606,"unit":"ug/m3"},"formaldehyde":{"value":1.7822579660435673,"unit":"mg/m3"},"temperature":{"value":-0.3521558646677079,"unit":"°C"},"humidity":{"value":83.75882578421263,"unit":"%"}}},{"deviceId":4,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.73215743871889,"direction":"N"},"longitiude":{"value":19.34843366631037,"direction":"E"}},"results":{"pm1":{"value":439.49823067947193,"unit":"ug/m3"},"pm25":{"value":423.41744416506486,"unit":"ug/m3"},"pm10":{"value":401.7434040074464,"unit":"ug/m3"},"formaldehyde":{"value":0.607612938364896,"unit":"mg/m3"},"temperature":{"value":27.317299775731833,"unit":"°C"},"humidity":{"value":40.52001899063784,"unit":"%"}}},{"deviceId":0,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.90470084161427,"direction":"N"},"longitiude":{"value":19.61997101418964,"direction":"E"}},"results":{"pm1":{"value":385.1221181391213,"unit":"ug/m3"},"pm25":{"value":489.8878130430545,"unit":"ug/m3"},"pm10":{"value":408.9485092368076,"unit":"ug/m3"},"formaldehyde":{"value":1.2719161192161783,"unit":"mg/m3"},"temperature":{"value":69.03741094108223,"unit":"°C"},"humidity":{"value":70.85108059520932,"unit":"%"}}},{"deviceId":0,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.52806285944558,"direction":"N"},"longitiude":{"value":19.718565390484386,"direction":"E"}},"results":{"pm1":{"value":395.2296896140718,"unit":"ug/m3"},"pm25":{"value":432.3765694057703,"unit":"ug/m3"},"pm10":{"value":432.8617577280428,"unit":"ug/m3"},"formaldehyde":{"value":0.31205215918975204,"unit":"mg/m3"},"temperature":{"value":34.9416046409177,"unit":"°C"},"humidity":{"value":43.847332525115036,"unit":"%"}}},{"deviceId":0,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.558147856233404,"direction":"N"},"longitiude":{"value":19.815608555105847,"direction":"E"}},"results":{"pm1":{"value":182.48135644754126,"unit":"ug/m3"},"pm25":{"value":94.65060282336002,"unit":"ug/m3"},"pm10":{"value":175.66118199866432,"unit":"ug/m3"},"formaldehyde":{"value":0.9904151535623837,"unit":"mg/m3"},"temperature":{"value":3.2313489651234377,"unit":"°C"},"humidity":{"value":91.19308314899443,"unit":"%"}}},{"deviceId":1,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.115840393521026,"direction":"N"},"longitiude":{"value":19.473586094151504,"direction":"E"}},"results":{"pm1":{"value":32.85982155229084,"unit":"ug/m3"},"pm25":{"value":67.27055348508814,"unit":"ug/m3"},"pm10":{"value":167.20351512679477,"unit":"ug/m3"},"formaldehyde":{"value":1.9054420574569115,"unit":"mg/m3"},"temperature":{"value":39.72351477799986,"unit":"°C"},"humidity":{"value":66.5806755465117,"unit":"%"}}},{"deviceId":4,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.09821914120734,"direction":"N"},"longitiude":{"value":19.5561541579631,"direction":"E"}},"results":{"pm1":{"value":388.07586273616465,"unit":"ug/m3"},"pm25":{"value":418.42370398101605,"unit":"ug/m3"},"pm10":{"value":276.4697360302447,"unit":"ug/m3"},"formaldehyde":{"value":1.875752248822427,"unit":"mg/m3"},"temperature":{"value":87.34151965043843,"unit":"°C"},"humidity":{"value":42.3849291280594,"unit":"%"}}},{"deviceId":0,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.25607151230758,"direction":"N"},"longitiude":{"value":19.987820453412322,"direction":"E"}},"results":{"pm1":{"value":154.56088946389747,"unit":"ug/m3"},"pm25":{"value":147.66252113252122,"unit":"ug/m3"},"pm10":{"value":315.0022864258565,"unit":"ug/m3"},"formaldehyde":{"value":0.3685335880781784,"unit":"mg/m3"},"temperature":{"value":78.51327207761956,"unit":"°C"},"humidity":{"value":51.47259673246361,"unit":"%"}}},{"deviceId":3,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.915964940103386,"direction":"N"},"longitiude":{"value":19.920277742025792,"direction":"E"}},"results":{"pm1":{"value":436.7421427763084,"unit":"ug/m3"},"pm25":{"value":6.702046655343019,"unit":"ug/m3"},"pm10":{"value":223.90757276743335,"unit":"ug/m3"},"formaldehyde":{"value":1.8567813684190666,"unit":"mg/m3"},"temperature":{"value":-11.70493999362072,"unit":"°C"},"humidity":{"value":63.035577670385834,"unit":"%"}}},{"deviceId":1,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.91753294396549,"direction":"N"},"longitiude":{"value":19.38190164628291,"direction":"E"}},"results":{"pm1":{"value":494.7668004784843,"unit":"ug/m3"},"pm25":{"value":416.609456824365,"unit":"ug/m3"},"pm10":{"value":455.8546124396564,"unit":"ug/m3"},"formaldehyde":{"value":0.3767929283785727,"unit":"mg/m3"},"temperature":{"value":51.34133449700995,"unit":"°C"},"humidity":{"value":30.954336029018425,"unit":"%"}}},{"deviceId":2,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.132609856960265,"direction":"N"},"longitiude":{"value":19.012347973088236,"direction":"E"}},"results":{"pm1":{"value":52.50154600507773,"unit":"ug/m3"},"pm25":{"value":129.45468142723115,"unit":"ug/m3"},"pm10":{"value":417.79785130351087,"unit":"ug/m3"},"formaldehyde":{"value":0.5939461448220378,"unit":"mg/m3"},"temperature":{"value":90.5798867334702,"unit":"°C"},"humidity":{"value":86.05475598264347,"unit":"%"}}},{"deviceId":0,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.957474855175,"direction":"N"},"longitiude":{"value":19.984140273205018,"direction":"E"}},"results":{"pm1":{"value":122.33160303705803,"unit":"ug/m3"},"pm25":{"value":379.7815740900138,"unit":"ug/m3"},"pm10":{"value":346.12184217925454,"unit":"ug/m3"},"formaldehyde":{"value":0.5195654401169789,"unit":"mg/m3"},"temperature":{"value":30.926217667971606,"unit":"°C"},"humidity":{"value":23.70675881741593,"unit":"%"}}},{"deviceId":1,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.22053363800605,"direction":"N"},"longitiude":{"value":19.93708205932389,"direction":"E"}},"results":{"pm1":{"value":35.73357533167687,"unit":"ug/m3"},"pm25":{"value":298.24325687283937,"unit":"ug/m3"},"pm10":{"value":38.61203908216881,"unit":"ug/m3"},"formaldehyde":{"value":1.824326977043535,"unit":"mg/m3"},"temperature":{"value":39.202660410689845,"unit":"°C"},"humidity":{"value":24.350826078431687,"unit":"%"}}},{"deviceId":3,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.09800278387428,"direction":"N"},"longitiude":{"value":19.51209976604095,"direction":"E"}},"results":{"pm1":{"value":405.1729199452342,"unit":"ug/m3"},"pm25":{"value":326.9506463118047,"unit":"ug/m3"},"pm10":{"value":154.94766627925716,"unit":"ug/m3"},"formaldehyde":{"value":1.4372284577047525,"unit":"mg/m3"},"temperature":{"value":69.94311420920612,"unit":"°C"},"humidity":{"value":41.272999238699114,"unit":"%"}}},{"deviceId":1,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.907448767758346,"direction":"N"},"longitiude":{"value":19.375846849420824,"direction":"E"}},"results":{"pm1":{"value":485.0349132384508,"unit":"ug/m3"},"pm25":{"value":250.99439463012806,"unit":"ug/m3"},"pm10":{"value":152.9141217846567,"unit":"ug/m3"},"formaldehyde":{"value":1.946133446947754,"unit":"mg/m3"},"temperature":{"value":65.98023414684413,"unit":"°C"},"humidity":{"value":89.5812047092802,"unit":"%"}}},{"deviceId":4,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.928270959758564,"direction":"N"},"longitiude":{"value":19.43752024436196,"direction":"E"}},"results":{"pm1":{"value":176.36150170766473,"unit":"ug/m3"},"pm25":{"value":21.968789512248787,"unit":"ug/m3"},"pm10":{"value":291.05102918401593,"unit":"ug/m3"},"formaldehyde":{"value":1.374040042725274,"unit":"mg/m3"},"temperature":{"value":54.553339179561746,"unit":"°C"},"humidity":{"value":83.1029901812214,"unit":"%"}}},{"deviceId":0,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.45817975570281,"direction":"N"},"longitiude":{"value":19.071302296337958,"direction":"E"}},"results":{"pm1":{"value":200.11470936080323,"unit":"ug/m3"},"pm25":{"value":252.26222340708637,"unit":"ug/m3"},"pm10":{"value":465.22707971684986,"unit":"ug/m3"},"formaldehyde":{"value":0.9761419490712426,"unit":"mg/m3"},"temperature":{"value":59.91307663915062,"unit":"°C"},"humidity":{"value":21.151697497931487,"unit":"%"}}},{"deviceId":0,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.417715249768996,"direction":"N"},"longitiude":{"value":19.865445955071937,"direction":"E"}},"results":{"pm1":{"value":191.24990466260684,"unit":"ug/m3"},"pm25":{"value":246.4050527475453,"unit":"ug/m3"},"pm10":{"value":346.3760869366851,"unit":"ug/m3"},"formaldehyde":{"value":0.21306728006483366,"unit":"mg/m3"},"temperature":{"value":87.02843624008914,"unit":"°C"},"humidity":{"value":62.700513774918385,"unit":"%"}}},{"deviceId":4,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.855885570293445,"direction":"N"},"longitiude":{"value":19.63467833243829,"direction":"E"}},"results":{"pm1":{"value":420.0497899057265,"unit":"ug/m3"},"pm25":{"value":180.14477341439738,"unit":"ug/m3"},"pm10":{"value":154.76315729394054,"unit":"ug/m3"},"formaldehyde":{"value":0.9362240976624925,"unit":"mg/m3"},"temperature":{"value":22.972081835037606,"unit":"°C"},"humidity":{"value":44.308657097638694,"unit":"%"}}},{"deviceId":2,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.51367193884077,"direction":"N"},"longitiude":{"value":19.390753593358347,"direction":"E"}},"results":{"pm1":{"value":454.2762772463967,"unit":"ug/m3"},"pm25":{"value":365.4749979681973,"unit":"ug/m3"},"pm10":{"value":156.9232670894527,"unit":"ug/m3"},"formaldehyde":{"value":1.7441435082819003,"unit":"mg/m3"},"temperature":{"value":11.589622288342248,"unit":"°C"},"humidity":{"value":99.96076100635565,"unit":"%"}}},{"deviceId":2,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.391462940818045,"direction":"N"},"longitiude":{"value":19.7137588554961,"direction":"E"}},"results":{"pm1":{"value":145.01774151617187,"unit":"ug/m3"},"pm25":{"value":50.08629201784787,"unit":"ug/m3"},"pm10":{"value":333.9717582049121,"unit":"ug/m3"},"formaldehyde":{"value":1.6755196530027927,"unit":"mg/m3"},"temperature":{"value":-0.6520846520832748,"unit":"°C"},"humidity":{"value":90.25879547958682,"unit":"%"}}},{"deviceId":0,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.89443667433682,"direction":"N"},"longitiude":{"value":19.552935158756483,"direction":"E"}},"results":{"pm1":{"value":432.91662849596327,"unit":"ug/m3"},"pm25":{"value":153.66703245050473,"unit":"ug/m3"},"pm10":{"value":180.58907639818133,"unit":"ug/m3"},"formaldehyde":{"value":1.440395563017927,"unit":"mg/m3"},"temperature":{"value":-9.053562903525291,"unit":"°C"},"humidity":{"value":55.058169994121585,"unit":"%"}}},{"deviceId":3,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.59673785017145,"direction":"N"},"longitiude":{"value":19.56952535123388,"direction":"E"}},"results":{"pm1":{"value":384.8469135781121,"unit":"ug/m3"},"pm25":{"value":255.76708896575028,"unit":"ug/m3"},"pm10":{"value":484.57483923653945,"unit":"ug/m3"},"formaldehyde":{"value":1.0582599506644232,"unit":"mg/m3"},"temperature":{"value":97.69808004019177,"unit":"°C"},"humidity":{"value":38.78326492845572,"unit":"%"}}},{"deviceId":1,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.65657278237882,"direction":"N"},"longitiude":{"value":19.200642689694156,"direction":"E"}},"results":{"pm1":{"value":305.55766982623925,"unit":"ug/m3"},"pm25":{"value":286.0568512005054,"unit":"ug/m3"},"pm10":{"value":485.153436361664,"unit":"ug/m3"},"formaldehyde":{"value":0.150998756874956,"unit":"mg/m3"},"temperature":{"value":32.00592363982262,"unit":"°C"},"humidity":{"value":57.042672666997206,"unit":"%"}}},{"deviceId":3,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.74501519521102,"direction":"N"},"longitiude":{"value":19.300528308847618,"direction":"E"}},"results":{"pm1":{"value":20.107650398067058,"unit":"ug/m3"},"pm25":{"value":350.95363611329077,"unit":"ug/m3"},"pm10":{"value":119.17880401002468,"unit":"ug/m3"},"formaldehyde":{"value":0.48025603654738847,"unit":"mg/m3"},"temperature":{"value":88.32097906122691,"unit":"°C"},"humidity":{"value":37.817555218581674,"unit":"%"}}},{"deviceId":2,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.23837980452973,"direction":"N"},"longitiude":{"value":19.4400521423306,"direction":"E"}},"results":{"pm1":{"value":230.27299340233276,"unit":"ug/m3"},"pm25":{"value":276.950018430267,"unit":"ug/m3"},"pm10":{"value":300.14976810075956,"unit":"ug/m3"},"formaldehyde":{"value":1.0214415865229598,"unit":"mg/m3"},"temperature":{"value":56.766974243195676,"unit":"°C"},"humidity":{"value":10.24577442121779,"unit":"%"}}},{"deviceId":1,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.6303411263048,"direction":"N"},"longitiude":{"value":19.41725899424694,"direction":"E"}},"results":{"pm1":{"value":473.69026708051246,"unit":"ug/m3"},"pm25":{"value":420.9438900036938,"unit":"ug/m3"},"pm10":{"value":95.05127571456207,"unit":"ug/m3"},"formaldehyde":{"value":0.8614965288019514,"unit":"mg/m3"},"temperature":{"value":49.100561396121975,"unit":"°C"},"humidity":{"value":52.65479560177069,"unit":"%"}}},{"deviceId":4,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.236726019642,"direction":"N"},"longitiude":{"value":19.05415651545176,"direction":"E"}},"results":{"pm1":{"value":20.85437102952048,"unit":"ug/m3"},"pm25":{"value":450.41035916003335,"unit":"ug/m3"},"pm10":{"value":410.59666891575307,"unit":"ug/m3"},"formaldehyde":{"value":0.6940511394930224,"unit":"mg/m3"},"temperature":{"value":80.41360134305218,"unit":"°C"},"humidity":{"value":57.16319225860109,"unit":"%"}}},{"deviceId":3,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.01597879372067,"direction":"N"},"longitiude":{"value":19.044948959634066,"direction":"E"}},"results":{"pm1":{"value":199.11304781645,"unit":"ug/m3"},"pm25":{"value":426.76565088300964,"unit":"ug/m3"},"pm10":{"value":307.15049185420116,"unit":"ug/m3"},"formaldehyde":{"value":1.5979835891109375,"unit":"mg/m3"},"temperature":{"value":46.53308971441707,"unit":"°C"},"humidity":{"value":17.341251038173056,"unit":"%"}}},{"deviceId":0,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.465937938037314,"direction":"N"},"longitiude":{"value":19.911830233321087,"direction":"E"}},"results":{"pm1":{"value":181.73027531014353,"unit":"ug/m3"},"pm25":{"value":192.87157432040559,"unit":"ug/m3"},"pm10":{"value":16.37464909617581,"unit":"ug/m3"},"formaldehyde":{"value":0.988631467442858,"unit":"mg/m3"},"temperature":{"value":62.72428135317833,"unit":"°C"},"humidity":{"value":25.962597870156557,"unit":"%"}}},{"deviceId":3,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.66317008261557,"direction":"N"},"longitiude":{"value":19.273167532908772,"direction":"E"}},"results":{"pm1":{"value":194.70660296378728,"unit":"ug/m3"},"pm25":{"value":90.15305049208233,"unit":"ug/m3"},"pm10":{"value":249.50915274306752,"unit":"ug/m3"},"formaldehyde":{"value":0.1261058458091231,"unit":"mg/m3"},"temperature":{"value":41.76961742923194,"unit":"°C"},"humidity":{"value":79.91065796187402,"unit":"%"}}},{"deviceId":1,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.79092946393106,"direction":"N"},"longitiude":{"value":19.916313110938567,"direction":"E"}},"results":{"pm1":{"value":333.6491772817771,"unit":"ug/m3"},"pm25":{"value":107.8903382360722,"unit":"ug/m3"},"pm10":{"value":483.3672372643988,"unit":"ug/m3"},"formaldehyde":{"value":1.1921293955971373,"unit":"mg/m3"},"temperature":{"value":53.61098939434389,"unit":"°C"},"humidity":{"value":75.88644326953293,"unit":"%"}}},{"deviceId":2,"date":"2018-12-17T14:34:27.126Z","location":{"latitude":{"value":50.2000592453818,"direction":"N"},"longitiude":{"value":19.849773734614036,"direction":"E"}},"results":{"pm1":{"value":278.3522552869352,"unit":"ug/m3"},"pm25":{"value":43.26247431974806,"unit":"ug/m3"},"pm10":{"value":9.721607481962046,"unit":"ug/m3"},"formaldehyde":{"value":0.8049201006877893,"unit":"mg/m3"},"temperature":{"value":75.85584479986473,"unit":"°C"},"humidity":{"value":26.679025415983904,"unit":"%"}}}]
+export const samples = [
+    {
+       "deviceId": 2,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.399582,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.551273,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 346.87552,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 361.83057,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 141.21082,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.6359443,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 95.75065,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 35.73394,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 0,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.475697,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.894897,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 421.62866,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 58.315617,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 371.65192,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.85605234,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 14.764299,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 96.14962,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 0,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.27018,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.80779,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 253.51549,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 358.68973,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 258.23953,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.87372357,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 41.55922,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 35.3332,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 0,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.103004,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.349941,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 140.14662,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 221.41888,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 416.8815,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.5528415,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": -13.672932,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 76.6017,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 0,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.225605,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.728724,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 336.40506,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 43.052685,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 60.016666,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.7147194,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": -15.655686,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 6.3811913,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 0,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.01486,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.8262,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 92.30801,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 137.94278,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 479.65125,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.30106816,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 66.24307,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 58.014954,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 1,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.067474,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.171898,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 101.20512,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 379.31165,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 488.63657,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.981141,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 7.508652,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 8.102122,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 1,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.543957,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.15747,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 475.87363,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 176.76006,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 65.75975,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.310194,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 47.063965,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 13.670739,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 4,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.968662,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.845459,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 241.08908,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 244.6955,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 247.13388,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.1844708,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 11.376996,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 10.718577,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 3,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.975155,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.18608,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 456.30585,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 428.64545,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 368.29196,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.5969932,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 3.1837893,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 1.231165,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 1,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.409443,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.232729,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 354.57086,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 271.64597,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 342.11755,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.9284513,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 31.80338,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 79.99454,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 4,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.57604,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.215103,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 461.28976,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 413.80035,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 5.4465513,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.84004086,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 62.670464,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 58.422543,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 3,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.45371,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.611837,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 385.30988,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 50.139664,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 388.35498,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.7485216,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 73.7282,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 8.857927,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 0,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.875088,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.94612,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 478.53543,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 446.93585,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 388.47012,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.026599137,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": -10.959638,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 39.74626,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 2,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.274048,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.329596,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 497.14554,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 197.12158,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 176.03638,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.2374524,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": -15.329504,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 97.36196,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 0,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.83401,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.930344,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 24.532427,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 474.3823,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 226.872,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.535878,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 67.92168,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 52.69122,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 2,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.915283,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.015865,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 425.9517,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 434.61096,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 233.10287,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.83059233,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": -13.35969,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 46.250572,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 2,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.93349,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.710575,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 346.1734,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 466.25894,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 321.23407,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.38065088,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 78.2929,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 81.23102,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 3,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.386547,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.920956,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 9.766382,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 198.64313,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 199.9475,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.0838712,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 29.90395,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 44.760853,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 0,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.19083,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.608685,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 163.27716,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 438.10266,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 27.389673,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.19266008,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": -3.001484,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 80.32498,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 1,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.90232,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.488493,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 304.61282,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 33.125805,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 402.97202,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.7854405,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 29.040407,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 37.624832,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 3,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.169792,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.760748,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 83.235954,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 10.085068,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 371.74194,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.1905568,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 82.40472,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 93.36025,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 3,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.891586,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.554718,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 264.47058,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 436.87784,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 321.47928,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.4091635,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 37.570427,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 0.36786467,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 4,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.086803,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.89368,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 471.40085,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 204.24214,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 454.08496,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.77358896,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 83.22837,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 59.67961,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 3,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.532013,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.946238,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 288.1478,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 151.17285,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 186.97769,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.93163973,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": -5.986758,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 60.88804,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 0,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.10699,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.545223,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 373.77652,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 169.48785,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 307.1354,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.0213878,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": -9.098433,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 69.58716,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 4,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.423855,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.990147,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 122.942345,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 359.86844,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 147.75699,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.7839408,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 44.893166,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 11.069458,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 0,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.988865,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.31177,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 265.44363,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 426.88782,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 444.0996,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.5404278,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": -13.037454,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 32.254665,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 0,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.052197,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.356697,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 71.49503,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 226.1079,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 382.66376,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.17926472,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 14.541192,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 57.545906,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 0,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.76778,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.671865,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 127.61982,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 65.56669,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 57.351696,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.8280661,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 3.782641,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 53.21998,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 4,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.853428,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.451246,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 161.92032,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 95.14598,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 212.28543,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.8916211,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 5.6695867,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 46.78321,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 4,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.124287,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.441538,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 276.50613,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 248.1983,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 400.69968,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.0143214,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 42.77225,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 52.66058,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 3,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.779224,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.660818,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 184.26982,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 64.244354,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 413.2187,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.872909,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 77.98632,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 44.744053,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 2,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.904564,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.800924,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 35.19652,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 12.89831,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 396.7272,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.305257,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 79.08556,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 12.809807,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 2,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.680542,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.88776,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 327.04083,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 286.26984,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 389.0931,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.56482387,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 66.44953,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 80.15055,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 1,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.967472,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.16607,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 480.9383,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 373.85135,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 220.26485,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.5065204,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": -11.220779,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 22.786348,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 1,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.391567,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.654175,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 470.14233,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 285.22403,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 42.627792,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.6146059,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 74.36836,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 82.33507,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 4,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.88688,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.197483,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 107.55676,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 76.65541,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 324.00583,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.58188856,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 63.54775,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 22.519106,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 2,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.22193,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.842627,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 328.94452,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 260.1801,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 408.7636,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.4515214,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": -15.31992,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 0.94343793,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 0,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.364864,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.386179,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 8.931041,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 434.19373,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 352.41367,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.2168796,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 98.8108,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 63.120876,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 2,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.85668,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.428663,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 14.362333,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 244.48341,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 85.57446,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.2683721,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 21.035545,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 78.074455,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 4,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.06026,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.300766,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 380.32523,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 181.31517,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 112.76338,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.7590663,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 30.89352,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 55.189835,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 1,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.715496,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.15329,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 120.68729,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 26.045086,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 114.47682,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.9774717,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 8.605261,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 94.58282,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 2,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.162804,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.242697,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 421.49844,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 317.13766,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 406.0508,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.20506023,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 41.35375,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 68.65964,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 3,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.287956,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.512268,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 57.312138,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 31.739922,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 85.49218,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.8312906,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 23.173773,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 83.85429,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 0,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.21385,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.211567,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 459.57712,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 285.1981,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 169.42796,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.7792747,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 19.496168,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 31.03579,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 1,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.873463,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.713219,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 452.97522,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 297.6396,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 138.74843,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.8412191,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 98.84716,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 2.6242206,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 4,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.054787,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.537247,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 421.08368,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 254.73334,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 384.05478,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.28226772,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 8.586172,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 69.51943,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 4,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.38556,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.70932,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 323.732,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 452.694,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 195.51973,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.7451651,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 4.319533,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 28.120823,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 0,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.44516,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.565847,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 386.06216,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 487.03955,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 331.38327,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.3572831,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 65.88946,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 2.71188,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 2,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.199524,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.05614,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 249.15465,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 28.9987,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 120.75968,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.09437033,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 47.37785,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 44.64866,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 1,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.4331,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.053373,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 191.37753,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 258.93008,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 359.67722,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.2984047,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 37.605045,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 53.87007,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 1,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.728172,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.236742,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 446.95657,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 187.04634,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 353.58765,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.311641,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": -14.913713,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 34.38549,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 2,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.69676,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.240019,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 40.54269,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 23.619518,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 273.87546,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.792772,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 59.190353,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 54.384056,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 0,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.87467,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.023617,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 398.8138,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 77.29594,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 228.58865,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.6616874,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 4.695609,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 88.69892,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 0,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.784733,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.552248,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 375.6957,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 221.63618,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 150.46188,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.8769012,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 75.69377,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 25.429375,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 1,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.06378,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.69249,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 383.08914,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 0.5587967,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 53.220993,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.7965043,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 60.368267,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 59.83924,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 0,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.575615,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.94944,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 28.125626,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 353.72485,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 387.8844,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.4721326,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 91.006584,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 43.152584,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 3,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.398376,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.777924,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 488.5238,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 8.4468775,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 256.1854,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.0735965,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 13.502424,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 97.18129,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 0,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.95917,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.73018,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 225.90659,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 269.9104,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 484.07138,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.2748152,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 52.46769,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 38.260895,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 1,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.46429,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.908773,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 355.8645,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 368.2221,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 45.742382,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.9366026,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": -13.609536,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 87.23335,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 4,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.463326,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.481855,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 386.34726,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 151.86061,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 281.72177,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.22274251,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": -4.673596,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 69.83394,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 0,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.426018,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.40494,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 370.28726,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 179.95161,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 86.13389,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.29370362,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 26.477104,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 12.403332,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 3,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.890156,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.087624,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 5.551641,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 350.5819,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 164.77245,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.23920453,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": -18.754871,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 31.707817,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 2,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.68551,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.209917,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 432.39316,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 161.50168,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 496.5843,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.652993,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 1.1515791,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 60.2644,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 3,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.250618,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.419102,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 51.08207,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 361.89307,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 342.56964,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.0703228,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 20.500881,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 97.47938,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 0,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.382427,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.691092,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 358.14407,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 130.40967,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 197.10414,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.4050726,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 3.5825071,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 14.158448,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 2,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.2376,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.346838,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 133.23874,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 173.37207,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 385.1899,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.021719174,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 59.84088,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 9.362487,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 3,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.838783,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.642284,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 35.811882,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 346.0446,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 244.03142,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.1623482,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 72.51416,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 53.78004,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 0,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.249374,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.149563,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 363.07788,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 105.39355,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 294.99203,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.74808574,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 11.903158,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 44.13379,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 3,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.97985,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.21367,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 170.1851,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 117.56236,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 121.392586,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.09318173,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 64.707275,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 56.299416,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 1,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.745186,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.299784,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 164.47432,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 383.79337,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 328.08063,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.3269381,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": -17.825974,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 53.567604,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 0,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.574165,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.261797,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 102.204056,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 496.3905,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 109.293495,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.8656088,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": -16.36632,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 52.27552,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 3,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.952152,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.61462,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 472.65427,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 197.99155,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 367.90292,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.076308906,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": -19.415339,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 88.72816,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 0,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.125496,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.708263,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 87.11532,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 276.0353,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 366.7984,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.8172901,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": -18.80359,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 11.541622,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 1,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.069904,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.678009,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 395.8488,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 345.62286,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 331.97818,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.91304576,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 63.771088,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 8.136954,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 3,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.51018,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.376728,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 300.21988,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 59.063667,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 376.05762,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.0948961,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 22.349771,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 58.10651,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 1,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.053036,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.252739,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 397.35632,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 384.28217,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 11.294279,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.8281306,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 96.077995,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 29.512915,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 2,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.7809,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.788519,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 143.33482,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 265.79227,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 320.43884,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.08294059,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 72.16112,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 56.986713,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 3,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.56902,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.683199,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 14.172313,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 464.69598,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 216.89226,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.69194657,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": -18.30491,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 79.45887,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 3,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.881737,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.710466,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 13.228019,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 3.2412531,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 22.075172,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.3730716,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 67.56128,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 34.541393,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 2,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.622414,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.265186,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 62.529236,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 140.26276,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 38.05923,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.3200775,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": -17.251425,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 24.460394,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 1,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.340366,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.914234,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 467.6989,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 320.5249,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 117.53639,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.5609625,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 50.598232,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 35.688316,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 3,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.48242,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.958395,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 4.804397,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 147.70172,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 402.5757,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.1181068,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 47.03838,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 77.65441,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 4,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.450455,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.045486,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 450.54398,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 186.01581,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 412.7775,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.08958081,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 25.113096,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 58.72198,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 4,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.674126,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.390034,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 273.2783,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 111.33836,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 130.25049,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.3268977,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 12.865854,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 15.901983,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 4,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.201595,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.357803,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 225.92409,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 473.58932,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 159.76662,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.3313677,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 89.58611,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 74.961205,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 0,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.140785,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.587652,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 364.52515,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 252.0297,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 22.56821,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.2656679,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 38.765522,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 35.848934,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 1,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.008915,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.994251,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 106.397736,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 52.239216,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 20.392395,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.4586398,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 81.78266,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 43.104454,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 2,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.55018,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.393976,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 356.444,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 433.47067,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 5.6291246,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.055185348,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": -3.9779859,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 97.60131,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 3,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.639053,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.19285,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 105.718124,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 195.81137,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 430.15363,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.968762,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": -8.328916,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 85.22283,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 3,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.749714,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.956648,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 132.01869,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 119.80278,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 130.27884,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.2970495,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 96.07723,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 0.057028607,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 3,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.3182,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.778162,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 3.3461797,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 185.54294,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 306.8937,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.755632,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 44.918835,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 53.016525,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 2,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.543785,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.339293,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 117.360855,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 43.87666,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 477.39563,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.98338807,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 53.07987,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 80.58433,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 2,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.547195,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.134604,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 68.6386,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 229.99022,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 140.17148,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.1360147,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 92.67323,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 37.825333,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 4,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.014977,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.111368,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 184.3789,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 56.55133,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 219.69255,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.5186013,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 80.03608,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 66.24722,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 1,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.846962,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.487356,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 53.89425,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 212.44644,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 454.22452,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.34297886,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 17.826843,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 20.92961,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 4,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.784927,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.123178,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 84.643616,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 231.21701,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 342.81543,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.9982352,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 21.023666,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 5.708959,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 2,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.26673,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.341297,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 73.007286,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 181.24722,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 382.6844,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.2280736,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 17.699505,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 14.302819,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 3,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.103363,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.79311,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 192.9359,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 309.92386,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 193.65776,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.46306878,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 72.62921,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 23.5867,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 4,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.914173,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.207832,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 437.17102,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 325.2669,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 240.96346,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.9878602,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 18.735582,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 48.280334,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 2,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.54333,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.40765,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 428.95483,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 237.83911,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 204.87746,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.1907039,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 86.60606,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 26.265324,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 0,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.837048,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.78278,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 407.00534,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 356.67117,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 60.126705,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.5995832,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": -17.763695,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 31.117157,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 4,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.92608,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.895546,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 470.61594,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 287.22357,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 44.720367,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.7701372,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 94.82032,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 83.92481,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 0,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.595325,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.805857,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 57.847954,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 458.43512,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 61.01488,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.33482862,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 18.041227,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 79.2053,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 0,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.95531,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.433699,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 467.8193,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 336.7415,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 71.50642,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.0409853,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 53.569122,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 85.999466,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 3,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.828213,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.52959,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 191.27823,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 202.34384,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 127.48934,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.7176774,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": -8.608229,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 49.201385,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 2,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.80854,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.244202,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 284.4221,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 111.70613,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 457.70105,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.99944,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 1.5992455,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 93.521484,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 3,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.78433,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.774158,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 157.89839,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 52.425896,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 112.07066,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.3209108,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 35.77854,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 80.33862,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 1,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.108124,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.593355,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 392.56973,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 239.21092,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 332.3841,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.4151839,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 66.23533,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 84.84911,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 2,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.618935,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.038519,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 43.810394,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 434.12317,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 4.128529,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.0894684,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 80.31207,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 15.920114,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 2,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.42983,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.465147,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 188.59123,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 81.35267,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 483.15475,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.84544545,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 35.109604,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 68.94174,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 2,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.794514,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.948519,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 171.90636,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 286.87274,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 3.3235078,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.3668379,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 5.028386,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 43.724266,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 2,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.973267,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.750517,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 154.13538,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 35.088387,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 465.2739,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.37665182,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 92.63848,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 17.211514,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 0,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.830402,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.697594,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 21.849234,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 393.10126,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 416.11182,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.9845755,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 70.68057,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 21.020432,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 0,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.622265,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.516779,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 369.84424,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 22.385368,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 446.22488,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.07497815,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 96.27295,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 78.85123,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 4,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.537903,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.030283,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 256.66403,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 140.8943,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 426.34372,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.5388587,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 72.37492,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 98.81626,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 4,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.760403,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.397913,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 80.92555,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 26.897097,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 151.12515,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.50801945,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 67.078186,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 5.6690693,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 1,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.13141,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.305523,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 255.07423,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 392.06836,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 26.56521,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.606692,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 17.495817,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 29.41313,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 0,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.302418,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.780304,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 322.9243,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 356.19122,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 387.50247,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.5819434,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 14.287678,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 16.38413,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 4,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.0486,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.276243,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 460.66794,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 100.22638,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 321.24817,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.550171,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 60.91751,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 56.687393,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 2,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.230885,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.687143,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 209.08928,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 76.23717,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 40.640553,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.14446548,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 26.657904,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 92.673485,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 2,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.221992,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.074883,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 452.06107,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 92.263016,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 434.88107,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.9912903,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 87.57923,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 38.036663,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 4,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.90336,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.472712,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 64.57374,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 399.37158,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 285.09995,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.225215,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 47.204613,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 39.872414,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 3,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.242928,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.207325,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 425.79483,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 423.6016,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 221.83356,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.18899596,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 6.954465,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 67.88603,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 1,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.630707,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.81774,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 214.18773,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 396.6687,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 169.4951,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.08585942,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 72.86867,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 19.623476,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 4,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.504707,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.69461,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 369.66434,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 418.38953,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 101.967804,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.36819035,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": -8.7039175,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 4.127623,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 1,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.241386,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.560274,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 134.14104,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 250.49474,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 58.03407,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.26050168,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 43.025005,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 65.32151,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 0,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.444912,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.355066,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 201.48828,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 92.13913,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 304.7724,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.1513267,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 81.06584,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 91.77815,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 3,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.77071,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.82946,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 187.74489,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 318.76785,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 40.492992,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.7271692,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": -9.269324,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 96.40203,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 4,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.455864,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.275362,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 13.980437,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 472.89572,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 451.7437,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.5042219,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": -16.505432,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 72.26496,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 0,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.34173,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.315056,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 157.39844,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 458.12375,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 76.10229,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.1807097,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 15.346239,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 97.20814,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 4,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.82098,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.972837,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 95.20572,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 47.99492,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 341.81985,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.18271554,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 27.474962,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 50.050964,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 0,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.28823,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.471249,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 224.36725,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 283.7868,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 309.99365,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.5393193,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 88.471954,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 36.23288,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 4,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.286926,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.910683,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 355.3714,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 90.54979,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 379.15292,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.3160737,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 11.356563,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 67.301125,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 4,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.323383,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.267218,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 111.07077,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 395.8041,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 499.34503,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.6595697,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": -5.51913,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 15.8026085,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 4,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.480785,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.564533,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 314.81635,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 36.074104,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 49.97172,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.7085478,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": -8.165197,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 28.977055,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 0,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.86594,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.0045,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 267.9927,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 136.2455,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 226.57655,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.9157135,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": -3.1853564,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 6.5422015,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 0,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.04998,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.021065,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 116.87456,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 427.91135,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 437.50583,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.3205287,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 29.158272,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 97.99175,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 4,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.95209,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.255272,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 72.177155,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 439.76236,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 213.8359,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.8849366,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 65.75713,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 83.384796,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 1,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.067917,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.536213,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 393.84888,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 28.429907,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 62.409103,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.18109488,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 20.777945,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 67.50559,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 4,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.283474,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.766043,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 368.18994,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 473.334,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 324.76132,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.913811,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 77.43471,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 70.1422,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 0,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.590324,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.66934,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 453.7405,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 239.51779,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 348.203,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.1071068,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": -8.579938,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 60.15468,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 2,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.20399,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.105236,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 325.90002,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 56.60317,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 386.81458,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.7525687,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 35.18487,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 18.277662,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 4,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.703484,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.414988,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 205.26451,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 300.06543,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 298.20166,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.943634,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 4.2424335,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 85.18449,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 2,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.458767,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.465698,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 100.7474,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 353.45197,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 160.22548,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.1974566,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 22.962568,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 32.502098,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 2,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.00679,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.789272,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 466.73886,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 444.4965,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 351.61465,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.5115062,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 78.89258,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 86.379234,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 3,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.904747,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.961605,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 458.17233,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 194.07837,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 38.678387,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.78222615,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 65.2342,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 47.923286,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 2,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.712406,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.407366,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 98.317116,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 189.74178,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 294.62888,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.8853284,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 1.4377234,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 72.40264,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 2,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.32943,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.283518,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 412.29153,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 340.11435,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 232.26398,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.2110336,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 86.421455,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 98.84052,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 4,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.691425,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.590446,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 145.78261,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 346.44174,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 290.51477,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.8575287,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 32.825317,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 71.86086,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 2,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.44141,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.308525,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 69.43788,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 427.94873,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 465.5184,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.2259896,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 76.39434,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 25.748463,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 3,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.371456,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.697731,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 342.91193,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 447.85025,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 222.63544,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.7751726,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 48.120743,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 9.89986,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 3,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.980602,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.773922,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 65.34684,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 236.85388,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 300.60666,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.92432916,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 72.547646,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 44.168354,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 0,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.639095,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.571716,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 247.66638,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 464.45905,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 448.01346,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.2806938,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": -9.647929,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 42.599655,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 1,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.890217,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.43175,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 368.56384,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 109.956894,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 364.38693,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.91914463,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 65.15264,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 47.37027,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 4,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.701336,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.93497,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 46.740234,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 318.62918,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 257.24518,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.25126666,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 13.389686,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 39.05313,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 4,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.802994,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.454062,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 267.90936,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 160.36438,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 214.9905,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.65492266,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 76.46851,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 53.86913,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 2,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.415775,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.906565,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 449.27545,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 322.47543,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 292.71634,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.536849,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": -12.167513,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 25.964367,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 2,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.136642,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.870426,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 446.38907,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 84.26908,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 200.65504,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.4013745,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 83.46003,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 42.678776,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 3,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.396095,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.884377,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 86.62203,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 81.842804,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 251.24606,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.26127917,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 80.60568,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 5.9223337,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 1,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.825855,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.267311,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 233.62457,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 164.79008,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 488.62238,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.6709993,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": -2.779572,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 30.2799,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 1,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.4809,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.081888,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 357.60312,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 316.59274,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 431.52475,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.022701737,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 41.99907,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 99.85296,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 0,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.36507,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.460625,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 46.472847,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 436.97607,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 212.99545,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.2028301,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 1.00795,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 92.34766,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 2,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.821968,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.190098,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 138.62692,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 488.20255,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 177.92978,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.8565837,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 39.99587,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 30.23688,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 3,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.00638,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.77347,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 224.90483,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 13.02654,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 41.978508,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.2279571,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 38.02265,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 96.4158,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 2,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.305164,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.498148,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 17.872822,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 476.0525,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 269.51202,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.4309127,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 3.8629632,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 57.851746,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 1,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.713467,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.206545,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 257.46475,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 148.47034,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 271.21472,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.1438615,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 58.658756,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 85.95133,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 2,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.622627,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.021309,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 60.08987,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 192.89896,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 289.03915,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.91682726,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 82.529144,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 37.457157,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 2,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.55548,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.939201,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 88.742386,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 387.99103,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 288.55347,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.0678766,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 9.766636,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 12.277754,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 4,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.981663,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.166348,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 381.73895,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 145.80844,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 258.97162,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.2656902,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 27.30013,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 47.28758,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 0,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.614983,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.015718,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 112.24867,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 203.28682,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 445.33395,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.2215497,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": -13.315049,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 90.202255,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 4,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.542908,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.078623,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 453.96997,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 156.52892,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 302.67334,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.53706926,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 51.363533,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 4.4527555,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 4,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.95158,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.933346,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 39.769634,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 315.73346,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 154.58514,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.08774138,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 89.24708,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 4.894317,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 4,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.402767,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.130304,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 406.23117,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 227.63358,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 407.35052,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.53711224,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 49.275433,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 53.144768,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 0,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.463047,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.905432,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 117.52413,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 374.16425,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 346.26334,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.8958538,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": -10.3799,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 4.8264074,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 1,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.54685,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.511326,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 41.13775,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 107.428215,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 437.55313,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.9620027,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 67.58843,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 30.95361,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 1,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.473095,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.270477,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 125.44811,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 333.64716,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 157.85915,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.58831173,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 68.17725,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 4.408365,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 4,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.268513,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.226591,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 238.83769,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 39.662724,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 175.19649,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.6946477,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 74.05975,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 70.54716,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 1,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.66145,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.60173,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 447.04007,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 342.5196,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 165.39064,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.47673175,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 41.539845,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 34.79257,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 0,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.72557,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.074373,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 271.3845,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 490.71875,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 79.237564,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.19036089,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": -12.106989,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 87.10982,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 2,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.66486,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.4533,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 110.632385,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 476.15552,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 50.74354,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.5855039,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 46.81917,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 32.88321,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 1,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.968197,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.545715,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 361.23114,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 142.47379,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 418.95898,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.005046,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 24.635332,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 47.96922,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 1,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.64144,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.708088,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 274.24918,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 53.59392,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 448.11343,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.13795644,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": -3.3034744,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 41.87274,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 1,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.669914,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.651886,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 349.28833,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 12.01492,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 358.819,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.873696,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 57.230656,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 17.87197,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 1,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.410343,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.721582,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 59.579174,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 459.65274,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 246.64331,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.12940133,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 38.32027,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 0.342958,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 1,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.689247,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.990705,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 218.00696,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 40.87982,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 73.791954,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.6072527,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 10.1595125,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 3.8102314,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 4,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.45385,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.831257,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 268.5885,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 152.30586,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 487.56564,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.6967051,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 29.126463,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 15.878482,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 3,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.60391,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.211002,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 319.9967,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 414.33377,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 280.6591,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.9127442,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 25.653025,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 13.216386,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 4,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.449806,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.080671,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 132.35713,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 138.49681,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 1.7199531,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.5003532,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": -12.326622,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 37.039417,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 0,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.290318,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.71902,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 235.31664,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 466.36008,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 69.30694,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.0380775,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": -9.969042,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 79.54638,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 4,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.361782,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.981615,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 321.75464,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 206.91727,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 127.90772,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.5566537,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 74.2959,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 54.534584,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 0,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.32664,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.970184,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 453.07123,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 260.26337,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 337.07785,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.67173254,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 33.58637,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 77.09151,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 3,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.71536,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.98738,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 1.4325557,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 126.26515,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 59.450275,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.97933453,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 53.28451,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 13.2196665,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 2,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.43853,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.532667,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 124.40973,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 422.4615,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 113.794426,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.08819447,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 18.609886,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 90.87215,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 4,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.48903,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.787043,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 288.37924,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 322.11667,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 467.5731,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.8319283,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": -18.623158,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 31.148323,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 3,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.947407,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.469503,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 267.43643,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 344.32336,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 138.61386,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.408134,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 43.8453,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 91.56662,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 0,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.015987,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.517712,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 442.12418,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 329.23767,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 376.06512,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.9357594,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 81.30893,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 2.5350173,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 2,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.850243,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.624794,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 450.62335,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 268.89407,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 495.83826,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.1926336,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": -15.551735,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 43.263912,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 1,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.16391,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.75299,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 329.61102,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 84.39484,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 380.5587,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.39446297,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 64.61578,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 38.656666,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 3,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.667786,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.697174,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 64.88377,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 120.79036,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 450.26355,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.2399726,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 82.62339,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 45.30515,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 0,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.907993,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.223173,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 335.68365,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 468.85983,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 365.36273,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.9014497,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 32.697086,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 12.130205,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 2,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.03088,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.14976,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 466.0095,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 421.29926,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 387.48862,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.6147509,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": -5.9873004,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 70.95508,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 0,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.540573,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.49248,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 475.98303,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 140.0619,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 388.57608,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.25456294,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 68.37577,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 69.54878,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 2,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.517708,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.306976,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 485.76273,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 323.70593,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 185.28743,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.8363043,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 80.6863,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 57.420372,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 3,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.53056,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.344484,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 402.80093,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 103.49672,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 363.29413,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.48829907,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 29.658287,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 39.76309,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 4,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.575394,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.295128,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 200.3446,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 158.42798,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 257.24557,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.45005,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 98.81461,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 70.974365,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 2,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.60425,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.05813,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 117.9719,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 10.637024,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 213.04727,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.08871727,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": -1.0023408,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 45.81216,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 2,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.732277,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.256443,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 212.43883,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 138.2864,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 68.334236,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.922163,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 50.551945,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 29.339483,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 2,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.959908,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.61618,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 146.24644,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 261.06696,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 249.72658,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.5471856,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 12.593004,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 64.01916,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 2,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.275944,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.736813,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 29.590391,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 302.30246,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 81.15139,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.85536176,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 66.59094,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 22.772459,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 4,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.21168,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.291298,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 264.52982,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 333.46503,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 490.9004,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.0579195,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 63.534157,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 17.35673,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 0,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.084,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.264559,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 323.45663,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 323.67993,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 209.03531,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.1611707,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 25.375706,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 92.54809,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 3,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.515812,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.645088,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 207.36026,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 325.53232,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 453.938,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.8253882,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 13.355302,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 3.4222,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 4,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.06334,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.261848,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 36.40846,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 117.05288,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 404.31915,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.29861513,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": -6.7202654,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 40.625496,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 1,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.970478,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.669529,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 225.40825,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 412.79565,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 207.68083,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.38749,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 43.462112,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 48.2734,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 4,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.265263,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.589945,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 124.54312,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 326.52094,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 308.5418,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.93516004,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 13.5553055,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 91.15075,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 3,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.880726,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.404217,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 361.67865,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 23.55431,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 250.33662,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.94085693,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 26.995245,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 55.664692,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 1,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.544285,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.182344,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 269.67688,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 176.44328,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 270.32913,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.65186185,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": -6.529893,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 17.60079,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 0,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.844147,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.283504,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 150.49983,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 385.2425,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 320.53296,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.3317311,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": -8.65902,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 85.59948,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 2,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.70164,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.081808,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 77.5537,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 98.98984,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 118.9966,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.4948747,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 9.439546,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 25.476173,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 2,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.96203,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.529821,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 34.246,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 88.175316,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 289.38092,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.7840496,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 59.407234,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 60.931656,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 0,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.516598,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.33839,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 465.8832,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 369.09097,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 152.98174,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.7298504,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 45.488777,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 55.55074,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 4,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.80341,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.681541,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 298.28256,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 27.303347,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 479.4114,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.055148333,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 23.16457,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 22.771387,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 0,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.800674,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.374577,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 373.39883,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 114.081215,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 264.92798,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.8193101,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 25.362667,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 48.552654,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 4,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.33796,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.556246,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 345.25757,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 359.41943,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 388.18176,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.8668588,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": -3.3755376,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 25.493696,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 4,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.167213,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.56369,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 264.37186,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 487.33838,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 309.2873,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.5126832,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 20.230892,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 33.18605,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 1,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.35999,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.966537,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 425.8485,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 326.12744,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 249.88806,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.021735637,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 3.3984356,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 54.53369,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 0,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.647717,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.929436,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 294.2936,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 15.321545,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 210.14995,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.39771628,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 92.77378,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 5.1663947,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 4,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.143715,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.219877,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 100.881035,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 324.7504,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 355.2701,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.07929777,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 37.137455,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 3.2360716,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 4,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.17203,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.351187,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 218.4781,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 11.463341,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 346.82727,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.4132451,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 5.5262003,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 48.44355,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 2,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.55914,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.500727,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 237.53885,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 100.92621,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 275.66165,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.3158307,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": -7.352471,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 86.42355,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 3,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.096565,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.647465,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 9.899346,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 167.67007,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 484.04727,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.1117716,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 79.31978,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 93.06477,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 3,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.473846,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.52978,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 215.41354,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 373.35092,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 386.23975,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.71575683,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 34.090755,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 34.052475,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 0,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.062973,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.044561,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 403.64392,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 113.78376,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 316.53964,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.7513233,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 2.7204273,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 45.265667,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 1,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.210545,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.092035,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 330.70532,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 304.1163,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 426.6457,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.6551799,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 61.520653,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 91.02239,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 4,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.882004,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.500072,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 357.86758,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 465.50864,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 428.71417,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.3535407,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 42.440033,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 2.6782386,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 1,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.068047,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.155066,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 376.67798,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 460.47186,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 79.894005,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.36513394,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 15.712807,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 6.185927,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 2,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.66379,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.46399,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 220.86057,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 321.4837,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 170.01166,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.3275914,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": -6.414217,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 34.902966,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 0,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.199024,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.613897,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 353.52417,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 247.5805,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 225.634,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.6394234,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 84.767746,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 31.32157,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 0,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.204865,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.915678,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 490.97333,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 36.149742,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 87.069984,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.1934303,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 27.82936,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 27.236443,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 3,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.468277,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.835018,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 344.37552,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 35.87176,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 201.32262,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.0126572065,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 67.72264,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 72.67072,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 2,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.54838,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.0699,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 88.90668,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 170.12126,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 234.34421,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.21589,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 71.41833,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 33.58375,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 2,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.161186,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.025545,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 408.47116,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 474.72104,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 198.86194,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.3497075,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 5.886613,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 36.158363,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 2,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.68729,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.702646,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 10.439633,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 89.26535,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 366.71057,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.60170573,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": -13.0169525,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 61.716404,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 4,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.063274,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.354237,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 91.990585,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 440.27,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 331.36517,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.6559099,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 51.342995,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 71.70999,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 1,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.240643,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.858688,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 330.35373,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 43.70143,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 476.92267,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.6662227,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 44.15708,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 28.52906,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 4,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.347664,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.423721,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 119.16816,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 429.6836,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 219.76086,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.32535684,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 3.2026725,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 30.092916,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 4,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.797836,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.463514,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 154.25113,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 108.63319,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 463.42462,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.535629,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 43.62909,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 17.596786,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 4,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.719406,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.54345,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 218.22319,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 476.17828,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 23.238798,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.6880842,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 96.02404,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 84.64888,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 0,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.079468,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.916983,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 459.7407,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 290.44632,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 227.7359,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.587206,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 67.57383,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 44.21302,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 4,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.74529,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.10802,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 311.74127,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 332.18317,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 279.68756,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.4353759,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 77.42901,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 17.73759,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 4,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.533405,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.32374,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 381.3736,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 267.1947,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 468.09854,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.386076,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 39.42577,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 76.59426,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 1,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.258114,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.312326,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 432.44754,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 486.63123,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 79.51021,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.2848412,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 21.993967,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 91.68886,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 2,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.13369,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.456106,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 316.23758,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 393.49118,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 334.87805,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.4250627,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 36.904995,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 14.1123905,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 4,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.601315,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.833694,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 148.25807,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 99.6754,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 20.09716,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.9208999,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 40.957394,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 54.945446,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 0,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.240784,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.060635,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 305.97308,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 131.18085,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 458.65503,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.6213162,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 67.91217,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 65.70323,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 0,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.49142,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.081963,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 200.01978,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 6.3177476,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 116.55966,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.95171005,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 55.0949,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 59.17786,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 1,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.520004,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.621319,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 330.63736,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 270.09537,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 325.60297,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.36865738,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 10.007416,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 79.02922,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 2,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.678543,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.683208,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 140.00107,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 430.68243,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 218.86688,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.6135614,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 42.50921,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 48.16694,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 1,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.55011,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.132006,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 425.2035,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 457.1515,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 372.7912,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.10748284,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 80.8816,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 62.514297,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 4,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.421852,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.14248,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 400.29294,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 288.91592,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 72.303795,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.0719233,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 16.66192,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 83.9799,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 4,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.09566,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.26245,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 475.9662,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 478.8258,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 386.48477,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.3252295,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 31.58623,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 0.1779458,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 3,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.264874,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.265524,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 409.67572,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 141.35684,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 95.00219,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.3537933,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 1.7299582,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 0.8076307,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 2,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.26862,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.177608,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 322.1255,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 160.15285,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 51.625458,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.4600955,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 43.28558,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 77.843956,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 0,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.485596,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.136482,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 233.2729,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 29.04357,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 429.78528,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.9181987,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 91.088196,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 19.036598,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 2,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.735245,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.454079,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 191.53658,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 186.81369,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 203.27654,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.78133994,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": -2.4168868,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 54.185936,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 1,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.056408,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.0731,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 259.1662,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 345.1197,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 12.523459,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.4202429,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 15.177235,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 47.369026,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 2,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.265343,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.754705,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 366.15244,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 9.632351,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 139.61488,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.9819022,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 65.75979,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 1.7624294,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 0,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.15148,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.212536,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 491.24585,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 231.78514,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 282.09586,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.2356228,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": -14.226961,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 29.158083,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 0,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.39568,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.469437,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 94.33615,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 476.99756,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 39.370987,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.17950843,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": -7.9357934,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 90.57719,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 1,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.9118,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.1447,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 108.62863,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 493.82877,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 213.47823,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.95067525,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": -4.067897,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 1.7405794,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 4,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.731136,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.250448,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 347.21835,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 281.39,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 189.76627,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.981965,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 36.06553,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 41.136368,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 0,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.28631,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.78744,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 262.14908,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 389.57928,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 249.85464,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.64178383,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 32.016247,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 51.607533,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 4,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.302013,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.1913,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 205.32932,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 235.36061,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 398.9284,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.5996094,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 33.54971,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 32.40662,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 4,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.132946,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.693605,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 486.84952,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 339.04187,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 237.63965,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.054819632,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 51.488434,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 64.9825,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 3,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.28016,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.071945,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 186.8408,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 109.87133,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 229.381,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.27849942,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 78.34817,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 12.63886,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 3,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.018826,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.488844,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 153.24474,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 146.04607,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 394.723,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.36822733,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 46.907307,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 90.67087,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 1,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.096573,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.276768,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 184.4383,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 272.68396,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 186.86287,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.2072985,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 53.890797,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 83.30618,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 4,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.250797,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.29898,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 146.38351,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 326.80685,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 452.09473,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.3280903,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 62.095505,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 92.91628,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 4,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.20626,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.180994,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 154.76294,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 29.81497,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 285.66028,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.4737856,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 15.499169,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 1.1225404,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 1,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.459965,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.59318,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 190.31082,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 462.37332,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 321.68536,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.5961499,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 29.251835,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 77.64215,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 4,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.89423,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.152029,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 46.165264,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 6.8884473,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 225.93063,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.0475037,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 0.9814348,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 25.798388,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 2,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.284122,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.882463,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 127.963104,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 229.88892,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 392.308,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.8330475,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 50.748096,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 9.475988,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 2,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.26944,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.05377,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 325.22534,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 136.96712,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 167.05554,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.17708036,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": -8.402147,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 71.09827,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 1,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.652843,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.683832,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 17.772257,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 230.99849,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 311.90417,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.0600046,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 3.8444028,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 8.814483,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 3,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.15795,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.913456,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 375.43164,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 410.50464,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 299.59677,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.0807751,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 49.530815,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 15.57679,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 0,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.616787,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.833214,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 298.9944,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 489.68463,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 485.22104,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.92850983,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 68.845245,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 94.027466,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 2,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.070496,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.06077,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 123.953026,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 181.5337,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 4.779302,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.9064873,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 28.062714,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 97.07035,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 2,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.41217,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.165491,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 148.06876,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 0.28495374,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 121.05235,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.59364986,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 50.427498,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 64.83908,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 2,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.589012,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.362688,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 284.46246,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 203.87129,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 38.134262,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.6813613,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 75.4803,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 4.3040113,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 4,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.4021,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.619,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 151.2444,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 262.91235,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 164.96718,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.6202598,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 54.898136,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 35.341972,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 4,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.30108,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.441677,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 295.59268,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 419.4626,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 484.6481,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.7914919,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 78.54317,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 43.20013,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 1,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.481045,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.03159,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 239.83902,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 248.30836,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 260.63815,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.241861,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 71.32746,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 44.84947,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 4,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.187428,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.773146,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 137.57394,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 32.629425,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 241.03336,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.63388306,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 77.89446,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 29.583166,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 0,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.775654,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.25815,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 433.58258,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 47.061058,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 153.54247,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.2302684,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 36.97924,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 29.12833,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 1,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.44095,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.629576,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 376.27917,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 469.63937,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 125.36419,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.7161003,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 73.61096,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 40.83019,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 2,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.752125,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.389433,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 311.40942,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 211.56659,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 184.53053,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.5809072,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 57.434654,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 52.562023,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 0,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.0426,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.563044,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 283.37723,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 203.14435,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 10.819625,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.7366124,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 47.104317,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 2.2681286,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 2,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.87494,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.403181,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 20.813488,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 405.37164,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 228.55391,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.42021668,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": -19.773596,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 3.5297847,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 4,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.88711,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.560236,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 86.60302,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 427.6394,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 474.75024,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.9648411,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 45.84722,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 82.37534,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 4,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.260544,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.3522,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 382.14832,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 466.61417,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 21.087164,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.35542777,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 40.744392,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 63.034008,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 3,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.82843,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.619137,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 177.10301,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 22.565285,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 477.69012,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.6845465,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 82.93257,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 26.547941,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 0,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.38835,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.163736,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 203.76369,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 365.53232,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 423.8666,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.5200262,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 74.02315,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 73.587494,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 4,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.76148,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.729057,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 471.80106,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 437.1971,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 270.22003,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.4648225,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 17.654442,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 38.382504,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 2,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.189487,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.152704,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 110.68006,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 147.54059,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 340.5206,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.7706418,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 53.083385,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 39.31905,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 3,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.055305,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.083527,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 277.29044,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 489.40198,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 338.71994,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.72973627,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 31.068356,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 10.639347,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 2,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.48047,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.786156,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 280.63574,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 339.14972,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 197.4399,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.8713074,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 1.7070502,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 14.8823805,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 1,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.56866,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.125624,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 235.85088,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 373.61322,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 495.18042,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.3544227,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": -16.328457,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 78.704735,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 3,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.01168,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.380434,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 393.13748,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 161.81157,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 415.08676,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.5460276,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 14.178551,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 65.14242,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 3,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.297043,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.753448,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 176.6182,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 60.69437,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 445.11606,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.0658766,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 82.5852,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 58.46772,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 0,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.95287,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.91487,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 425.51834,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 462.14883,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 20.990786,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.1947759,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 58.635227,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 60.311504,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 1,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.71672,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.043438,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 310.7966,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 233.43587,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 123.821175,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.7217139,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 6.5191183,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 38.475365,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 3,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.22739,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.536837,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 387.02402,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 23.839163,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 236.66231,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.1148529,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 5.95269,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 40.908024,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 4,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.87861,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.378473,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 146.49783,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 294.17264,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 136.35498,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.820295,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 45.25216,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 80.07708,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 1,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.927845,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.067627,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 385.77,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 477.0924,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 427.7977,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.1026727,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 62.16614,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 42.213917,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 4,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.22342,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.953836,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 327.93866,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 60.27614,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 94.50487,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.9292687,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": -8.08443,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 72.048225,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 1,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.865437,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.649658,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 216.62271,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 364.43347,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 50.985077,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.7246302,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": -15.137354,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 36.53861,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 2,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.930286,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.257376,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 88.60795,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 469.41977,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 20.07295,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.7467027,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 38.16964,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 6.726891,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 1,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.70831,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.009907,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 438.92072,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 380.66785,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 44.247677,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.2851683,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 35.65695,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 96.97122,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 4,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.852524,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.009739,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 68.9171,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 459.23663,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 471.758,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.6325076,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 13.594517,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 69.43765,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 4,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.400032,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.501637,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 61.628937,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 207.6233,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 12.578501,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.622497,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 72.43752,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 32.124165,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 4,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.073196,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.780354,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 200.23082,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 211.00858,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 441.05692,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.7663872,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 58.333942,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 94.36352,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 1,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.492504,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.216805,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 391.7105,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 456.922,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 362.38058,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.0116632,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 36.18633,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 15.665951,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 2,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.328197,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.072533,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 185.37733,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 435.56226,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 392.48273,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.1086087,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 7.7075477,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 30.45904,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 3,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.02743,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.206541,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 324.36725,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 162.01608,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 155.1772,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.77203655,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 7.4616446,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 34.173935,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 4,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.732075,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.519388,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 256.60834,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 109.743164,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 148.84071,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.5524564,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 40.55543,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 2.0972097,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 0,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.261093,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.91822,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 66.16905,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 443.08826,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 262.4725,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.6566877,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 4.813881,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 37.318314,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 2,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.014027,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.338055,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 74.692894,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 389.53262,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 180.5225,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.9445816,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 15.810266,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 13.318227,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 2,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.293327,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.850357,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 180.88716,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 264.7243,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 481.96216,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.3732652,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 68.11268,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 82.68663,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 3,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.4592,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.428684,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 320.64966,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 217.91504,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 77.831474,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.40579504,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 94.21599,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 19.666964,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 4,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.3199,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.378569,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 428.91046,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 422.68433,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 126.175026,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.9221267,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": -17.05964,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 67.02808,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 0,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.636497,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.038834,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 270.91806,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 384.90546,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 12.963306,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.5917928,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 27.501286,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 45.75333,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 3,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.584637,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.32361,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 128.54214,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 430.65482,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 325.51187,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.118642725,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 42.038525,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 84.41622,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 1,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.34751,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.489496,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 126.29025,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 306.53757,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 472.30707,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.9916253,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 89.700455,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 92.39989,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 0,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.439873,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.43854,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 136.90619,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 259.5757,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 229.6692,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.5362507,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 31.948544,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 90.784935,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 0,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.457264,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.051426,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 106.19042,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 0.29230782,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 20.153864,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.3615758,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 30.787155,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 9.517108,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 2,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.6594,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.868748,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 376.7465,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 114.8536,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 229.45592,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.448051,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 88.45767,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 7.153176,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 1,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.13523,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.893223,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 223.94241,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 192.69235,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 223.44705,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.3992987,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 54.20042,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 97.62855,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 3,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.963226,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.503067,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 128.8078,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 416.29468,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 336.63535,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.36076835,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 59.497803,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 65.52532,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 1,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.159622,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.498556,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 176.59033,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 251.24387,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 369.54922,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.321817,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": -16.065622,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 10.724034,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 0,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.620995,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.754175,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 389.8018,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 499.4709,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 407.0198,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.25938833,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 47.43231,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 70.258095,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 0,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.665657,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.347805,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 209.3464,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 118.968185,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 397.45993,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.7137716,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 58.48652,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 80.61217,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 1,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.469967,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.5363,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 260.17627,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 66.746346,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 418.39307,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.7226346,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 54.147762,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 42.9568,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 4,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.26042,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.660637,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 270.64743,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 82.52931,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 280.34872,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.1500683,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 56.568855,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 27.077276,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 3,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.3761,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.327026,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 218.11244,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 375.16467,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 180.47208,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.931188,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 49.80752,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 60.64309,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 0,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.817444,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.536602,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 313.41254,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 302.3854,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 460.42178,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.8354703,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 9.702538,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 42.788517,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 2,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.048904,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.827276,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 316.3205,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 317.00385,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 496.08905,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.8035756,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 24.282022,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 67.43415,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 0,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.909424,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.842674,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 395.31757,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 185.96211,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 349.45,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.283588,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 16.006203,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 81.68905,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 3,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.824604,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.953152,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 152.2469,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 15.63405,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 471.5933,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.27170914,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 77.43271,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 39.869072,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 1,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.98326,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.318998,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 328.06796,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 268.99478,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 303.22552,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.042853113,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 91.357506,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 81.44934,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 4,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.746426,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.801,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 246.30508,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 444.1823,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 459.9374,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.023616,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 92.76215,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 41.151703,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 2,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.43905,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.390133,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 405.86948,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 385.07797,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 188.69553,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.30385152,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 5.2632346,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 64.268265,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 3,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.1904,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.525047,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 103.97066,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 347.8868,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 193.2131,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.520467,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 32.286324,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 94.66383,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 2,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.420216,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.637283,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 47.36849,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 120.39037,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 206.40988,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.0063894,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 43.94729,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 40.385754,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 2,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.251186,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.069763,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 211.6554,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 311.2306,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 2.4448445,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.3636457,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 4.2736745,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 92.87287,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 4,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.872116,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.33338,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 285.8231,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 188.70634,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 186.9628,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.901396,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": -2.5118346,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 64.35698,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 2,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.515263,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.622736,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 262.76584,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 320.16364,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 163.491,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.0500789,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 44.39413,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 85.99258,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 2,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.642845,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.815937,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 446.66336,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 347.52206,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 448.332,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.3169197,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 21.418488,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 41.738884,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 1,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.960613,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.258419,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 33.088,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 109.64407,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 467.88144,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.8001691,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 38.58903,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 95.318886,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 0,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.58934,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.074482,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 37.946854,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 490.91083,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 392.64993,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.1352132,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 55.626682,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 62.684265,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 1,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.625954,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.080233,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 374.7207,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 443.79437,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 405.47012,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.106516816,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 20.479465,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 80.15865,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 4,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.278122,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.41971,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 142.31468,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 324.477,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 456.56302,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.101105854,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": -12.936155,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 16.245745,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 4,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.001312,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.56635,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 120.8968,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 420.15012,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 259.0392,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.9000764,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": -11.704927,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 17.824162,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 3,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.041843,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.432465,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 395.03583,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 302.0293,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 476.30865,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.4458965,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": -17.470592,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 26.218164,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 0,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.406933,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.318445,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 68.684326,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 119.0379,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 112.05854,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.39330608,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 19.229876,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 29.03489,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 4,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.20934,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.219658,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 478.98138,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 302.8983,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 155.29749,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.6672374,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 11.468001,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 45.098053,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 1,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.1159,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.85009,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 253.08037,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 494.01083,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 237.20813,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.7830895,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 73.29736,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 36.074287,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 0,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.81613,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.576899,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 207.31291,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 460.91122,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 307.12994,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.0256457,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 66.32898,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 96.01977,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 2,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.276123,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.978022,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 402.57434,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 445.23505,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 242.61629,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.1961584,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 86.71414,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 1.4078405,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 4,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.283546,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.215685,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 436.99954,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 114.40442,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 112.0295,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.286977,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 10.906604,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 91.28733,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 0,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.996727,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.851671,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 330.0078,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 102.25525,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 82.60301,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.8746382,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 73.93005,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 59.18849,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 4,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.288795,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.186523,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 57.7652,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 218.77048,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 35.354866,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.3007674,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 91.62966,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 46.365986,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 1,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.421448,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.70477,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 117.73133,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 224.56532,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 391.99985,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.6750457,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 45.433723,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 4.261257,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 4,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.48813,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.600576,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 274.22366,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 392.64722,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 474.45908,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.22120903,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 79.84952,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 58.4468,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 1,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.46291,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.626104,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 439.90198,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 196.59515,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 465.78156,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.44561127,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 78.37139,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 94.33815,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 0,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.80483,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.251125,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 16.242172,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 412.98663,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 236.79333,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.8658636,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 82.41892,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 45.740814,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 0,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.81533,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.066347,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 245.59323,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 295.66705,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 185.31265,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.7325844,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": -5.0807095,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 48.847023,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 1,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.564713,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.699211,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 302.28494,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 113.63421,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 109.501205,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.27288124,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 27.084064,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 52.815407,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 2,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.455082,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.763992,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 274.64178,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 331.13986,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 228.56107,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.2790837,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": -18.01368,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 6.453041,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 0,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.69057,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.632402,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 231.98488,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 196.32265,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 226.1574,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.6948631,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 65.7331,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 42.190468,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 4,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.97621,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.404968,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 413.45743,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 11.634104,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 87.700264,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.91960317,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": -2.2544553,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 97.73566,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 0,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.169292,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.399014,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 159.957,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 388.16266,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 317.48834,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.41317138,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": -4.1321936,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 55.15729,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 1,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.719467,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.037178,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 126.411194,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 231.59142,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 16.967075,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.6667054,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": -17.803514,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 76.91574,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 2,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.678024,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.990707,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 266.55142,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 473.0041,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 214.98174,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.7930423,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 80.90877,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 79.80956,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 0,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.7919,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.698126,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 102.38563,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 81.07839,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 121.4252,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.26976633,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 92.72014,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 76.99372,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 1,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.770073,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.373085,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 326.3272,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 396.76425,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 480.07507,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.54135793,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 62.80076,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 36.156796,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 0,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.44831,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.161375,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 476.71527,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 267.73334,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 451.52765,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.8954047,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 52.701,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 13.379759,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 3,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.167458,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.305887,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 40.873047,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 138.62326,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 36.2464,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.62774956,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 95.42414,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 27.451078,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 0,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.30701,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.600246,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 229.59674,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 399.04816,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 412.4597,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.6365498,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 41.432354,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 13.193018,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 3,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.190323,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.415863,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 156.34863,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 375.34445,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 279.9597,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.53414285,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 98.50415,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 52.44116,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 1,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.041374,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.111135,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 338.60025,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 449.50095,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 22.6624,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.3453234,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 98.84687,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 23.49893,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 1,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.442047,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.502365,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 121.107506,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 488.01578,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 172.11618,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.6568105,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 53.703487,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 76.0887,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 4,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.915756,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.1935,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 464.2375,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 402.42593,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 453.47156,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.7078841,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 20.41379,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 32.578003,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 1,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.297245,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.512856,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 85.50711,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 376.24234,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 263.7598,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.24061885,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 5.295971,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 94.09946,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 2,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.76412,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.161917,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 380.32565,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 191.86494,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 22.850653,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.0305781,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": -11.335782,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 15.299014,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 0,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.36569,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.359266,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 462.2231,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 488.25516,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 179.20433,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.7236568,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": -12.29893,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 59.18375,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 4,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.997284,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.053509,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 194.76071,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 484.13263,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 183.31595,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.910983,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": -19.27383,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 4.714048,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 4,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.982468,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.21958,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 42.021667,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 40.782436,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 414.95255,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.9797169,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 96.028534,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 75.4852,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 4,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.134514,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.416384,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 146.10779,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 179.94102,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 119.032394,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.7413657,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 80.77811,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 90.71231,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 0,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.58219,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.673006,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 485.42624,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 442.44864,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 138.03255,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.8840255,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": -5.1838374,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 34.118332,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 4,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.837696,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.619568,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 149.10736,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 496.60892,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 302.20874,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.1258733,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 49.61839,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 53.326923,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 0,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.608036,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.32731,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 101.54089,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 270.65396,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 392.426,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.0990996,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 89.856834,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 49.757263,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 4,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.977505,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.238346,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 72.7335,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 373.72464,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 158.94406,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.708607,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 58.15565,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 47.119423,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 0,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.072308,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.44004,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 301.63943,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 321.13788,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 489.8945,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.10229837,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": -16.982315,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 52.09218,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 0,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.500603,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.356642,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 169.27388,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 123.2958,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 355.68765,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.5330547,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 39.897556,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 93.106,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 2,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.23784,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.764803,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 61.940514,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 50.114223,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 255.65555,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.4373997,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": -18.812056,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 64.539764,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 0,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.47574,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.544018,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 280.85486,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 364.67108,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 401.8886,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.4854249,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 62.992706,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 48.332317,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 3,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.69872,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.946213,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 153.53888,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 350.37067,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 28.848255,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.1599956,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": -14.827498,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 59.73642,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 1,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.28769,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.840511,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 317.80234,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 190.56715,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 421.41824,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.1906432,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": -6.991782,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 48.43842,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 0,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.723633,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.572256,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 290.1293,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 469.1606,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 495.04605,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.5087077,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": -14.105831,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 56.95818,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 0,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.460632,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.583406,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 142.53604,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 162.23221,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 61.011795,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.6110868,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 20.699018,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 7.388586,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 0,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.542934,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.245888,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 381.3319,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 184.45168,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 65.17764,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.71984804,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 9.39792,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 86.67912,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 0,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.26263,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.417385,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 3.0951352,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 223.97134,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 461.03702,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.2438433,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 52.612576,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 21.709284,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 0,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.30122,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.313478,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 460.91473,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 278.3545,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 394.50858,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.9112826,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 0.21529143,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 6.6655707,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 0,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.98622,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.0893,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 429.82263,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 483.68323,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 156.09924,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.87205446,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 88.62496,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 34.836697,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 0,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.67298,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.32435,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 97.99287,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 130.67087,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 459.93982,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.3726207,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 96.50631,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 40.414948,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 1,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.805702,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.636305,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 342.7673,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 352.46066,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 427.83212,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.2060786,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 79.26337,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 22.421455,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 2,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.212063,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.477688,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 495.1466,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 481.77222,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 191.78679,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.51696783,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 53.66932,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 12.84441,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 3,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.04611,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.239859,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 376.76993,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 445.40448,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 474.02936,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.7984343,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 14.048304,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 60.16334,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 3,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.970573,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.855564,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 412.17642,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 231.93756,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 497.49176,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.6276857,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 24.205826,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 80.775826,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 2,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.95372,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.261045,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 300.2399,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 194.41003,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 195.52263,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.2587835,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": -11.912827,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 13.658318,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 3,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.743958,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.538887,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 223.77266,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 151.2264,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 181.94893,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.20852566,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 52.890976,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 31.492939,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 2,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.068207,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.599247,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 156.51064,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 266.4606,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 227.55586,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.5307856,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": -10.004885,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 12.622489,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 1,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.696766,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.220928,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 91.82709,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 182.30222,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 473.51196,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.59735376,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 94.6324,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 68.42015,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 0,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.57439,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.265703,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 461.8568,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 91.058945,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 235.35977,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.7273282,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 41.764782,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 84.60458,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 1,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.99351,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.503881,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 274.48837,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 412.64868,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 369.21945,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.2370248,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 72.90521,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 77.82129,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 0,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.03727,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.008642,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 487.38034,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 55.7748,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 12.094906,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.44484866,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 59.537853,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 48.63329,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 4,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.939617,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.262373,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 367.0344,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 447.2492,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 499.23367,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.6241631,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": -3.7165537,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 56.076202,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 4,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.04891,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.376947,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 376.95135,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 142.92256,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 140.94029,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.04388047,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 49.941326,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 41.597404,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 1,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.91565,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.31268,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 424.53113,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 488.57816,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 103.81901,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.24333039,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 7.0269365,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 79.47917,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 1,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.86846,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.754726,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 486.437,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 477.63354,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 386.45535,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.3068208,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 98.26631,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 23.32516,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 1,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.670254,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.668808,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 366.27258,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 48.681076,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 15.282606,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.2808852,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": -10.115595,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 81.24418,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 3,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.17265,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.105122,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 159.02426,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 273.55746,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 452.17276,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.5054919,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 23.092327,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 12.1845255,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 4,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.599804,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.468714,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 466.53473,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 462.9824,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 441.67334,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.537774,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 62.467857,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 23.744253,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 2,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.762638,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.473198,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 276.66327,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 443.0193,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 57.276173,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.6193348,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 73.60357,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 2.4224038,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 1,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.93047,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.050947,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 147.16154,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 326.3788,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 112.06548,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.8376447,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 81.019844,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 97.036385,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 2,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.581913,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.9802,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 414.90372,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 323.5066,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 5.5964465,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.8221153,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": -19.880398,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 67.45301,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 1,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.214043,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.262094,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 92.270424,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 395.04556,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 239.934,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.013152287,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 54.63674,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 87.84139,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 2,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.97976,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.54906,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 337.2728,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 194.4706,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 219.21588,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.9663774,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 51.142464,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 68.443184,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 3,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.42564,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.28812,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 357.6599,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 52.528786,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 486.5084,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.29933468,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 15.862914,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 11.771816,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 0,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.857094,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.386766,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 357.43732,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 149.74017,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 301.72955,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.5622109,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": -11.586706,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 95.902626,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 3,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.330658,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.724243,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 282.94446,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 103.956245,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 381.80057,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.3815182,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 92.262436,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 54.09287,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 4,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.021286,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.188713,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 380.6319,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 465.64517,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 196.83168,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.063617,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 25.962685,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 48.182293,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 1,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.493286,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.9681,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 479.46695,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 345.05273,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 490.41498,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.0796075,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 36.22103,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 18.279175,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 4,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.960682,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.52469,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 79.20899,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 321.29144,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 92.67871,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.5849094,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 35.664963,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 65.93923,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 2,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.38394,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.42997,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 85.28077,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 80.90379,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 204.23526,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.9599889,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 53.19298,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 78.24361,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 1,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.367596,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.27231,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 227.13408,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 119.760216,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 83.34563,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.11052827,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 18.198853,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 82.72057,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 2,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.634117,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.233788,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 215.27777,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 301.82614,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 470.6356,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.8154423,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 59.913948,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 30.72189,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 0,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.463337,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.427374,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 129.1893,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 297.3914,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 120.01688,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.0280168,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 87.96917,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 66.11467,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 1,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.66884,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.3753,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 122.39138,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 93.592384,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 205.42917,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.24093632,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": -11.399023,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 28.549595,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 0,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.58349,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.912306,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 212.3232,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 449.75848,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 328.15445,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.099121995,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": -11.438744,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 25.473938,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 0,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.77767,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.579699,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 368.24454,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 24.877853,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 240.70508,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.4807693,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 62.57398,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 95.866035,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 3,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.977135,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.266033,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 17.649633,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 433.5574,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 89.70633,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.5558317,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 42.801807,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 70.68601,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 1,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.7999,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.770039,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 275.1366,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 397.20142,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 223.58293,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.8468697,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 49.91424,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 11.454131,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 4,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.3461,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.462145,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 190.10823,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 72.750465,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 91.132515,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.9616234,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 56.78119,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 59.039722,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 2,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.777416,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.354856,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 300.54898,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 183.7833,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 312.01047,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.8720363,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": -5.8606625,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 81.172935,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 2,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.222122,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.968962,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 408.6537,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 69.82768,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 463.72134,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.1301207,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 61.32599,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 8.482926,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 2,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.397877,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.997213,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 361.94754,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 54.211594,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 306.44055,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.6916684,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 71.87148,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 33.24776,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 0,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.922882,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.884506,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 151.74945,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 252.63602,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 442.58517,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.43721768,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 50.608006,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 54.28584,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 4,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.92149,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.85613,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 193.30547,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 349.80426,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 467.08255,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.5015125,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 83.78419,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 55.890846,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 2,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.21284,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.74281,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 222.01163,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 154.27539,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 13.3007765,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.90787,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 11.476209,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 31.267279,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 2,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.61495,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.850956,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 134.46771,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 363.0298,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 232.23251,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.8828905,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": -18.925098,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 15.585768,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 0,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.733036,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.034775,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 11.982998,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 305.0284,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 452.1391,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.8335537,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 82.17647,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 54.938084,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 4,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.777527,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.459425,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 160.30327,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 221.6663,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 332.1304,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.9427015,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 21.476494,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 51.330387,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 2,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.418007,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.66452,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 83.036896,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 76.20936,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 440.19135,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.9244583,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 51.3596,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 69.71675,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 1,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.13414,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.460344,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 440.57098,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 466.95505,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 14.160632,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.865252,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 2.622445,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 69.049416,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 3,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.1561,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.649132,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 357.20602,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 405.7017,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 240.53024,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.7822579,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": -0.35215586,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 83.75883,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 4,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.73216,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.348434,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 439.49823,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 423.41745,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 401.7434,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.60761297,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 27.317299,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 40.52002,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 0,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.9047,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.61997,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 385.12213,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 489.88782,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 408.94852,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.2719162,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 69.037415,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 70.85108,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 0,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.528065,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.718565,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 395.22968,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 432.37656,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 432.86176,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.31205216,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 34.941605,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 43.847332,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 0,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.558147,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.815609,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 182.48135,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 94.650604,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 175.66118,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.99041516,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 3.231349,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 91.193085,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 1,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.11584,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.473587,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 32.85982,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 67.27055,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 167.20352,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.905442,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 39.723515,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 66.58067,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 4,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.09822,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.556154,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 388.07587,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 418.4237,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 276.46973,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.8757522,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 87.34152,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 42.38493,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 0,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.256073,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.98782,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 154.56088,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 147.66252,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 315.0023,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.36853358,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 78.513275,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 51.472595,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 3,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.915966,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.920279,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 436.74216,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 6.702047,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 223.90758,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.8567814,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": -11.70494,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 63.035576,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 1,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.917534,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.3819,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 494.7668,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 416.60947,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 455.8546,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.37679294,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 51.341335,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 30.954336,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 2,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.13261,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.012348,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 52.501545,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 129.45468,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 417.79785,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.59394616,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 90.57989,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 86.054756,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 0,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.957474,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.98414,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 122.331604,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 379.7816,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 346.12186,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.51956546,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 30.926218,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 23.706758,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 1,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.220535,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.937082,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 35.733574,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 298.24326,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 38.612038,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.824327,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 39.20266,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 24.350826,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 3,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.098003,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.5121,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 405.1729,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 326.95065,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 154.94766,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.4372284,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 69.943115,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 41.273,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 1,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.907448,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.375847,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 485.0349,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 250.9944,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 152.91412,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.9461335,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 65.98023,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 89.58121,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 4,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.928272,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.437521,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 176.3615,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 21.96879,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 291.05103,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.37404,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 54.55334,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 83.10299,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 0,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.45818,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.071302,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 200.11472,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 252.26222,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 465.22708,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.9761419,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 59.91308,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 21.151697,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 0,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.417717,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.865446,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 191.24991,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 246.40506,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 346.3761,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.21306728,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 87.028435,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 62.700512,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 4,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.855885,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.634678,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 420.0498,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 180.14478,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 154.76315,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.9362241,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 22.972082,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 44.30866,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 2,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.51367,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.390753,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 454.27628,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 365.475,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 156.92326,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.7441435,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 11.5896225,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 99.96076,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 2,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.391464,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.713758,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 145.01775,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 50.086292,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 333.97177,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.6755197,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": -0.65208465,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 90.2588,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 0,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.894436,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.552935,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 432.91663,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 153.66704,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 180.58908,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.4403956,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": -9.053563,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 55.05817,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 3,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.596737,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.569525,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 384.84692,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 255.76709,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 484.57483,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.05826,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 97.69808,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 38.783264,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 1,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.656574,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.200644,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 305.55768,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 286.05685,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 485.15344,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.15099876,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 32.005924,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 57.04267,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 3,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.745014,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.300528,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 20.10765,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 350.95364,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 119.1788,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.48025605,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 88.32098,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 37.817554,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 2,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.23838,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.440052,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 230.273,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 276.95,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 300.14978,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.0214416,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 56.766975,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 10.245774,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 1,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.63034,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.41726,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 473.69028,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 420.94388,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 95.05128,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.8614965,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 49.100563,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 52.654797,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 4,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.236725,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.054157,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 20.85437,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 450.41037,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 410.59668,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.69405115,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 80.413605,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 57.163193,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 3,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.01598,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.044949,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 199.11305,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 426.76566,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 307.15048,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.5979836,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 46.53309,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 17.341251,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 0,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.46594,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.91183,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 181.73027,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 192.87157,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 16.37465,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.9886315,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 62.72428,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 25.962599,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 3,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.66317,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.273167,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 194.7066,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 90.15305,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 249.50916,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.12610584,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 41.76962,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 79.91066,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 1,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.790928,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.916313,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 333.64917,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 107.890335,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 483.36725,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 1.1921294,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 53.61099,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 75.886444,
+             "unit": "%"
+          }
+       }
+    },
+    {
+       "deviceId": 2,
+       "date": "2018-12-17T14:34:27.126Z",
+       "location": {
+          "latitude": {
+             "value": 50.200058,
+             "direction": "N"
+          },
+          "longitiude": {
+             "value": 19.849773,
+             "direction": "E"
+          }
+       },
+       "results": {
+          "pm1": {
+             "value": 278.35226,
+             "unit": "ug/m3"
+          },
+          "pm25": {
+             "value": 43.262474,
+             "unit": "ug/m3"
+          },
+          "pm10": {
+             "value": 9.721607,
+             "unit": "ug/m3"
+          },
+          "formaldehyde": {
+             "value": 0.8049201,
+             "unit": "mg/m3"
+          },
+          "temperature": {
+             "value": 75.85584,
+             "unit": "°C"
+          },
+          "humidity": {
+             "value": 26.679026,
+             "unit": "%"
+          }
+       }
+    }
+ ]

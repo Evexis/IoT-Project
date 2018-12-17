@@ -1,6 +1,6 @@
 import * as express from "express";
-import { samples } from "./mock/mock-data";
 import * as bodyParser from 'body-parser';
+import { samples } from './mock/mock-data'
 import { MongoCollection } from './mongo';
 import * as bcrypt from 'bcrypt';
 

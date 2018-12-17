@@ -59,7 +59,7 @@
 
     function generateMockData(numberOfSamples: number){
         const mockData = createRandomData(numberOfSamples); 
-        saveDataToFile("const samples =" + JSON.stringify(mockData));
+        saveDataToFile("export const samples =" + JSON.stringify(mockData));
     }
 
     generateMockData(500);
