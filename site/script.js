@@ -1,45 +1,46 @@
 
-window.onload = function() {
+$( document ).ready(function() { //odrazu jak to możliwe wrzuca nam mapke
+setTimeout(function() { window.location=window.location;},150000); // działa na wszystkich przegladarkach
 
 
+    var addressPoints = [];
 
-let addressPoints = [
-    [50.062961, 19.923739, 0.0],
-    [50.063894, 19.924093, 0.0],
-    [50.066288, 19.925028, 0.3],
-    [50.066953, 19.925355, 0.5],
-    [50.066746, 19.926085, 0.3],
-    [50.066515, 19.926868, 0.3],
-    [50.065737, 19.927619, 0.0],
-    [50.066235, 19.927613, 1.0],
-    [50.065475, 19.927345, 0.7],
-    [50.065024, 19.927447, 1.0],
-    [50.064556, 19.927592, 0.7],
-    [50.064294, 19.927662, 1.0],];
+    var Result = function (lat, lng, intensity) {
+        this.lat = lat;
+        this.lng = lng;
+        this.intensity = intensity;
+        this.date1 = date1;
+    }
+    $.getJSON("https://iot-eit.herokuapp.com/api/data?fbclid=IwAR3tXW_KAH_P2-4Q5oZaVGgWYkKrQNy_jiLaUrHj4IJqE8zvM1F1ZXcTIcs", function (data) {
+        $.each(data, function (i, val) {
+            if (val.location !== undefined ) {
+                let result = [];
+                result.push(val.location.latitude.value);
+                result.push(val.location.longitiude.value);
+                result.push(val.results.pm1.value);
+                addressPoints.push(result);
+            }
+        });
+        addToolTip();
+        addPopUp();
 
-    
-    
-      
+    });
+
+
   let map = L.map('map').setView([50.06118281837115, 19.93778228759766], 14);
   
-  let tiles = L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
-  attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors',}).addTo(map);
-
-/*$.getJSON("data",function(data){
-  var locations = data.features.map(function(rat) {
-    // the heatmap plugin wants an array of each location
-    var location = rat.geometry.coordinates.reverse();
-    location.push(0.5);
-    return location; // e.g. [50.5, 30.5, 0.2], // lat, lng, intensity
-  });
-*/
-  addressPoints = addressPoints.map(function (p) { return [p[0], p[1], p[2]] });
+    let baselayer = L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors',}).addTo(map)
   
-  let heat2 = L.heatLayer(addressPoints,{
+  
+
+  addressPoints = addressPoints.map(function (p) { return [p[0], p[1], p[2]] });
+
+  let heat1 = L.heatLayer(addressPoints,{
     radius: 15,
     blur: 5, 
     maxZoom: 9,
-    max: 1.0,
+    max: 500.0,
     minOpacity: 0.2,
 
     gradient: {
@@ -47,36 +48,56 @@ let addressPoints = [
       0.5: '#f9fb07',
       1: 'red'
     }
-  }).addTo(map);
-  for (var i = 0; i < addressPoints.length; i++) {
-    var circle = L.circle([addressPoints[i][0], addressPoints[i][1]], {
-    color: 'transparent',
-    fillColor: 'transparent',
-    fillOpacity: 1 ,
-    radius: 15
-}).addTo(map);
-    circle.bindTooltip("PM2.5 = " + addressPoints[i][2]);
-  }
-  
-/*  map.on('click', function(e) {        
-    let popLocation= e.latlng;
-    let popup = L.popup()
-    .setLatLng(popLocation)
-    .setContent("PM2.5: " + e.latlng.lat + ", " + e.latlng.lng)
-    .openOn(map);        
-});
-*/
-//var layers = L.control.layers({}, {'2.5PM' : new L.layerGroup(),'10PM' : new L.layerGroup()}).addTo(map);
+  });
 
-//layer choice (2.5pm,10pm,temp)
+
+map.addLayer(heat1);
+
+
+//layer choice (2.5pm,10pm)
 var baseLayers = {
-  "PM 2.5": tiles,
-  "PM 10": tiles
+  "PM 2,5": baselayer,
+  "PM 10": baselayer
 };
 
-var baseControl = L.control.layers(baseLayers).addTo(map);
+L.control.layers(baseLayers).addTo(map);
 
 
-};  
+var legend = L.control({ position: "bottomleft" });
+
+legend.onAdd = function(map) {
+  var div = L.DomUtil.create("div", "legend");
+  div.innerHTML += "<h4>Legend</h4>";
+  div.innerHTML += '<i style="background: #ff0000"></i><span>Hazardous</span><br>';
+  div.innerHTML += '<i style="background: #FF4500"></i><span>Unhealthy</span><br>';
+  div.innerHTML += '<i style="background: #f9fb07"></i><span>Moderate</span><br>';
+  div.innerHTML += '<i style="background: #009900"></i><span>Good</span><br>';
+  
+  return div;
+};
+
+legend.addTo(map);
+    function addToolTip()  {
+        for (let i = 0; i < addressPoints.length; i++) {
+            let circle = L.circle([addressPoints[i][0], addressPoints[i][1]], {
+                color: 'transparent',
+                fillColor: 'transparent',
+                fillOpacity: 1,
+                radius: 15
+            }).addTo(map);
+            circle.bindTooltip("PM2.5 = " + addressPoints[i][2]);
+        }
+    }
+    function addPopUp(){
+        map.on('click', function(e) {
+            let popLocation= e.latlng;
+            let popup = L.popup()
+                .setLatLng(popLocation)
+                .setContent("Location: " + e.latlng.lat + ", " + e.latlng.lng)
+                .openOn(map);
+        });
+    }
+});
+
 
 
